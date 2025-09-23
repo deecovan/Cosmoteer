@@ -553,7 +553,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 2
+	MainMenuBackgroundIndex = 3
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
