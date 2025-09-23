@@ -1,6 +1,9 @@
 # Cosmoteer GitHub repo 
 
 ## Continue DLine Group 1+3
+- New Scan ship completed
+- All 4 ships jumped to Eta
+- DL4 Eta missions 4-6
 
 ## 25-09-23
 - Clean up logs and saves, lost ships
