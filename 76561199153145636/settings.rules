@@ -6,13 +6,13 @@ GameSettings
 	Language = ru
 	LockCursor = false
 	EdgePanMode = EightWay
-	EdgePanSpeed = 15
-	KeyboardPanSpeed = 15
-	KeyboardZoomSpeed = 15
-	KeyboardRotSpeed = 30d
+	EdgePanSpeed = 31.408833
+	KeyboardPanSpeed = 31.408833
+	KeyboardZoomSpeed = 26.880442
+	KeyboardRotSpeed = 90d
 	EnableMouseWheelZoom = true
 	InvertMouseWheelZoom = false
-	MouseWheelZoomSpeed = 1.0
+	MouseWheelZoomSpeed = 1.1418232
 	MouseWheelZoomAtCursor = true
 	AutoTrackOnScreenShips = true
 	StickyFocus = true
@@ -22,7 +22,7 @@ GameSettings
 		{
 			Key
 			{
-				X = 1280	
+				X = 1280
 				Y = 720
 			}
 			Value = Dpi100
@@ -533,7 +533,7 @@ GameSettings
 	DefaultCareerModeCombatDifficulty = 1
 	DefaultCareerModeEconDifficulty = 1
 	DefaultCareerModeMapSize = 0
-	DefaultCareerModeCrewScarcity = 2
+	DefaultCareerModeCrewScarcity = 1
 	DefaultCareerModeDisableCrewConstruction = false
 	DefaultCareerModeDisableExploration = false
 	DefaultCareerModeDisableSalvaging = false
