@@ -5,8 +5,8 @@ GameSettings
 	InitState = MainMenu
 	Language = ru
 	LockCursor = false
-	EdgePanMode = EightWay
-	EdgePanSpeed = 31.408833
+	EdgePanMode = Analog
+	EdgePanSpeed = 21.46408
 	KeyboardPanSpeed = 31.408833
 	KeyboardZoomSpeed = 26.880442
 	KeyboardRotSpeed = 90d
@@ -553,7 +553,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 1
+	MainMenuBackgroundIndex = 2
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
@@ -571,13 +571,13 @@ GameSettings
 	KeepRecFiles = 10
 	RestoreZoomOnToolboxExit = true
 	ZoomOutOnFtl = true
-	LoadBlueprintPaint = false
-	LoadBlueprintRoles = false
-	LoadBlueprintReplaceInsteadOfAdd = false
-	LoadBlueprintCrew = false
-	LoadBlueprintResources = false
-	LoadBlueprintsFlightInfo = false
-	LoadBlueprintTextInfo = false
+	LoadBlueprintPaint = true
+	LoadBlueprintRoles = true
+	LoadBlueprintReplaceInsteadOfAdd = true
+	LoadBlueprintCrew = true
+	LoadBlueprintResources = true
+	LoadBlueprintsFlightInfo = true
+	LoadBlueprintTextInfo = true
 	FavoriteParts
 	[
 		{
