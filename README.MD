@@ -1,9 +1,16 @@
 # Cosmoteer GitHub repo 
 
-## Continue DLine Group 1+3
+## 25-09-24 Continue DLine Group 1+3 New Scan ship 
 - New Scan ship completed
 - All 4 ships jumped to Eta
 - DL4 Eta missions 4-6
+- Last steps:
+
+	Eta missions 4-6
+	all in Eta 4-6
+	all jump
+	DL scan subship max
+	DL scan subship
 
 ## 25-09-23
 - Clean up logs and saves, lost ships
