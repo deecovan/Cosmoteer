@@ -3,7 +3,8 @@
 ## xx-10-25
 - New game Medium settings
 - New A-class Ships due to new Economy rules
-- Heawy Battles began 
+- Heawy Battles began
+- Jump to 2-4 Need A80 or 2xA40 Subfirer 
 
 ## 25-09-24 Continue DLine Group 1+3 New Scan ship 
 - New Scan ship completed
