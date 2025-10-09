@@ -483,6 +483,10 @@ GameSettings
 			Key = overclocking
 			Value = Hidden
 		}
+		{
+			Key = missiles
+			Value = Hidden
+		}
 	]
 	DontDimDialogBackgrounds = false
 	DontFlickerBlueprints = false
@@ -549,7 +553,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 0
+	MainMenuBackgroundIndex = 1
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]

@@ -2,7 +2,8 @@
 
 ## xx-10-25
 - New game Medium settings
-- New A-class Ships due to new Economy rules 
+- New A-class Ships due to new Economy rules
+- Heawy Battles begin 
 
 ## 25-09-24 Continue DLine Group 1+3 New Scan ship 
 - New Scan ship completed
