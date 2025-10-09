@@ -6,7 +6,7 @@ GameSettings
 	Language = ru
 	LockCursor = false
 	EdgePanMode = Analog
-	EdgePanSpeed = 21.46408
+	EdgePanSpeed = 10
 	KeyboardPanSpeed = 31.408833
 	KeyboardZoomSpeed = 26.880442
 	KeyboardRotSpeed = 90d
@@ -491,10 +491,10 @@ GameSettings
 	EnemyColor
 	AllyColor
 	NeutralColor
-	RotateMinimap = false
-	MiniviewInCombatMode = Auto
-	MiniviewNotInCombatMode = Auto
-	MiniviewLockRotation = false
+	RotateMinimap = true
+	MiniviewInCombatMode = ShowPlayer
+	MiniviewNotInCombatMode = ShowPlayer
+	MiniviewLockRotation = true
 	MiniviewSize = 250
 	ShowInteriors = true
 	ShowAllCommands = true
@@ -525,13 +525,9 @@ GameSettings
 	DeleteFileOnStartup
 	FeedbackEmail
 	DefaultCreativeModeMapSize = 1
-	DefaultCreativeModeSimGenFlags
-	[
-		Planets
-		FtlGates
-	]
-	DefaultCareerModeCombatDifficulty = 1
-	DefaultCareerModeEconDifficulty = 1
+	DefaultCreativeModeSimGenFlags[]
+	DefaultCareerModeCombatDifficulty = 2
+	DefaultCareerModeEconDifficulty = 2
 	DefaultCareerModeMapSize = 0
 	DefaultCareerModeCrewScarcity = 1
 	DefaultCareerModeDisableCrewConstruction = false
@@ -553,7 +549,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 3
+	MainMenuBackgroundIndex = 0
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
@@ -669,6 +665,57 @@ InputSettings
 			}
 		}
 	}
+	View
+	{
+		RotateLeft
+		{
+			Primary
+			{
+				Keys
+				[
+					CommaLesser
+				]
+				MouseButtons
+			}
+		}
+		RotateRight
+		{
+			Primary
+			{
+				Keys
+				[
+					PeriodGreater
+				]
+				MouseButtons
+			}
+		}
+	}
+	Design
+	{
+		RotateLeft
+		{
+			Primary
+			{
+				Keys
+				[
+					Q
+				]
+				MouseButtons
+			}
+		}
+		RotateRight
+		{
+			Primary
+			{
+				Keys
+				[
+					E
+				]
+				MouseButtons
+			}
+			Secondary
+		}
+	}
 }
 Window
 {
@@ -683,13 +730,13 @@ Window
 		Y = 720
 	}
 	Maximized = true
-	Mode = BorderlessFullScreen
+	Mode = ExclusiveFullScreen
 	FullscreenResolution
 	{
-		X = 0
-		Y = 0
+		X = 1280
+		Y = 720
 	}
-	FullscreenRefreshRate = 0
+	FullscreenRefreshRate = 60
 	VSync = Off
 	AntialiasMode = None
 	AdapterIndex = 0
