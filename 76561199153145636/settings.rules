@@ -487,6 +487,10 @@ GameSettings
 			Key = missiles
 			Value = Hidden
 		}
+		{
+			Key = ion_beams
+			Value = Hidden
+		}
 	]
 	DontDimDialogBackgrounds = false
 	DontFlickerBlueprints = false
@@ -500,7 +504,7 @@ GameSettings
 	MiniviewNotInCombatMode = ShowPlayer
 	MiniviewLockRotation = true
 	MiniviewSize = 250
-	ShowInteriors = true
+	ShowInteriors = false
 	ShowAllCommands = true
 	AlwaysShowCommandWidgets = true
 	ShowSelectedPartStatusBars = true
@@ -553,7 +557,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 1
+	MainMenuBackgroundIndex = 3
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]

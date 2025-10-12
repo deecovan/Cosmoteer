@@ -1,5 +1,9 @@
 # Cosmoteer GitHub repo
 
+##
+- Gallactic 2 part 2-3 
+- Ship variant A093-60 Frontier
+
 ## xx-10-25
 - New game Medium settings
 - New A-class Ships due to new Economy rules
