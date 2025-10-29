@@ -1,5 +1,10 @@
 # Cosmoteer GitHub repo
 
+## 25.10.30 New game Hard mode
+- +1 from standart difficulty (capt archt)
+- standart size standart fame
+- without station reqruits, resources and fog
+
 ##
 - Gallactic 2 part 2-3 
 - Ship variant A093-60 Frontier

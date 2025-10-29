@@ -504,7 +504,7 @@ GameSettings
 	MiniviewNotInCombatMode = ShowPlayer
 	MiniviewLockRotation = true
 	MiniviewSize = 250
-	ShowInteriors = false
+	ShowInteriors = true
 	ShowAllCommands = true
 	AlwaysShowCommandWidgets = true
 	ShowSelectedPartStatusBars = true
@@ -557,7 +557,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 3
+	MainMenuBackgroundIndex = 4
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
@@ -738,7 +738,7 @@ Window
 		Y = 720
 	}
 	Maximized = true
-	Mode = ExclusiveFullScreen
+	Mode = BorderlessFullScreen
 	FullscreenResolution
 	{
 		X = 1280
