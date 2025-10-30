@@ -1,5 +1,8 @@
 # Cosmoteer GitHub repo
 
+## 24.10.30
+- Vela ships
+
 ## 25.10.30 New game Hard mode
 - +1 from standart difficulty (capt archt)
 - standart size standart fame
