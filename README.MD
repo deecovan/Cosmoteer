@@ -1,7 +1,12 @@
 # Cosmoteer GitHub repo
 
-## 24.10.30
-- Vela ships
+## 25.11.01 Vela ships
+- Need resources. Turn it on always!
+- What is No crew on stations mean??? Turn it off!!!
+- Why is it really hard? +1 difficulty, but it is.
+
+## 26.10.30
+- New Vela ships.
 
 ## 25.10.30 New game Hard mode
 - +1 from standart difficulty (capt archt)
