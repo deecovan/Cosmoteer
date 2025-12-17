@@ -79,7 +79,7 @@ GameSettings
 	DiscardBlueprintsWhenCanceling = true
 	PartToolTips = true
 	PartToolTipsDefaultToStats = false
-	SecondaryToolTips = true
+	SecondaryToolTips = false
 	ShowFavoriteCrewNamesOnHover = true
 	LogFavoriteCrewDeaths = true
 	AutoSave = true
@@ -557,7 +557,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 1
+	MainMenuBackgroundIndex = 3
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
