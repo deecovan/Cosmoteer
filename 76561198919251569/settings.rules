@@ -1,0 +1,766 @@
+GameSettings
+{
+	LastGameVersion = 0.30.0e
+	IsFirstBoot = false
+	InitState = MainMenu
+	Language = ru
+	LockCursor = false
+	EdgePanMode = Analog
+	EdgePanSpeed = 10
+	KeyboardPanSpeed = 31.408833
+	KeyboardZoomSpeed = 26.880442
+	KeyboardRotSpeed = 90d
+	EnableMouseWheelZoom = true
+	InvertMouseWheelZoom = false
+	MouseWheelZoomSpeed = 1.1418232
+	MouseWheelZoomAtCursor = true
+	AutoTrackOnScreenShips = true
+	StickyFocus = true
+	DpiScaleMode = Dpi100
+	DpiScaleModePerResolution
+	[
+		{
+			Key
+			{
+				X = 1280
+				Y = 720
+			}
+			Value = Dpi100
+		}
+	]
+	AnimateBackgrounds = false
+	BackgroundGridStyle = Crosses
+	FancyLighting = false
+	FancyParticles = false
+	FancyUIEffects = false
+	FancyNebulas = false
+	UncompressedTextures = false
+	ResolutionScale = 1
+	PlanetResolutionScale = 1
+	TargetFps = FpsTarget30
+	PostShaderIndex = 0
+	AllowShipDeselection = false
+	CtrlSelectsParts = false
+	EnableCollisionAvoidance = true
+	EnableHazardAvoidance = true
+	EnableArrivalMatching = true
+	AutoRecallCrew = true
+	PreferBlueprintMode = false
+	BlueprintAutoPause = true
+	ShowInvalidBlueprints = true
+	ShowMissingPartsWarning = true
+	ShowAutoRemovedParts = true
+	ShowAutoRemovedDecals = true
+	BuildAutoRotate = true
+	BuildAutoInteriors = true
+	PaintAutoRotate = true
+	PaintAllowOverwrite = true
+	BuildAllowOverwrite = true
+	BuildAutoDoors = true
+	RequirePartialRefundConfirmation = true
+	BuildShowNearestPaths = true
+	BuildAllowInsufficientCommand = false
+	ShowStatBars = true
+	ConstructExitsBuild = false
+	CrewAutoRotate = true
+	ShowCrewPaths = true
+	ShowCrewHomes = true
+	ShowUnselectedCrewAssignment = true
+	DefaultRoles
+	ResourcesAutoRotate = true
+	ShowResourceCounts = true
+	ShowResourceTransfers = true
+	ShowConstructionResourceDeliveries = true
+	ShowAllResourceTypes = false
+	ShowUnselectedResourceAssignment = true
+	RowsOfParts = 1
+	GrabLeavesCorridors = true
+	RepairAutoDoors = true
+	DiscardBlueprintsWhenCanceling = true
+	PartToolTips = true
+	PartToolTipsDefaultToStats = false
+	SecondaryToolTips = false
+	ShowFavoriteCrewNamesOnHover = true
+	LogFavoriteCrewDeaths = true
+	AutoSave = true
+	AutoSavesToKeep = 25
+	QuickSavesToKeep = 25
+	AutoSaveInterval = 600
+	SaveLostShips = true
+	LostShipsToKeep = 25
+	FtlAutoSave = true
+	ResourceDisplayMode = Context
+	ShowOnShipIndicators = true
+	ShowZoomedOutBlips = true
+	ShowOffScreenBlips = true
+	ShowBreadcrumbTrails = true
+	AutoPauseOnLostFocus = false
+	AutoSlowWhenEnemySpotted = 0
+	ScreenShake = false
+	NuggetsDots = true
+	UIAnimations = false
+	ShowMidpointFocusWidget = true
+	DefaultScreenshotFormat = Jpeg
+	PreferBorderlessWindowToggle = false
+	MasterVolume = 0.44454545
+	EffectsVolume = 0.45181817
+	MusicVolume = 0.44727272
+	InterfaceVolume = 0.45909092
+	MuteWhenUnfocused = false
+	PlayFriendlyPings = true
+	PlayEnemyPings = true
+	ShowTutorials = true
+	AutoCollectNuggets = true
+	DefaultPaintScheme
+	PaintSchemes[]
+	DefaultBuildTool = Grab
+	DefaultDecalTool = Grab
+	CodexPageStates
+	[
+		{
+			Key = welcome
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = camera
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = fleets
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = creative1
+			Value
+			[
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = formations
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = movement
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = time
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = command_points
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = comms
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = build
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = build2
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = thrusters
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = missions
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = combat
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = tactics
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = salvaging
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = missions3
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = power
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = fame
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew3
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = crew4
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew5
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = camera2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = paint
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = ftl
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = micro
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = build3
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = resources
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = techs
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = repairs
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = mining
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = missions2
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = movement2
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = tactics2
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = advanced_commands
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = crew6
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = resources2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = reputation
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = ftl2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = abandoned_ships
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = heat_management
+			Value = Hidden
+		}
+		{
+			Key = fires
+			Value = Hidden
+		}
+		{
+			Key = scorched
+			Value = Hidden
+		}
+		{
+			Key = overclocking
+			Value = Hidden
+		}
+		{
+			Key = missiles
+			Value = Hidden
+		}
+		{
+			Key = ion_beams
+			Value = Hidden
+		}
+	]
+	DontDimDialogBackgrounds = false
+	DontFlickerBlueprints = false
+	DontFlashRedprints = false
+	PlayerColor
+	EnemyColor
+	AllyColor
+	NeutralColor
+	RotateMinimap = true
+	MiniviewInCombatMode = ShowPlayer
+	MiniviewNotInCombatMode = ShowPlayer
+	MiniviewLockRotation = true
+	MiniviewSize = 250
+	ShowInteriors = true
+	ShowAllCommands = true
+	AlwaysShowCommandWidgets = true
+	ShowSelectedPartStatusBars = true
+	VelocityIndicatorDisplayMode = DirectControl
+	ShowSpaceCrewLines = true
+	ShowResourcePickupLines = true
+	PauseOnOpenDialogueWithEnemy = true
+	PauseWhenHailedByEnemy = true
+	PreferWorldRelativeAttackAngle = true
+	PreferWorldRelativeFollowAngle = true
+	DirectControlEnableWeapons = true
+	DirectControlAimAssist = true
+	DirectControlAutoBrake = true
+	DirectControlAutoFaceCursor = false
+	DirectControlViewFollowsCursor = false
+	DirectControlAutoRotateView = false
+	DirectControlLockCameraToShip = false
+	DirectControlAutoZoomView = false
+	DirectControlShowWeaponCoverage = false
+	ShipLibraryLargeIcons = false
+	BreakFormationToAttack = true
+	DisplayAllShips = false
+	ShowAdvancedCommands = true
+	EnabledMods[]
+	AutoDisableMods = false
+	DeleteFileOnStartup
+	FeedbackEmail
+	DefaultCreativeModeMapSize = 1
+	DefaultCreativeModeSimGenFlags[]
+	DefaultCareerModeCombatDifficulty = 2
+	DefaultCareerModeEconDifficulty = 2
+	DefaultCareerModeMapSize = 0
+	DefaultCareerModeCrewScarcity = 1
+	DefaultCareerModeDisableCrewConstruction = false
+	DefaultCareerModeDisableExploration = false
+	DefaultCareerModeDisableSalvaging = false
+	DefaultCareerModeDisableNebulas = true
+	DefaultCareerModeStarterShip = -1
+	DefaultMPJoinHostname
+	PlayerNameOverride = Dee
+	MPBlipColorMode = FriendAndFoe
+	MPShowDamagePoints = true
+	EnableDesyncDebugging = false
+	MaxSendRate = 1000
+	CustomRulesets[]
+	PreferLAN = false
+	PreferredLobbyType = CoOp
+	ShowNewsOnStartup = false
+	ShowTipsOnStartup = true
+	ReadNewsArticles[]
+	ShowNewsAlerts = false
+	HiddenNewsAlerts[]
+	MainMenuBackgroundIndex = 0
+	CycleMainMenuBackground = true
+	DefaultAuthorName = ""
+	MutedPlayers[]
+	BannedPlayers[]
+	EnableGifRecorder = false
+	GifRecorderSeconds = 10
+	GifRecorderFramerate = 20
+	GifRecorderResolution = 480
+	ShowNearbyMissionsCount = 0
+	DevModeSPRecording = false
+	DevModeSPRecordingAutoLoad = false
+	DevModeUseStaticCareerSeed = false
+	DevModeStaticCareerSeed = 0
+	KeepLogFiles = 10
+	KeepRecFiles = 10
+	RestoreZoomOnToolboxExit = true
+	ZoomOutOnFtl = true
+	LoadBlueprintPaint = true
+	LoadBlueprintRoles = true
+	LoadBlueprintReplaceInsteadOfAdd = true
+	LoadBlueprintCrew = true
+	LoadBlueprintResources = true
+	LoadBlueprintsFlightInfo = true
+	LoadBlueprintTextInfo = true
+	FavoriteParts
+	[
+		{
+			Key = 0
+			Value[]
+		}
+		{
+			Key = 1
+			Value[]
+		}
+		{
+			Key = 2
+			Value[]
+		}
+	]
+	FavoriteDecals
+	[
+		{
+			Key = 0
+			Value[]
+		}
+		{
+			Key = 1
+			Value[]
+		}
+		{
+			Key = 2
+			Value[]
+		}
+	]
+	BuildStatToggleStates
+	[
+		{
+			Key = Value
+			Value = true
+		}
+	]
+}
+InputSettings
+{
+	Game
+	{
+		DirectControlToggle
+		{
+			Secondary
+			{
+				Keys
+				[
+					Alt
+					D
+				]
+				MouseButtons
+			}
+		}
+		Save
+		{
+			Primary
+			{
+				Keys
+				[
+					Alt
+					S
+				]
+				MouseButtons
+			}
+		}
+		DecreaseSpeed
+		{
+			Secondary
+			{
+				Keys
+				[
+					Alt
+					Q
+				]
+				MouseButtons
+			}
+		}
+		IncreaseSpeed
+		{
+			Secondary
+			{
+				Keys
+				[
+					Alt
+					E
+				]
+				MouseButtons
+			}
+		}
+	}
+	View
+	{
+		RotateLeft
+		{
+			Primary
+			{
+				Keys
+				[
+					CommaLesser
+				]
+				MouseButtons
+			}
+		}
+		RotateRight
+		{
+			Primary
+			{
+				Keys
+				[
+					PeriodGreater
+				]
+				MouseButtons
+			}
+		}
+	}
+	Design
+	{
+		RotateLeft
+		{
+			Primary
+			{
+				Keys
+				[
+					Q
+				]
+				MouseButtons
+			}
+		}
+		RotateRight
+		{
+			Primary
+			{
+				Keys
+				[
+					E
+				]
+				MouseButtons
+			}
+			Secondary
+		}
+	}
+}
+Window
+{
+	WindowedLocation
+	{
+		X = 0
+		Y = 0
+	}
+	WindowedSize
+	{
+		X = 1280
+		Y = 720
+	}
+	Maximized = true
+	Mode = ExclusiveFullScreen
+	FullscreenResolution
+	{
+		X = 1280
+		Y = 720
+	}
+	FullscreenRefreshRate = 60
+	VSync = Off
+	AntialiasMode = None
+	AdapterIndex = 0
+	MonitorIndex = 0
+	LimitFps = 30
+	LimitFpsUnfocused = 3
+}
+DebugMode = FpsInCorner
+Preferences
+[
+	{
+		Key = HasPlayedDemo
+		Value
+		{
+			Type = "System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+			Value = false
+		}
+	}
+]

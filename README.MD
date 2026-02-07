@@ -1,5 +1,8 @@
 # Cosmoteer GitHub repo
 
+## 26.01.07 New Slim start
+- Copy settings to new folder
+
 ## 25.11.01 Vela ships
 - Need resources. Turn it on always!
 - What is No crew on stations mean??? Turn it off!!!
