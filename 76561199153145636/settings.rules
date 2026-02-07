@@ -102,10 +102,10 @@ GameSettings
 	ShowMidpointFocusWidget = true
 	DefaultScreenshotFormat = Jpeg
 	PreferBorderlessWindowToggle = false
-	MasterVolume = 0.75
-	EffectsVolume = 0.75
-	MusicVolume = 0.75
-	InterfaceVolume = 0.75
+	MasterVolume = 0.44454545
+	EffectsVolume = 0.45181817
+	MusicVolume = 0.44727272
+	InterfaceVolume = 0.45909092
 	MuteWhenUnfocused = false
 	PlayFriendlyPings = true
 	PlayEnemyPings = true
@@ -557,7 +557,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 3
+	MainMenuBackgroundIndex = 0
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
@@ -738,7 +738,7 @@ Window
 		Y = 720
 	}
 	Maximized = true
-	Mode = BorderlessFullScreen
+	Mode = ExclusiveFullScreen
 	FullscreenResolution
 	{
 		X = 1280
