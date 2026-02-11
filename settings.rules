@@ -152,7 +152,14 @@ GameSettings
 	BreakFormationToAttack = true
 	DisplayAllShips = false
 	ShowAdvancedCommands = false
-	EnabledMods[]
+	EnabledMods
+	[
+		"../../../../Games/Cosmoteer/Standard Mods/8_player_career"
+		"../../../../Games/Cosmoteer/Standard Mods/example_mod"
+		"../../../../Games/Cosmoteer/Standard Mods/example_translation"
+		"../../../../Games/Cosmoteer/Standard Mods/huge_crews"
+		"../../../../Games/Cosmoteer/Standard Mods/huge_ships"
+	]
 	AutoDisableMods = true
 	DeleteFileOnStartup
 	FeedbackEmail
@@ -181,7 +188,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = true
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 1
+	MainMenuBackgroundIndex = 2
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]

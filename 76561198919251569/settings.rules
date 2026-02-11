@@ -27,6 +27,22 @@ GameSettings
 			}
 			Value = Dpi100
 		}
+		{
+			Key
+			{
+				X = 1366
+				Y = 768
+			}
+			Value = Dpi100
+		}
+		{
+			Key
+			{
+				X = 1920
+				Y = 1080
+			}
+			Value = Dpi100
+		}
 	]
 	AnimateBackgrounds = false
 	BackgroundGridStyle = Crosses
@@ -79,13 +95,13 @@ GameSettings
 	DiscardBlueprintsWhenCanceling = true
 	PartToolTips = true
 	PartToolTipsDefaultToStats = false
-	SecondaryToolTips = false
+	SecondaryToolTips = true
 	ShowFavoriteCrewNamesOnHover = true
 	LogFavoriteCrewDeaths = true
 	AutoSave = true
 	AutoSavesToKeep = 25
 	QuickSavesToKeep = 25
-	AutoSaveInterval = 600
+	AutoSaveInterval = 300
 	SaveLostShips = true
 	LostShipsToKeep = 25
 	FtlAutoSave = true
@@ -104,7 +120,7 @@ GameSettings
 	PreferBorderlessWindowToggle = false
 	MasterVolume = 0.44454545
 	EffectsVolume = 0.45181817
-	MusicVolume = 0.44727272
+	MusicVolume = 0.26545453
 	InterfaceVolume = 0.45909092
 	MuteWhenUnfocused = false
 	PlayFriendlyPings = true
@@ -491,6 +507,14 @@ GameSettings
 			Key = ion_beams
 			Value = Hidden
 		}
+		{
+			Key = nebulas
+			Value
+			[
+				Seen
+				Hidden
+			]
+		}
 	]
 	DontDimDialogBackgrounds = false
 	DontFlickerBlueprints = false
@@ -528,7 +552,15 @@ GameSettings
 	BreakFormationToAttack = true
 	DisplayAllShips = false
 	ShowAdvancedCommands = true
-	EnabledMods[]
+	EnabledMods
+	[
+		"../../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
+		"../../../../../Games/Cosmoteer/Standard Mods/8_player_career"
+		"../../../../../Games/Cosmoteer/Standard Mods/example_mod"
+		"../../../../../Games/Cosmoteer/Standard Mods/example_translation"
+		"../../../../../Games/Cosmoteer/Standard Mods/huge_crews"
+		"../../../../../Games/Cosmoteer/Standard Mods/huge_ships"
+	]
 	AutoDisableMods = false
 	DeleteFileOnStartup
 	FeedbackEmail
@@ -541,8 +573,8 @@ GameSettings
 	DefaultCareerModeDisableCrewConstruction = false
 	DefaultCareerModeDisableExploration = false
 	DefaultCareerModeDisableSalvaging = false
-	DefaultCareerModeDisableNebulas = true
-	DefaultCareerModeStarterShip = -1
+	DefaultCareerModeDisableNebulas = false
+	DefaultCareerModeStarterShip = 2
 	DefaultMPJoinHostname
 	PlayerNameOverride = Dee
 	MPBlipColorMode = FriendAndFoe
@@ -554,7 +586,11 @@ GameSettings
 	PreferredLobbyType = CoOp
 	ShowNewsOnStartup = false
 	ShowTipsOnStartup = true
-	ReadNewsArticles[]
+	ReadNewsArticles
+	[
+		ea_welcome
+		update_0.30.3
+	]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
 	MainMenuBackgroundIndex = 0
@@ -566,7 +602,7 @@ GameSettings
 	GifRecorderSeconds = 10
 	GifRecorderFramerate = 20
 	GifRecorderResolution = 480
-	ShowNearbyMissionsCount = 0
+	ShowNearbyMissionsCount = 1
 	DevModeSPRecording = false
 	DevModeSPRecordingAutoLoad = false
 	DevModeUseStaticCareerSeed = false
@@ -632,6 +668,18 @@ InputSettings
 				[
 					Alt
 					D
+				]
+				MouseButtons
+			}
+		}
+		ToggleAutoThrust
+		{
+			Primary
+			{
+				Keys
+				[
+					Control
+					R
 				]
 				MouseButtons
 			}
@@ -724,6 +772,21 @@ InputSettings
 			Secondary
 		}
 	}
+	CreativeMode
+	{
+		SelectTool
+		{
+			Primary
+			{
+				Keys
+				[
+					Shift
+					S
+				]
+				MouseButtons
+			}
+		}
+	}
 }
 Window
 {
@@ -741,8 +804,8 @@ Window
 	Mode = ExclusiveFullScreen
 	FullscreenResolution
 	{
-		X = 1280
-		Y = 720
+		X = 1366
+		Y = 768
 	}
 	FullscreenRefreshRate = 60
 	VSync = Off
