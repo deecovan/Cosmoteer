@@ -43,6 +43,14 @@ GameSettings
 			}
 			Value = Dpi100
 		}
+		{
+			Key
+			{
+				X = 1280
+				Y = 800
+			}
+			Value = Dpi100
+		}
 	]
 	AnimateBackgrounds = false
 	BackgroundGridStyle = Crosses
@@ -95,7 +103,7 @@ GameSettings
 	DiscardBlueprintsWhenCanceling = true
 	PartToolTips = true
 	PartToolTipsDefaultToStats = false
-	SecondaryToolTips = true
+	SecondaryToolTips = false
 	ShowFavoriteCrewNamesOnHover = true
 	LogFavoriteCrewDeaths = true
 	AutoSave = true
@@ -515,6 +523,26 @@ GameSettings
 				Hidden
 			]
 		}
+		{
+			Key = cannons
+			Value
+			[
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = railguns
+			Value
+			[
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = chainguns
+			Value = Seen
+		}
 	]
 	DontDimDialogBackgrounds = false
 	DontFlickerBlueprints = false
@@ -593,7 +621,7 @@ GameSettings
 	]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 0
+	MainMenuBackgroundIndex = 1
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
@@ -792,20 +820,20 @@ Window
 {
 	WindowedLocation
 	{
-		X = 0
-		Y = 0
+		X = -8
+		Y = -8
 	}
 	WindowedSize
 	{
 		X = 1280
-		Y = 720
+		Y = 729
 	}
 	Maximized = true
 	Mode = ExclusiveFullScreen
 	FullscreenResolution
 	{
-		X = 1366
-		Y = 768
+		X = 1280
+		Y = 800
 	}
 	FullscreenRefreshRate = 60
 	VSync = Off
