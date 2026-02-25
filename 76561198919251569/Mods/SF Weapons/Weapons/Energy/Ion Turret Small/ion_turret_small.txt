@@ -1,0 +1,544 @@
+Part : /BASE_PART
+{
+	NameKey = "Parts/Star_Forge_Ion_Turret_Small"
+	IconNameKey = "Parts/Star_Forge_Ion_Turret_SmallIcon"
+	ID = Jarhead.Star_Forge_Ion_Turret_Small
+	OtherIDs = [Star_Forge_Ion_Turret_Small]
+	EditorGroup = "Star_Forge_Energy"
+	DescriptionKey = "Parts/Star_Forge_Ion_Turret_SmallDesc"
+	Cost = 5000
+	AIValue = 10
+	TypeCategories = [weapon, uses_power, is_crewed]
+	Size = [2, 2]
+	PhysicalRect = [0, 1, 2, 1]
+	SaveRect = &PhysicalRect
+	SelectionPriority = 1
+	SelectionTypeByRotation = true
+	SelectionTypeID = "cannons"
+	MaxHealth = 15000
+	InitialPenetrationResistance = 5
+	PenetrationRectType = Normal
+	ProhibitAbove = 1
+	AllowedDoorLocations
+	[
+		[-1, 1]
+		[2, 1]
+		[0, 2]
+		[1, 2]
+	]
+	ExternalWallsByCell
+	[
+		{
+			Key = [0, 1]
+			Value = [TopLeft, Bottom, BottomLeft, Left]
+		}
+		{
+			Key = [1, 1]
+			Value = [TopRight, Right, BottomRight, Bottom]
+		}
+	]
+	InternalWallsByCell
+	[
+		{
+			Key = [0, 0]
+			Value = [Left, TopLeft, Top, TopRight]
+		}
+		{
+			Key = [1, 0]
+			Value = [Right, TopRight, Top, TopLeft]
+		}
+	]
+	EditorIcon
+	{
+		Texture
+		{
+			File = "icon.png"
+			SampleMode = Linear
+		}
+		Size = [42.66, 64]
+	}
+	Components : ^/0/Components
+	{
+		IsOperational
+		{
+			Type = MultiToggle
+			Toggles = [PowerToggle, BatteryStorage, PartCrew]
+			Mode = All
+		}
+
+		PowerToggle
+		{
+			Type = UIToggle
+			ToggleID = "on_off"
+			Default = 1
+		}
+
+		FireModeToggle
+		{
+			Type = UIToggle
+			ToggleID = "fire_mode"
+			Default = 1
+			ToggledOnChoices = [0, 1, 2]
+		}
+		AutoTargetToggle
+		{
+			Type = ModeToggle
+			Mode = FireModeToggle
+			OnModes = [1, 2]
+		}
+		AutoFireToggle
+		{
+			Type = ModeToggle
+			Mode = FireModeToggle
+			OnMode = 2
+		}
+
+		BatteryStorage
+		{
+			Type = AmmoStorage
+			AmmoType = battery
+			MaxAmmo = 2000
+		}
+		BatteryConsumer
+		{
+			Type = AmmoConsumer
+			AmmoType = battery
+			Storage = BatteryStorage
+			DefaultPriority = &/PRIORITIES/Weapon_Supply
+			ResupplyThreshold = 1000
+			OperationalToggle = PowerToggle
+			ReceiveAmmoMediaEffects = &/COMMON_EFFECTS/PowerDeliver
+		}
+
+		Graphics
+		{
+			Type = Graphics
+			Location = [1, 1]
+			OperationalToggle = IsOperational
+			Floor
+			{
+				Layer = "floors"
+				DamageLevels
+				[
+					{
+						File = "floor.png"
+						Size = [2, 2]
+					}
+					{
+						File = "floor_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "floor_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			OperationalLighting
+			{
+				Layer = "lights_add"
+				DamageLevels
+				[
+					{
+						File = "lights.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			Walls
+			{
+				Layer = "walls"
+				DamageLevels
+				[
+					{
+						File = "walls.png"
+						Size = [2, 2]
+					}
+					{
+						File = "walls_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "walls_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			Roof
+			{
+				Layer = "roofs"
+				DamageLevels
+				[
+					{
+						File = "roof.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			OperationalRoofWindows
+			{
+				Layer = "roof_windows"
+				DamageLevels
+				[
+					{
+						File = "roof_windows_on.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_windows_on_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_windows_on_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			NonOperationalRoofWindows
+			{
+				Layer = "roof_windows"
+				DamageLevels
+				[
+					{
+						File = "roof_windows_off.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_windows_off_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_windows_off_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+		}
+
+		Weapon
+		{
+			Type = TurretWeapon
+			Location = [1, 1]
+			Rotation = -90d
+			OperationalToggle = IsOperational
+			FireInterval = .3
+			SpawnLoc = [0, 0]
+			FiringArc = 115d
+			RotateSpeed = 45d
+			FireThresholdAngle = 1d
+			TargetChecksPerSearch = 1
+			AIFirepowerRating = 500
+			Emitter = BeamEmitter
+			ChainFireToggleComponent = IonBeamChainToggle
+			AllowEnemyStructureAutoTargeting = true
+			ProhibitTargetPartsFilter = &FriendlyPrismFilter // Don't force fire on friendly ion prisms!
+			SuppressWholeShipTargetOverlaysForPartsFilter = &FriendlyPrismFilter
+			SuppressShipWideExplicitTargetsWhenTargetingPartsFilter = &FriendlyPrismFilter
+			SuppressDirectControlWhenTargetingPartsFilter = &FriendlyPrismFilter
+			SuppressFirepowerEstimationWhenTargetingPartsFilter = &FriendlyPrismFilter
+			AutoExplicitTargetPartsFilter = &FriendlyPrismFilter
+			SaveSelfTargetPartCategories = [ion_beam_prism]
+			FirePermissionToggle = FireModeToggle
+
+			FriendlyPrismFilter
+			{
+				Enemies = false
+				Junk = false
+				OnlyPartCategories = [ion_beam_prism]
+			}
+
+			AutoTargets
+
+			[
+
+				{
+
+					TargetType = ShipParts
+
+					Toggle = FireModeToggle
+
+				}
+
+			]
+
+			CoverageLine
+			{
+				LineSprite
+				{
+					Texture = &/INDICATORS/RadialGradient
+					VertexColor = [255, 255, 255, 191]
+					UVRect = [.5, 0, 0, 1]
+				}
+				LineThickness = 2
+
+				BeginCapSprite : LineSprite
+				{
+					UVRect = [0, 0, .5, 1]
+				}
+				BeginCapSize = [1, 2]
+
+				EndCapSprite : LineSprite
+				{
+					UVRect = [.5, 0, .5, 1]
+				}
+				EndCapSize = [1, 2]
+			}
+
+		}
+
+		BeamEmitter : <ion_turret_small_shot.txt>
+		{
+			Type = BeamEmitter
+			ChainedTo = Weapon
+			FireTrigger = Weapon
+			GetTargetFrom = Weapon
+			OperationalToggle = IsOperational
+			Duration = .5
+			AmmoStorage = BatteryStorage
+			AmmoUsed = 100
+			MinAmmoUsed = 1
+			Recoil = 1
+
+			BeamMediaEffects : ^/0/BeamMediaEffects
+			[
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "./Data/shots/ion_beam/ion_beam_emit.wav"
+					Volume = 1
+					MaxConcurrent = 1
+					MaxConcurrentVolume = 1
+					RampUpTime = .25
+					RampDownTime = .25
+				}
+			]
+		}
+		
+		CrewLocation
+		{
+			Type = CrewLocation
+			ChainedTo = Weapon
+			Location = [-0.6, 0]
+			Rotation = -90d
+		}
+		PartCrew
+		{
+			Type = PartCrew
+			Crew = 1
+			DefaultPriority = &/PRIORITIES/Weapon_Crew
+			PrerequisitesBeforeCrewing = [BatteryStorage, PowerToggle]
+			CrewDestinations
+			[
+				[1.5, 1.5]
+			]
+			CrewLocations
+			[
+				CrewLocation
+			]
+		}
+
+		TurretCollider
+		{
+			Type = CircleCollider
+			ChainedTo = Weapon
+			Radius = 0.72
+			Density = 1.5
+		}
+
+		TurretGraphics
+		{
+			Type = Graphics
+			ChainedTo = Weapon
+			Location = [0, 0]
+			Rotation = 90d
+			OperationalToggle = IsOperational
+			Floor
+			{
+				Layer = "turrets"
+				DamageLevels
+				[
+					{
+						File = "turret_floor.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			OperationalDoodad
+			{
+				Layer = "doodads_low"
+				DamageLevels
+				[
+					{
+						AnimationFiles
+						[
+							"console_on1.png"
+							"console_on2.png"
+							"console_on3.png"
+							"console_on4.png"
+							"console_on5.png"
+						]
+						Size = [2, 3]
+						Offset = [0, -0.5]
+						AnimationInterval = 0.125
+					}
+				]
+			}
+			NonOperationalDoodad
+			{
+				Layer = "doodads_low"
+				DamageLevels
+				[
+					{
+						File = "console_off.png"
+						Size = [2, 3]
+						Offset = [0, -0.5]
+					}
+				]
+			}
+		}
+
+		BarrelSprite
+		{
+			Type = Sprite
+			ChainedTo = Weapon
+			Location = [0.5, 0]
+			Rotation = 90d
+			Layer = "weapons"
+			ResetAnimationTrigger = Weapon
+			AtlasSprite
+			{
+				AnimationFiles
+				[
+					"barrel1.png"
+				]
+				Size = [2, 3]
+				AnimationInterval = 0.0625
+				AnimationStartTime = MinValue
+				ClampAnimation = true
+			}
+		}
+
+		BatterySprites
+		{
+			Type = AmmoSprites
+			ChainedTo = Weapon
+			Location = [0.5, 0]
+			Rotation = 90d
+			AmmoStorage = BatteryStorage
+			Layer = "doodads_high"
+			AmmoLevels
+			[
+				{
+					File = "batteries1.png"
+					Size = [2, 3]
+				}
+				{
+					File = "batteries2.png"
+					Size = [2, 3]
+				}
+			]
+		}
+
+		OperationEffects
+		{
+			Type = ToggleEffects
+			Location = [1, 1]
+			Toggle = IsOperational
+			ToggledOnMediaEffects = &/COMMON_EFFECTS/MachinesOn
+			ToggledOffMediaEffects = &/COMMON_EFFECTS/MachinesOff
+		}
+
+		DestroyedEffects
+		{
+			Type = DeathEffects
+			MediaEffects = &/COMMON_EFFECTS/MedPartDestroyed
+			Location = [.5, 1.5]
+		}
+
+		Indicators
+		{
+			Type = IndicatorSprites
+			Location = [1, 1]
+			Layer = "indicators"
+			Indicators
+			[
+				// Turned off.
+				{
+					Toggle = PowerToggle
+					AtlasSprite
+					{
+						File = &/INDICATORS/PowerOff
+						Size = [1, 1]
+					}
+				}
+
+				// Out of power.
+				{
+					Toggle = BatteryStorage
+					AtlasSprite
+					{
+						File = &/INDICATORS/NoPower
+						Size = [1, 1]
+					}
+				}
+
+				// No crew.
+				{
+					Toggle = PartCrew
+					AtlasSprite
+					{
+						File = &/INDICATORS/NoCrew
+						Size = [1, 1]
+					}
+				}
+			]
+		}
+
+		Blueprints
+		{
+			Type = BlueprintSprite
+			File = "blueprints.png"
+			Size = [2, 3]
+			Offset = [0, -.5]
+		}
+
+	}
+
+	Stats
+	{
+		CrewRequired = &~/Part/Components/PartCrew/Crew
+		PowerCapacity = (&~/Part/Components/BatteryStorage/MaxAmmo) / 1000
+
+		RecPower = &../StatsByCategory/0/Stats/PowerUsageContinuous
+		RecCrew = (&CrewRequired) + (&RecPower) * 4
+	}
+
+	StatsByCategory
+	[
+		{
+			NameKey = "StatCategories/IonBeam"
+			Stats
+			{
+				BaseDamage = &~/Part/Components/BeamEmitter/HitOperational/HitEffects/0/HitEffects/0/Damage
+				DamagePerShotNear = (&BaseDamage) * (&~/Part/Components/BeamEmitter/HitEffectsScaleOverRange/0)
+				DamagePerShotFar = (&BaseDamage) * (&~/Part/Components/BeamEmitter/HitEffectsScaleOverRange/1)
+				HitInterval = &~/Part/Components/BeamEmitter/HitInterval
+				DamageContinuousNear = (&DamagePerShotNear) / (&HitInterval)
+				DamageContinuousFar = (&DamagePerShotFar) / (&HitInterval)
+				Range = &~/Part/Components/BeamEmitter/Range
+				Arc = deg(&~/Part/Components/Weapon/FiringArc)
+				TurretSpeed = deg(&~/Part/Components/Weapon/RotateSpeed)
+				ShotSpeed = Infinity
+				PowerPerShot = (&~/Part/Components/BeamEmitter/AmmoUsed) / 1000
+				PowerUsageContinuous = (&PowerPerShot) / (&~/Part/Components/Weapon/FireInterval)
+			}
+		}
+	]
+}

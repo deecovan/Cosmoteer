@@ -1,0 +1,658 @@
+Part : /BASE_PART
+{
+	NameKey = "Parts/Star_Forge_Micro_Missile_Storage"
+	IconNameKey = "Parts/Star_Forge_Micro_Missile_StorageIcon"
+	ID = JarHead.Star_Forge_Micro_Missile_Storage
+	OtherIDs = [Star_Forge_Micro_Missile_Storage]
+	EditorGroup = "Star_Forge_Factory"
+	DescriptionKey = "Parts/Star_Forge_Micro_Missile_StorageDesc"
+	Cost = 1500
+	Size = [2, 2]
+	MaxHealth = 4000
+	TypeCategories = [provides_missiles, storage]
+	IgnoreRotationForMirroredSelection = true
+	ReceivableBuffs : ^/0/ReceivableBuffs []
+	EditorIcon
+	{
+		Texture
+		{
+			File = "icon.png"
+			SampleMode = Linear
+		}
+		Size = [64, 64]
+	}
+	Components : ^/0/Components
+	{
+		IsOperational
+		{
+			Type = MultiToggle
+			Toggles = [PowerToggle, MissileStorageProxy]
+			Mode = All
+		}
+
+		PowerToggle
+		{
+			Type = UIToggle
+			ToggleID = "on_off"
+			Default = 1
+		}
+
+		MissileType
+		{
+			Type = UIToggle
+			ToggleID = "Star_Forge_Missiles"
+			Default = 0
+		}
+
+		HEMissilesToggle
+		{
+			Type = ModeToggle
+			Mode = MissileType
+			OnMode = 0
+		}
+		HEMissilesComponents
+		{
+			Type = ToggledComponents
+			Toggle = HEMissilesToggle
+			IncludeInBlueprints = true
+			Components
+			{
+				FloorGraphics
+				{
+					Type = Graphics
+					Location = [1, 1]
+					OperationalToggle = IsOperational
+					Floor
+					{
+						Layer = "floors"
+						DamageLevels
+						[
+							{
+								File = "floor.png"
+								Size = [2, 2]
+							}
+							{
+								File = "floor_33.png"
+								Size = [2, 2]
+							}
+							{
+								File = "floor_66.png"
+								Size = [2, 2]
+							}
+						]
+					}
+				}
+
+				MissileStorage
+				{
+					Type = AmmoStorage
+					AmmoType = missile_part_he
+					MaxAmmo = 6
+					StartingAmmo = 0
+					InitToMaxAmmoPVP = 0
+					SuppliesAmmo = true
+					SuppliesAmmoToggle = PowerToggle
+				}
+				MissileConsumer
+				{
+					Type = AmmoConsumer
+					AmmoType = missile_part_he
+					Storage = MissileStorage
+					DefaultPriority = &/PRIORITIES/Storage_Supply
+					OperationalToggle = PowerToggle
+					ReceiveAmmoMediaEffects = &/COMMON_EFFECTS/MissileLoad
+				}
+
+				MissileSprites
+				{
+					Type = AmmoSprites
+					Location = [1, 1]
+					AmmoStorage = MissileStorage
+					Layer = "doodads_low"
+					AmmoLevels
+					[
+						{
+							File = "missiles_he1.png"
+							Size = [3, 2]
+						}
+						{
+							File = "missiles_he2.png"
+							Size = [3, 2]
+						}
+						{
+							File = "missiles_he3.png"
+							Size = [3, 2]
+						}
+						{
+							File = "missiles_he4.png"
+							Size = [3, 2]
+						}
+						{
+							File = "missiles_he5.png"
+							Size = [3, 2]
+						}
+						{
+							File = "missiles_he6.png"
+							Size = [3, 2]
+						}
+					]
+				}
+
+				DestroyedEffects
+				{
+					Type = DeathEffects
+					MediaEffects = &/COMMON_EFFECTS/BigPartDestroyed
+					Location = [1, 1]
+
+					FactorHitEffectsWith = MissileStorage
+					HitEffects
+					[
+						{
+							Type = ExplosiveDamage
+							TotalDamage = 30000
+							Radius = 5
+							Delay = .05
+							FireChancePerNDamage = 50%
+							NDamage = 1000
+							Filter
+							{
+								OperationalHealth = true
+								StructuralHealth = false
+								Friendlies = true
+							}
+						}
+						{
+							Type = ExplosiveDamage
+							TotalDamage = 10000
+							Radius = 4
+							Delay = .05
+							Filter
+							{
+								OperationalHealth = false
+								StructuralHealth = true
+								Friendlies = true
+							}
+						}
+					]
+				}
+
+				Indicators
+				{
+					Type = IndicatorSprites
+					Location = [1, 1]
+					Layer = "indicators"
+					Indicators
+					[
+						// Turned off.
+						{
+							Toggle = PowerToggle
+							AtlasSprite
+							{
+								File = &/INDICATORS/PowerOff
+								Size = [1, 1]
+							}
+						}
+
+						// Out of missiles.
+						{
+							Toggle = MissileStorage
+							AtlasSprite
+							{
+								File = &/INDICATORS/NoMissiles
+								Size = [1.5, 1.5]
+							}
+						}
+					]
+				}
+			}
+		}
+		
+		// Micro
+		MicroMissileToggle
+		{
+			Type = ModeToggle
+			Mode = MissileType
+			OnMode = 1
+		}
+		MicroMissileComponents
+		{
+			Type = ToggledComponents
+			Toggle = MicroMissileToggle
+			IncludeInBlueprints = true
+			Components
+			{
+				FloorGraphics
+				{
+					Type = Graphics
+					Location = [1, 1]
+					OperationalToggle = IsOperational
+					Floor
+					{
+						Layer = "floors"
+						DamageLevels
+						[
+							{
+								File = "floor.png"
+								Size = [2, 2]
+							}
+							{
+								File = "floor_33.png"
+								Size = [2, 2]
+							}
+							{
+								File = "floor_66.png"
+								Size = [2, 2]
+							}
+						]
+					}
+				}
+
+				MissileStorage
+				{
+					Type = AmmoStorage
+					AmmoType = SF_Micro_Missile_Part
+					MaxAmmo = 6
+					StartingAmmo = 0
+					InitToMaxAmmoPVP = 0
+					SuppliesAmmo = true
+					SuppliesAmmoToggle = PowerToggle
+				}
+				MissileConsumer
+				{
+					Type = AmmoConsumer
+					AmmoType = SF_Micro_Missile_Part
+					Storage = MissileStorage
+					DefaultPriority = &/PRIORITIES/Storage_Supply
+					OperationalToggle = PowerToggle
+					ReceiveAmmoMediaEffects = &/COMMON_EFFECTS/MissileLoad
+				}
+
+				MissileSprites
+				{
+					Type = AmmoSprites
+					Location = [1, 1]
+					AmmoStorage = MissileStorage
+					Layer = "doodads_low"
+					AmmoLevels
+					[
+						{
+							File = "missile_micro_1.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_micro_2.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_micro_3.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_micro_4.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_micro_5.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_micro_6.png"
+							Size = [2, 2]
+						}
+					]
+				}
+
+				DestroyedEffects
+				{
+					Type = DeathEffects
+					MediaEffects = &/COMMON_EFFECTS/BigPartDestroyed
+					Location = [1, 1]
+
+					FactorHitEffectsWith = MissileStorage
+					HitEffects
+					[
+						{
+							Type = ExplosiveDamage
+							TotalDamage = 30000
+							Radius = 5
+							Delay = .05
+							FireChancePerNDamage = 50%
+							NDamage = 1000
+							Filter
+							{
+								OperationalHealth = true
+								StructuralHealth = false
+								Friendlies = true
+							}
+						}
+						{
+							Type = ExplosiveDamage
+							TotalDamage = 10000
+							Radius = 4
+							Delay = .05
+							Filter
+							{
+								OperationalHealth = false
+								StructuralHealth = true
+								Friendlies = true
+							}
+						}
+					]
+				}
+
+				Indicators
+				{
+					Type = IndicatorSprites
+					Location = [1, 1]
+					Layer = "indicators"
+					Indicators
+					[
+						// Turned off.
+						{
+							Toggle = PowerToggle
+							AtlasSprite
+							{
+								File = &/INDICATORS/PowerOff
+								Size = [1, 1]
+							}
+						}
+
+						// Out of missiles.
+						{
+							Toggle = MissileStorage
+							AtlasSprite
+							{
+								File = "../../../SF Weapons/Gui/Indicators/Star_Forge_Indicator_Misco.png"
+								Size = [1.5, 1.5]
+							}
+						}
+					]
+				}
+			}
+		}
+		
+		//Heat
+		HeatMissileToggle
+		{
+			Type = ModeToggle
+			Mode = MissileType
+			OnMode = 2
+		}
+		HeatMissileComponents
+		{
+			Type = ToggledComponents
+			Toggle = HeatMissileToggle
+			IncludeInBlueprints = true
+			Components
+			{
+				FloorGraphics
+				{
+					Type = Graphics
+					Location = [1, 1]
+					OperationalToggle = IsOperational
+					Floor
+					{
+						Layer = "floors"
+						DamageLevels
+						[
+							{
+								File = "floor.png"
+								Size = [2, 2]
+							}
+							{
+								File = "floor_33.png"
+								Size = [2, 2]
+							}
+							{
+								File = "floor_66.png"
+								Size = [2, 2]
+							}
+						]
+					}
+				}
+
+				MissileStorage
+				{
+					Type = AmmoStorage
+					AmmoType = SF_Heat_Missile_Part
+					MaxAmmo = 6
+					StartingAmmo = 0
+					InitToMaxAmmoPVP = 0
+					SuppliesAmmo = true
+					SuppliesAmmoToggle = PowerToggle
+				}
+				MissileConsumer
+				{
+					Type = AmmoConsumer
+					AmmoType = SF_Heat_Missile_Part
+					Storage = MissileStorage
+					DefaultPriority = &/PRIORITIES/Storage_Supply
+					OperationalToggle = PowerToggle
+					ReceiveAmmoMediaEffects = &/COMMON_EFFECTS/MissileLoad
+				}
+
+				MissileSprites
+				{
+					Type = AmmoSprites
+					Location = [1, 1]
+					AmmoStorage = MissileStorage
+					Layer = "doodads_low"
+					AmmoLevels
+					[
+						{
+							File = "missile_heat_1.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_heat_2.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_heat_3.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_heat_4.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_heat_5.png"
+							Size = [2, 2]
+						}
+						{
+							File = "missile_heat_6.png"
+							Size = [2, 2]
+						}
+					]
+				}
+
+				DestroyedEffects
+				{
+					Type = DeathEffects
+					MediaEffects = &/COMMON_EFFECTS/BigPartDestroyed
+					Location = [1, 1]
+
+					FactorHitEffectsWith = MissileStorage
+					HitEffects
+					[
+						{
+							Type = ExplosiveDamage
+							TotalDamage = 30000
+							FireChancePerTile = .1
+							Radius = 5
+							Delay = .05
+							FireChancePerNDamage = 100%
+							NDamage = 1000
+							Filter
+							{
+								OperationalHealth = true
+								StructuralHealth = false
+								Friendlies = true
+							}
+						}
+						{
+							Type = ExplosiveDamage
+							TotalDamage = 10000
+							FireChancePerTile = .1
+							Radius = 4
+							Delay = .05
+							Filter
+							{
+								OperationalHealth = false
+								StructuralHealth = true
+								Friendlies = true
+							}
+						}
+					]
+				}
+
+				Indicators
+				{
+					Type = IndicatorSprites
+					Location = [1, 1]
+					Layer = "indicators"
+					Indicators
+					[
+						// Turned off.
+						{
+							Toggle = PowerToggle
+							AtlasSprite
+							{
+								File = &/INDICATORS/PowerOff
+								Size = [1, 1]
+							}
+						}
+
+						// Out of missiles.
+						{
+							Toggle = MissileStorage
+							AtlasSprite
+							{
+								File = "../../../SF Weapons/Gui/Indicators/Star_Forge_Indicator_Heat.png"
+								Size = [1.5, 1.5]
+							}
+						}
+					]
+				}
+			}
+		}
+
+		MissileStorageProxy
+		{
+			Type = ToggleProxy
+			ComponentID = MissileStorage
+		}
+
+		Graphics
+		{
+			Type = Graphics
+			Location = [1, 1]
+			OperationalToggle = IsOperational
+			OperationalLighting
+			{
+				Layer = "lights_add"
+				DamageLevels
+				[
+					{
+						File = "lights.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			Walls
+			{
+				Layer = "walls"
+				DamageLevels
+				[
+					{
+						File = "walls.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			Roof
+			{
+				Layer = "roofs"
+				DamageLevels
+				[
+					{
+						File = "roof.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			OperationalRoofWindows
+			{
+				Layer = "roof_windows"
+				DamageLevels
+				[
+					{
+						File = "roof_windows.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_windows_33.png"
+						Size = [2, 2]
+					}
+					{
+						File = "roof_windows_66.png"
+						Size = [2, 2]
+					}
+				]
+			}
+			NonOperationalRoofWindows = &OperationalRoofWindows
+		}
+
+		BlueprintsHE
+		{
+			Type = BlueprintSprite
+			File = "blueprints_he.png"
+			Size = [2, 2]
+
+			ShowOnlyInToggleMode
+			{
+				ToggleID = Star_Forge_Missiles
+				Mode = 0
+			}
+		}
+		BlueprintsMiscor
+		{
+			Type = BlueprintSprite
+			File = "blueprints_micro.png"
+			Size = [2, 2]
+
+			ShowOnlyInToggleMode
+			{
+				ToggleID = Star_Forge_Missiles
+				Mode = 1
+			}
+		}
+		BlueprintsHeat
+		{
+			Type = BlueprintSprite
+			File = "blueprints_heat.png"
+			Size = [2, 2]
+
+			ShowOnlyInToggleMode
+			{
+				ToggleID = Star_Forge_Missiles
+				Mode = 2
+			}
+		}
+	}
+
+	Stats
+	{
+		HEMissilesCapacity = 2
+		MicroMissileCapacity = 2
+		HeatMissileCapacity = 2
+	}
+}

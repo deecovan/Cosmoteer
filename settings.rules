@@ -27,6 +27,14 @@ GameSettings
 			}
 			Value = Dpi125
 		}
+		{
+			Key
+			{
+				X = 1440
+				Y = 900
+			}
+			Value = Dpi125
+		}
 	]
 	AnimateBackgrounds = false
 	BackgroundGridStyle = Crosses
@@ -154,6 +162,7 @@ GameSettings
 	ShowAdvancedCommands = false
 	EnabledMods
 	[
+		"../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
 		"../../../../Games/Cosmoteer/Standard Mods/8_player_career"
 		"../../../../Games/Cosmoteer/Standard Mods/example_mod"
 		"../../../../Games/Cosmoteer/Standard Mods/example_translation"
@@ -188,7 +197,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = true
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 2
+	MainMenuBackgroundIndex = 0
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
@@ -234,10 +243,10 @@ Window
 	Mode = BorderlessFullScreen
 	FullscreenResolution
 	{
-		X = 0
-		Y = 0
+		X = 1440
+		Y = 900
 	}
-	FullscreenRefreshRate = 0
+	FullscreenRefreshRate = 60
 	VSync = Off
 	AntialiasMode = None
 	AdapterIndex = 0

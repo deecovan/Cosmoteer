@@ -541,7 +541,11 @@ GameSettings
 		}
 		{
 			Key = chainguns
-			Value = Seen
+			Value
+			[
+				Seen
+				Hidden
+			]
 		}
 	]
 	DontDimDialogBackgrounds = false
@@ -555,7 +559,7 @@ GameSettings
 	MiniviewInCombatMode = ShowPlayer
 	MiniviewNotInCombatMode = ShowPlayer
 	MiniviewLockRotation = true
-	MiniviewSize = 250
+	MiniviewSize = 342
 	ShowInteriors = true
 	ShowAllCommands = true
 	AlwaysShowCommandWidgets = true
@@ -583,7 +587,7 @@ GameSettings
 	EnabledMods
 	[
 		"../../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
-		"../../../../../Games/Cosmoteer/Standard Mods/8_player_career"
+		Mods/8_player_career
 		"../../../../../Games/Cosmoteer/Standard Mods/example_mod"
 		"../../../../../Games/Cosmoteer/Standard Mods/example_translation"
 		"../../../../../Games/Cosmoteer/Standard Mods/huge_crews"
@@ -621,7 +625,7 @@ GameSettings
 	]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 1
+	MainMenuBackgroundIndex = 3
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]

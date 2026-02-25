@@ -1,0 +1,704 @@
+02/25/2026 00:30:59  |  Logging successful initialized.
+02/25/2026 00:30:59  |  .NET Runtime Version: 9.0.7
+02/25/2026 00:30:59  |  Running as a 64-bit process.
+02/25/2026 00:30:59  |  Locale: en-US
+02/25/2026 00:30:59  |  Language: en-US
+02/25/2026 00:30:59  |  Executable path: C:\Games\Cosmoteer\Bin\Cosmoteer.exe
+02/25/2026 00:30:59  |  Cosmoteer version 0.30.0e build 0.30.0e_steam
+02/25/2026 00:30:59  |  Build Date: 9/1/2025 11:00:32 PM
+02/25/2026 00:30:59  |  Build Commit: e41c43d082ce72572a0e33958086c78ae53b9509
+02/25/2026 00:30:59  |  Steam API successfully initialized.
+02/25/2026 00:30:59  |  Microsoft Windows 11 Home 64-bit 10.0.26200
+02/25/2026 00:30:59  |  AMD Ryzen 7 7735HS with Radeon Graphics         (16 logical / 8 physical cores)
+02/25/2026 00:30:59  |  14020.5 MB RAM
+02/25/2026 00:30:59  |  AMD Radeon(TM) Graphics (32.0.21041.1000) (1/8/2026)
+02/25/2026 00:30:59  |  2048.0 MB VRAM
+02/25/2026 00:30:59  |  
+02/25/2026 00:31:00  |  Loaded app settings.
+02/25/2026 00:31:00  |  Setup default cursor.
+02/25/2026 00:31:00  |  Using display adapter 0
+02/25/2026 00:31:00  |  Created DXGI factory.
+02/25/2026 00:31:00  |  Adapter #0: AMD Radeon(TM) Graphics
+02/25/2026 00:31:00  |  	Output #0: Generic PnP Monitor  (1440x900)
+02/25/2026 00:31:00  |  Adapter #1: Microsoft Basic Render Driver
+02/25/2026 00:31:00  |  Updated Windows form configuration for full-screen.
+02/25/2026 00:31:00  |  Created Windows form.
+02/25/2026 00:31:00  |  Direct3D Feature Level: Level_11_0
+02/25/2026 00:31:00  |  Created Direct3D 11 Device.
+02/25/2026 00:31:00  |  Created swap chain: 1280x800.
+02/25/2026 00:31:00  |  Created window.
+02/25/2026 00:31:00  |  Created clock.
+02/25/2026 00:31:00  |  Created graphics manager.
+02/25/2026 00:31:00  |  Max Texture Size: {X=16384 ,Y=16384}
+02/25/2026 00:31:01  |  Created XAudio2 device.
+02/25/2026 00:31:01  |  Created audio manager.
+02/25/2026 00:31:01  |  Created input manager.
+02/25/2026 00:31:01  |  Created default font.
+02/25/2026 00:31:01  |  Initial app state is 'MainMenu'
+02/25/2026 00:31:01  |  Initial application settings:
+02/25/2026 00:31:01  |  	LastGameVersion: 0.30.0e
+02/25/2026 00:31:01  |  	IsFirstBoot: False
+02/25/2026 00:31:01  |  	InitState: MainMenu
+02/25/2026 00:31:01  |  	Language: ru
+02/25/2026 00:31:01  |  	LockCursor: False
+02/25/2026 00:31:01  |  	EdgePanMode: Analog
+02/25/2026 00:31:01  |  	EdgePanSpeed: 10
+02/25/2026 00:31:01  |  	KeyboardPanSpeed: 31.408833
+02/25/2026 00:31:01  |  	KeyboardZoomSpeed: 26.880442
+02/25/2026 00:31:01  |  	KeyboardRotSpeed: 90°
+02/25/2026 00:31:01  |  	EnableMouseWheelZoom: True
+02/25/2026 00:31:01  |  	InvertMouseWheelZoom: False
+02/25/2026 00:31:01  |  	MouseWheelZoomSpeed: 1.1418232
+02/25/2026 00:31:01  |  	MouseWheelZoomAtCursor: True
+02/25/2026 00:31:01  |  	AutoTrackOnScreenShips: True
+02/25/2026 00:31:01  |  	StickyFocus: True
+02/25/2026 00:31:01  |  	DpiScaleMode: Dpi100
+02/25/2026 00:31:01  |  	DpiScaleModePerResolution: System.Collections.Generic.Dictionary`2[Halfling.Geometry.IntVector2,Cosmoteer.DpiScaleMode]
+02/25/2026 00:31:01  |  	AnimateBackgrounds: False
+02/25/2026 00:31:01  |  	BackgroundGridStyle: Crosses
+02/25/2026 00:31:01  |  	FancyLighting: False
+02/25/2026 00:31:01  |  	FancyParticles: False
+02/25/2026 00:31:01  |  	FancyUIEffects: False
+02/25/2026 00:31:01  |  	FancyNebulas: False
+02/25/2026 00:31:01  |  	UncompressedTextures: False
+02/25/2026 00:31:01  |  	ResolutionScale: 1
+02/25/2026 00:31:01  |  	PlanetResolutionScale: 1
+02/25/2026 00:31:01  |  	TargetFps: FpsTarget30
+02/25/2026 00:31:01  |  	PostShaderIndex: 0
+02/25/2026 00:31:01  |  	AllowShipDeselection: False
+02/25/2026 00:31:01  |  	CtrlSelectsParts: False
+02/25/2026 00:31:01  |  	EnableCollisionAvoidance: True
+02/25/2026 00:31:01  |  	EnableHazardAvoidance: True
+02/25/2026 00:31:01  |  	EnableArrivalMatching: True
+02/25/2026 00:31:01  |  	AutoRecallCrew: True
+02/25/2026 00:31:01  |  	PreferBlueprintMode: False
+02/25/2026 00:31:01  |  	BlueprintAutoPause: True
+02/25/2026 00:31:01  |  	ShowInvalidBlueprints: True
+02/25/2026 00:31:01  |  	ShowMissingPartsWarning: True
+02/25/2026 00:31:01  |  	ShowAutoRemovedParts: True
+02/25/2026 00:31:01  |  	ShowAutoRemovedDecals: True
+02/25/2026 00:31:01  |  	BuildAutoRotate: True
+02/25/2026 00:31:01  |  	BuildAutoInteriors: True
+02/25/2026 00:31:01  |  	PaintAutoRotate: True
+02/25/2026 00:31:01  |  	PaintAllowOverwrite: True
+02/25/2026 00:31:01  |  	BuildAllowOverwrite: True
+02/25/2026 00:31:01  |  	BuildAutoDoors: True
+02/25/2026 00:31:01  |  	RequirePartialRefundConfirmation: True
+02/25/2026 00:31:01  |  	BuildShowNearestPaths: True
+02/25/2026 00:31:01  |  	BuildAllowInsufficientCommand: False
+02/25/2026 00:31:01  |  	ShowStatBars: True
+02/25/2026 00:31:01  |  	ConstructExitsBuild: False
+02/25/2026 00:31:01  |  	CrewAutoRotate: True
+02/25/2026 00:31:01  |  	ShowCrewPaths: True
+02/25/2026 00:31:01  |  	ShowCrewHomes: True
+02/25/2026 00:31:01  |  	ShowUnselectedCrewAssignment: True
+02/25/2026 00:31:01  |  	DefaultRoles: 
+02/25/2026 00:31:01  |  	ResourcesAutoRotate: True
+02/25/2026 00:31:01  |  	ShowResourceCounts: True
+02/25/2026 00:31:01  |  	ShowResourceTransfers: True
+02/25/2026 00:31:01  |  	ShowConstructionResourceDeliveries: True
+02/25/2026 00:31:01  |  	ShowAllResourceTypes: False
+02/25/2026 00:31:01  |  	ShowUnselectedResourceAssignment: True
+02/25/2026 00:31:01  |  	RowsOfParts: 1
+02/25/2026 00:31:01  |  	GrabLeavesCorridors: True
+02/25/2026 00:31:01  |  	RepairAutoDoors: True
+02/25/2026 00:31:01  |  	DiscardBlueprintsWhenCanceling: True
+02/25/2026 00:31:01  |  	PartToolTips: True
+02/25/2026 00:31:01  |  	PartToolTipsDefaultToStats: False
+02/25/2026 00:31:01  |  	SecondaryToolTips: False
+02/25/2026 00:31:01  |  	ShowFavoriteCrewNamesOnHover: True
+02/25/2026 00:31:01  |  	LogFavoriteCrewDeaths: True
+02/25/2026 00:31:01  |  	AutoSave: True
+02/25/2026 00:31:01  |  	AutoSavesToKeep: 25
+02/25/2026 00:31:01  |  	QuickSavesToKeep: 25
+02/25/2026 00:31:01  |  	AutoSaveInterval: 300
+02/25/2026 00:31:01  |  	SaveLostShips: True
+02/25/2026 00:31:01  |  	LostShipsToKeep: 25
+02/25/2026 00:31:01  |  	FtlAutoSave: True
+02/25/2026 00:31:01  |  	ResourceDisplayMode: Context
+02/25/2026 00:31:01  |  	ShowOnShipIndicators: True
+02/25/2026 00:31:01  |  	ShowZoomedOutBlips: True
+02/25/2026 00:31:01  |  	ShowOffScreenBlips: True
+02/25/2026 00:31:01  |  	ShowBreadcrumbTrails: True
+02/25/2026 00:31:01  |  	AutoPauseOnLostFocus: False
+02/25/2026 00:31:01  |  	AutoSlowWhenEnemySpotted: 0
+02/25/2026 00:31:01  |  	ScreenShake: False
+02/25/2026 00:31:01  |  	NuggetsDots: True
+02/25/2026 00:31:01  |  	UIAnimations: False
+02/25/2026 00:31:01  |  	ShowMidpointFocusWidget: True
+02/25/2026 00:31:01  |  	DefaultScreenshotFormat: Jpeg
+02/25/2026 00:31:01  |  	PreferBorderlessWindowToggle: False
+02/25/2026 00:31:01  |  	MasterVolume: 0.44454545
+02/25/2026 00:31:01  |  	EffectsVolume: 0.45181817
+02/25/2026 00:31:01  |  	MusicVolume: 0.26545453
+02/25/2026 00:31:01  |  	InterfaceVolume: 0.45909092
+02/25/2026 00:31:01  |  	MuteWhenUnfocused: False
+02/25/2026 00:31:01  |  	PlayFriendlyPings: True
+02/25/2026 00:31:01  |  	PlayEnemyPings: True
+02/25/2026 00:31:01  |  	ShowTutorials: True
+02/25/2026 00:31:01  |  	AutoCollectNuggets: True
+02/25/2026 00:31:01  |  	DefaultPaintScheme: 
+02/25/2026 00:31:01  |  	PaintSchemes: System.Collections.Generic.List`1[Cosmoteer.Ships.Paint.PaintScheme]
+02/25/2026 00:31:01  |  	DefaultBuildTool: Grab
+02/25/2026 00:31:01  |  	DefaultDecalTool: Grab
+02/25/2026 00:31:01  |  	CodexPageStates: System.Collections.Generic.Dictionary`2[System.String,Cosmoteer.Codex.CodexPageState]
+02/25/2026 00:31:01  |  	DontDimDialogBackgrounds: False
+02/25/2026 00:31:01  |  	DontFlickerBlueprints: False
+02/25/2026 00:31:01  |  	DontFlashRedprints: False
+02/25/2026 00:31:01  |  	PlayerColor: 
+02/25/2026 00:31:01  |  	EnemyColor: 
+02/25/2026 00:31:01  |  	AllyColor: 
+02/25/2026 00:31:01  |  	NeutralColor: 
+02/25/2026 00:31:01  |  	RotateMinimap: True
+02/25/2026 00:31:01  |  	MiniviewInCombatMode: ShowPlayer
+02/25/2026 00:31:01  |  	MiniviewNotInCombatMode: ShowPlayer
+02/25/2026 00:31:01  |  	MiniviewLockRotation: True
+02/25/2026 00:31:01  |  	MiniviewSize: 250
+02/25/2026 00:31:01  |  	ShowInteriors: True
+02/25/2026 00:31:01  |  	ShowAllCommands: True
+02/25/2026 00:31:01  |  	AlwaysShowCommandWidgets: True
+02/25/2026 00:31:01  |  	ShowSelectedPartStatusBars: True
+02/25/2026 00:31:01  |  	VelocityIndicatorDisplayMode: DirectControl
+02/25/2026 00:31:01  |  	ShowSpaceCrewLines: True
+02/25/2026 00:31:01  |  	ShowResourcePickupLines: True
+02/25/2026 00:31:01  |  	PauseOnOpenDialogueWithEnemy: True
+02/25/2026 00:31:01  |  	PauseWhenHailedByEnemy: True
+02/25/2026 00:31:01  |  	PreferWorldRelativeAttackAngle: True
+02/25/2026 00:31:01  |  	PreferWorldRelativeFollowAngle: True
+02/25/2026 00:31:01  |  	DirectControlEnableWeapons: True
+02/25/2026 00:31:01  |  	DirectControlAimAssist: True
+02/25/2026 00:31:01  |  	DirectControlAutoBrake: True
+02/25/2026 00:31:01  |  	DirectControlAutoFaceCursor: False
+02/25/2026 00:31:01  |  	DirectControlViewFollowsCursor: False
+02/25/2026 00:31:01  |  	DirectControlAutoRotateView: False
+02/25/2026 00:31:01  |  	DirectControlLockCameraToShip: False
+02/25/2026 00:31:01  |  	DirectControlAutoZoomView: False
+02/25/2026 00:31:01  |  	DirectControlShowWeaponCoverage: False
+02/25/2026 00:31:01  |  	ShipLibraryLargeIcons: False
+02/25/2026 00:31:01  |  	BreakFormationToAttack: True
+02/25/2026 00:31:01  |  	DisplayAllShips: False
+02/25/2026 00:31:01  |  	ShowAdvancedCommands: True
+02/25/2026 00:31:01  |  	EnabledMods: System.Collections.Generic.HashSet`1[Halfling.IO.AbsolutePath]
+02/25/2026 00:31:01  |  	AutoDisableMods: False
+02/25/2026 00:31:01  |  	DeleteFileOnStartup: 
+02/25/2026 00:31:01  |  	DefaultCreativeModeMapSize: 1
+02/25/2026 00:31:01  |  	DefaultCreativeModeSimGenFlags: None
+02/25/2026 00:31:01  |  	DefaultCareerModeCombatDifficulty: 2
+02/25/2026 00:31:01  |  	DefaultCareerModeEconDifficulty: 2
+02/25/2026 00:31:01  |  	DefaultCareerModeMapSize: 0
+02/25/2026 00:31:01  |  	DefaultCareerModeCrewScarcity: 1
+02/25/2026 00:31:01  |  	DefaultCareerModeDisableCrewConstruction: False
+02/25/2026 00:31:01  |  	DefaultCareerModeDisableExploration: False
+02/25/2026 00:31:01  |  	DefaultCareerModeDisableSalvaging: False
+02/25/2026 00:31:01  |  	DefaultCareerModeDisableNebulas: False
+02/25/2026 00:31:01  |  	DefaultCareerModeStarterShip: 2
+02/25/2026 00:31:01  |  	MPBlipColorMode: FriendAndFoe
+02/25/2026 00:31:01  |  	MPShowDamagePoints: True
+02/25/2026 00:31:01  |  	EnableDesyncDebugging: False
+02/25/2026 00:31:01  |  	MaxSendRate: 1000
+02/25/2026 00:31:01  |  	CustomRulesets: System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[Cosmoteer.CustomRuleset]]
+02/25/2026 00:31:01  |  	PreferLAN: False
+02/25/2026 00:31:01  |  	PreferredLobbyType: CoOp
+02/25/2026 00:31:01  |  	ShowNewsOnStartup: False
+02/25/2026 00:31:01  |  	ShowTipsOnStartup: True
+02/25/2026 00:31:01  |  	ReadNewsArticles: System.Collections.Generic.HashSet`1[System.String]
+02/25/2026 00:31:01  |  	ShowNewsAlerts: False
+02/25/2026 00:31:01  |  	HiddenNewsAlerts: System.Collections.Generic.HashSet`1[System.String]
+02/25/2026 00:31:01  |  	MainMenuBackgroundIndex: 1
+02/25/2026 00:31:01  |  	CycleMainMenuBackground: True
+02/25/2026 00:31:01  |  	DefaultAuthorName: 
+02/25/2026 00:31:01  |  	EnableGifRecorder: False
+02/25/2026 00:31:01  |  	GifRecorderSeconds: 10
+02/25/2026 00:31:01  |  	GifRecorderFramerate: 20
+02/25/2026 00:31:01  |  	GifRecorderResolution: 480
+02/25/2026 00:31:01  |  	ShowNearbyMissionsCount: 1
+02/25/2026 00:31:01  |  	DevModeSPRecording: False
+02/25/2026 00:31:01  |  	DevModeSPRecordingAutoLoad: False
+02/25/2026 00:31:01  |  	DevModeUseStaticCareerSeed: False
+02/25/2026 00:31:01  |  	DevModeStaticCareerSeed: 0
+02/25/2026 00:31:01  |  	KeepLogFiles: 10
+02/25/2026 00:31:01  |  	KeepRecFiles: 10
+02/25/2026 00:31:01  |  	RestoreZoomOnToolboxExit: True
+02/25/2026 00:31:01  |  	ZoomOutOnFtl: True
+02/25/2026 00:31:01  |  	LoadBlueprintPaint: True
+02/25/2026 00:31:01  |  	LoadBlueprintRoles: True
+02/25/2026 00:31:01  |  	LoadBlueprintReplaceInsteadOfAdd: True
+02/25/2026 00:31:01  |  	LoadBlueprintCrew: True
+02/25/2026 00:31:01  |  	LoadBlueprintResources: True
+02/25/2026 00:31:01  |  	LoadBlueprintsFlightInfo: True
+02/25/2026 00:31:01  |  	LoadBlueprintTextInfo: True
+02/25/2026 00:31:01  |  Multicore helper thread count: 7
+02/25/2026 00:31:01  |  Starting main game loop...
+02/25/2026 00:31:01  |  Enabled mods:
+02/25/2026 00:31:01  |  	[Built-in] - cosmoteer.example_mod (1.0.0)
+02/25/2026 00:31:01  |  	[Built-in] - cosmoteer.example_translation (1.0.0)
+02/25/2026 00:31:01  |  Loaded language 'ru'.
+02/25/2026 00:31:13  |  Loaded game data in 11.8 seconds.
+02/25/2026 00:31:15  |  System.Net.Http.HttpRequestException: No such host is known. (cosmoteer.net:443)
+02/25/2026 00:31:15  |   ---> System.Net.Sockets.SocketException (11001): No such host is known.
+02/25/2026 00:31:15  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+02/25/2026 00:31:15  |     at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     --- End of inner exception stack trace ---
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+02/25/2026 00:31:15  |     at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+02/25/2026 00:31:15  |     at Halfling.Util.DownloadFileAsync(Uri uri, CancellationToken cancellationToken) in C:\Users\walt\Documents\Code\Cosmoteer\Halfling\HalflingCore\Source\Util.cs:line 207
+02/25/2026 00:31:15  |     at Cosmoteer.DynamicConfig.DownloadDynamicConfig(String configUrl) in C:\Users\walt\Documents\Code\Cosmoteer\Source\DynamicConfig.cs:line 53
+02/25/2026 00:31:15  |  System.Net.Http.HttpRequestException: No such host is known. (cosmoteer.net:443)
+02/25/2026 00:31:15  |   ---> System.Net.Sockets.SocketException (11001): No such host is known.
+02/25/2026 00:31:15  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+02/25/2026 00:31:15  |     at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     --- End of inner exception stack trace ---
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+02/25/2026 00:31:15  |     at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+02/25/2026 00:31:15  |     at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+02/25/2026 00:31:15  |     at Halfling.Util.DownloadFileAsync(Uri uri, CancellationToken cancellationToken) in C:\Users\walt\Documents\Code\Cosmoteer\Halfling\HalflingCore\Source\Util.cs:line 207
+02/25/2026 00:31:15  |     at Cosmoteer.News.NewsChecker.CheckForNews(String newsFileUrl) in C:\Users\walt\Documents\Code\Cosmoteer\Source\News\NewsChecker.cs:line 47
+02/25/2026 00:31:32  |  Getting ready to adjust the display mode...
+02/25/2026 00:31:32  |  Updated Windows form configuration for full-screen.
+02/25/2026 00:31:32  |  Game froze for longer than 10 seconds! Freezelog follows...
+02/25/2026 00:31:32  |  Memory usage at time of freeze detection: 2,823,655,424
+02/25/2026 00:31:33  |  ManagedThreadId: 1, OSThreadId: 2384, IsAlive: True, IsBackground: False
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | SharpDX.DXGI.SwapChain.ResizeTarget(SharpDX.DXGI.ModeDescription ByRef)
+02/25/2026 00:31:33  |    | Halfling.Windows.D3D11.D3D11Window.AdjustDisplayMode(Boolean)
+02/25/2026 00:31:33  |    | System.Windows.Forms.Form.WmActivate(System.Windows.Forms.Message ByRef)
+02/25/2026 00:31:33  |    | System.Windows.Forms.Form.WndProc(System.Windows.Forms.Message ByRef)
+02/25/2026 00:31:33  |    | System.Windows.Forms.NativeWindow.Callback(Windows.Win32.Foundation.HWND, Windows.Win32.MessageId, Windows.Win32.Foundation.WPARAM, Windows.Win32.Foundation.LPARAM)
+02/25/2026 00:31:33  |    | ILStubClass.IL_STUB_ReversePInvoke(Windows.Win32.Foundation.HWND, Windows.Win32.MessageId, Windows.Win32.Foundation.WPARAM, Windows.Win32.Foundation.LPARAM)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | ImeSharp.InputMethod.WndProc(IntPtr, UInt32, IntPtr, IntPtr)
+02/25/2026 00:31:33  |    | ILStubClass.IL_STUB_ReversePInvoke(Int64, UInt32, Int64, Int64)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Windows.Forms.CommonDialog.OwnerWndProc(IntPtr, Int32, IntPtr, IntPtr)
+02/25/2026 00:31:33  |    | System.Windows.Forms.CommonDialog.OwnerWndProcInternal(Windows.Win32.Foundation.HWND, Windows.Win32.MessageId, Windows.Win32.Foundation.WPARAM, Windows.Win32.Foundation.LPARAM)
+02/25/2026 00:31:33  |    | ILStubClass.IL_STUB_ReversePInvoke(Windows.Win32.Foundation.HWND, Windows.Win32.MessageId, Windows.Win32.Foundation.WPARAM, Windows.Win32.Foundation.LPARAM)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Windows.Win32.UI.Shell.IFileDialog.Show(Windows.Win32.Foundation.HWND)
+02/25/2026 00:31:33  |    | System.Windows.Forms.FileDialog.TryRunDialogVista(Windows.Win32.Foundation.HWND, Boolean ByRef)
+02/25/2026 00:31:33  |    | System.Windows.Forms.FileDialog.RunDialog(IntPtr)
+02/25/2026 00:31:33  |    | System.Windows.Forms.CommonDialog.ShowDialog(System.Windows.Forms.IWin32Window)
+02/25/2026 00:31:33  |    | Cosmoteer.Gui.ModsDialog+<OnInstallModClicked>d__22.MoveNext()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Cosmoteer.Gui.ModsDialog.OnInstallModClicked(System.Object, System.EventArgs)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Halfling.Gui.Components.Input.WidgetClickController.OnClicked(Boolean)
+02/25/2026 00:31:33  |    | Halfling.Events.WeakEventHandler+EventState`1[[System.__Canon, System.Private.CoreLib]].OnSourceEventFired(System.Object, System.__Canon)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Halfling.Gui.Components.Input.WidgetInputStateController.OnMouseStayed(Boolean ByRef)
+02/25/2026 00:31:33  |    | Halfling.Gui.Widget.OnMouseStayed()
+02/25/2026 00:31:33  |    | Halfling.Gui.Widget.Halfling.Gui.Components.Children.IChildWidget.OnMouseInParent(Boolean)
+02/25/2026 00:31:33  |    | Halfling.Gui.Components.Children.WidgetChildren`1[[System.__Canon, System.Private.CoreLib]].OnMouseStayed(Boolean ByRef)
+02/25/2026 00:31:33  |    | Halfling.Gui.Widget.OnMouseStayed()
+02/25/2026 00:31:33  |    | Halfling.Gui.Widget.Halfling.Gui.Components.Children.IChildWidget.OnMouseInParent(Boolean)
+02/25/2026 00:31:33  |    | Halfling.Gui.GuiRoot`1[[System.__Canon, System.Private.CoreLib]].Input()
+02/25/2026 00:31:33  |    | Cosmoteer.Gui.ModsDialog.Input()
+02/25/2026 00:31:33  |    | Halfling.Application.AppStateEx.Halfling.Application.IAppState.Input(System.Action)
+02/25/2026 00:31:33  |    | Halfling.Application.Director.CallInput()
+02/25/2026 00:31:33  |    | Halfling.Application.Director+<GetRunIterator>d__107.MoveNext()
+02/25/2026 00:31:33  |    | Halfling.Application.Bases.GenericApp+<ApplicationMainIterator>d__59.MoveNext()
+02/25/2026 00:31:33  |    | Halfling.Windows.D3D11.D3D11Window+<>c__DisplayClass104_0.<RunGameLoop>g___DoFrame|0()
+02/25/2026 00:31:33  |    | Halfling.Windows.D3D11.D3D11Window.RunGameLoop(System.String[], System.Collections.Generic.IEnumerable`1<Halfling.Windows.ApplicationMainIterationResult>)
+02/25/2026 00:31:33  |    | Halfling.Application.Bases.GenericApp.ApplicationMain(System.String[])
+02/25/2026 00:31:33  |    | Cosmoteer.GameApp.Main(System.String[])
+02/25/2026 00:31:33  |  ManagedThreadId: 2, OSThreadId: 13872, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 4, OSThreadId: 2892, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | System.Management.MTAHelper.WorkerThread()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 6, OSThreadId: 12724, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 16, OSThreadId: 3900, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+User32.<GetMessageW>g____PInvoke|212_0(MSG*, IntPtr, Int32, Int32)
+02/25/2026 00:31:33  |    | Microsoft.Win32.SystemEvents.WindowThreadProc()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 17, OSThreadId: 14436, IsAlive: True, IsBackground: False
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Threading.Thread.Sleep(Int32)
+02/25/2026 00:31:33  |    | Halfling.Audio.XA2.XA2AudioManager.Updater()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 18, OSThreadId: 10520, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.TimerQueue.TimerThread()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 19, OSThreadId: 4772, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.ReadFile(System.Runtime.InteropServices.SafeHandle, Byte*, Int32, Int32 ByRef, IntPtr)
+02/25/2026 00:31:33  |    | System.IO.Pipes.PipeStream.ReadCore(System.Span`1<Byte>)
+02/25/2026 00:31:33  |    | System.IO.Pipes.PipeStream.Read(Byte[], Int32, Int32)
+02/25/2026 00:31:33  |    | System.IO.StreamReader.ReadBuffer()
+02/25/2026 00:31:33  |    | System.IO.StreamReader.ReadLine()
+02/25/2026 00:31:33  |    | Cosmoteer.FreezeDetector.FreezeCheckThread()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 15, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:33  |  ManagedThreadId: 13, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:33  |  ManagedThreadId: 12, OSThreadId: 3668, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 11, OSThreadId: 3204, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+GateThread.GateThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 10, OSThreadId: 7664, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 9, OSThreadId: 6076, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 8, OSThreadId: 11500, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 7, OSThreadId: 13496, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 5, OSThreadId: 5732, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 20, OSThreadId: 9372, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 21, OSThreadId: 9936, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 22, OSThreadId: 5132, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 23, OSThreadId: 5136, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 24, OSThreadId: 5148, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 25, OSThreadId: 5900, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 26, OSThreadId: 10104, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 27, OSThreadId: 2700, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 28, OSThreadId: 14168, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 29, OSThreadId: 9028, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 30, OSThreadId: 11812, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 31, OSThreadId: 14624, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |    | Interop+Kernel32.GetQueuedCompletionStatus(IntPtr, UInt32 ByRef, UIntPtr ByRef, IntPtr ByRef, Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:33  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 32, OSThreadId: 10180, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitMultipleIgnoringSyncContext(IntPtr*, Int32, Boolean, Int32)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitAnyMultiple(System.ReadOnlySpan`1<Microsoft.Win32.SafeHandles.SafeWaitHandle>, Int32)
+02/25/2026 00:31:33  |    | System.Threading.PortableThreadPool+WaitThread.WaitThreadStart()
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 33, OSThreadId: 16024, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 34, OSThreadId: 7576, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 35, OSThreadId: 6292, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 36, OSThreadId: 16380, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 37, OSThreadId: 12912, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 38, OSThreadId: 10752, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 39, OSThreadId: 14680, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 40, OSThreadId: 11024, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 41, OSThreadId: 3984, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:33  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:33  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  ManagedThreadId: 3, OSThreadId: 10336, IsAlive: True, IsBackground: True
+02/25/2026 00:31:33  |    | 
+02/25/2026 00:31:33  |  Adjusted the display mode:
+02/25/2026 00:31:33  |  	Size: 1280x800
+02/25/2026 00:31:33  |  	Window Mode: ExclusiveFullScreen
+02/25/2026 00:31:44  |  Game froze for longer than 10 seconds! Freezelog follows...
+02/25/2026 00:31:44  |  Memory usage at time of freeze detection: 2,823,143,424
+02/25/2026 00:31:44  |  ManagedThreadId: 1, OSThreadId: 2384, IsAlive: True, IsBackground: False
+02/25/2026 00:31:44  |    | SharpDX.Win32Native.GetMessage(SharpDX.Win32.NativeMessage ByRef, IntPtr, Int32, Int32)
+02/25/2026 00:31:44  |    | SharpDX.Win32Native.GetMessage(SharpDX.Win32.NativeMessage ByRef, IntPtr, Int32, Int32)
+02/25/2026 00:31:44  |    | ILStubClass.IL_STUB_PInvoke(SharpDX.Win32.NativeMessage ByRef, IntPtr, Int32, Int32)
+02/25/2026 00:31:44  |    | SharpDX.Windows.RenderLoop.NextFrame()
+02/25/2026 00:31:44  |    | Halfling.Windows.D3D11.D3D11Window.RunGameLoop(System.String[], System.Collections.Generic.IEnumerable`1<Halfling.Windows.ApplicationMainIterationResult>)
+02/25/2026 00:31:44  |    | Halfling.Application.Bases.GenericApp.ApplicationMain(System.String[])
+02/25/2026 00:31:44  |    | Cosmoteer.GameApp.Main(System.String[])
+02/25/2026 00:31:44  |  ManagedThreadId: 2, OSThreadId: 13872, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 4, OSThreadId: 2892, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | System.Management.MTAHelper.WorkerThread()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 6, OSThreadId: 12724, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 16, OSThreadId: 3900, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | Interop+User32.<GetMessageW>g____PInvoke|212_0(MSG*, IntPtr, Int32, Int32)
+02/25/2026 00:31:44  |    | Microsoft.Win32.SystemEvents.WindowThreadProc()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 17, OSThreadId: 14436, IsAlive: True, IsBackground: False
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | System.Threading.Thread.Sleep(Int32)
+02/25/2026 00:31:44  |    | Halfling.Audio.XA2.XA2AudioManager.Updater()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 18, OSThreadId: 10520, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.TimerQueue.TimerThread()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 19, OSThreadId: 4772, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | Interop+Kernel32.ReadFile(System.Runtime.InteropServices.SafeHandle, Byte*, Int32, Int32 ByRef, IntPtr)
+02/25/2026 00:31:44  |    | System.IO.Pipes.PipeStream.ReadCore(System.Span`1<Byte>)
+02/25/2026 00:31:44  |    | System.IO.Pipes.PipeStream.Read(Byte[], Int32, Int32)
+02/25/2026 00:31:44  |    | System.IO.StreamReader.ReadBuffer()
+02/25/2026 00:31:44  |    | System.IO.StreamReader.ReadLine()
+02/25/2026 00:31:44  |    | Cosmoteer.FreezeDetector.FreezeCheckThread()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 15, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 13, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 12, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 11, OSThreadId: 3204, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.PortableThreadPool+GateThread.GateThreadStart()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 10, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 9, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 8, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 7, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 5, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 20, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 21, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 22, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 23, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 24, OSThreadId: 5148, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:44  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 25, OSThreadId: 5900, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:44  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 26, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 27, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 28, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 29, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 30, OSThreadId: 0, IsAlive: False, IsBackground: False
+02/25/2026 00:31:44  |  ManagedThreadId: 31, OSThreadId: 14624, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |    | System.Threading.LowLevelLifoSemaphore.WaitForSignal(Int32)
+02/25/2026 00:31:44  |    | System.Threading.LowLevelLifoSemaphore.Wait(Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 32, OSThreadId: 10180, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitMultipleIgnoringSyncContext(IntPtr*, Int32, Boolean, Int32)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitAnyMultiple(System.ReadOnlySpan`1<Microsoft.Win32.SafeHandles.SafeWaitHandle>, Int32)
+02/25/2026 00:31:44  |    | System.Threading.PortableThreadPool+WaitThread.WaitThreadStart()
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 33, OSThreadId: 16024, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 34, OSThreadId: 7576, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 35, OSThreadId: 6292, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 36, OSThreadId: 16380, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 37, OSThreadId: 12912, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 38, OSThreadId: 10752, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 39, OSThreadId: 14680, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 40, OSThreadId: 11024, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 41, OSThreadId: 3984, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneCore(IntPtr, Int32, Boolean)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOneNoCheck(Int32, Boolean, System.Object, WaitHandleWaitSourceMap)
+02/25/2026 00:31:44  |    | System.Threading.WaitHandle.WaitOne()
+02/25/2026 00:31:44  |    | Halfling.Performance.FastParallel.RunThread(System.Collections.Generic.List`1<ProfilerThreadInterval>, ProfilerThreadInterval ByRef)
+02/25/2026 00:31:44  |    | 
+02/25/2026 00:31:44  |  ManagedThreadId: 3, OSThreadId: 10336, IsAlive: True, IsBackground: True
+02/25/2026 00:31:44  |    | 

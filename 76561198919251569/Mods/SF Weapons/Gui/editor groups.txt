@@ -1,0 +1,45 @@
+
+Star_Forge_Ammo
+{
+	NameKey = "Star_Forge_Ammo/Star_Forge_Ammo"
+	Icon
+	{
+		Texture = "Gui/Star_Forge_Ammo.pmg"
+	}
+}
+
+Star_Forge_Energy
+{
+	NameKey = "Star_Forge_Energy/Star_Forge_Energy"
+	Icon
+	{
+		Texture = "Gui/Star_Forge_Energy.pmg"
+	}
+}
+
+Star_Forge_Missiles
+{
+	NameKey = "Star_Forge_Missiles/Star_Forge_Missiles"
+	Icon
+	{
+		Texture = "Gui/Star_Forge_Missiles.pmg"
+	}
+}
+
+Star_Forge_Support
+{
+	NameKey = "Star_Forge_Support/Star_Forge_Support"
+	Icon
+	{
+		Texture = "Gui/Star_Forge_Support.pmg"
+	}
+}
+
+Star_Forge_Factory
+{
+	NameKey = "Star_Forge_Factory/Star_Forge_Factory"
+	Icon
+	{
+		Texture = "Gui/Star_Forge_Factory.pmg"
+	}
+}

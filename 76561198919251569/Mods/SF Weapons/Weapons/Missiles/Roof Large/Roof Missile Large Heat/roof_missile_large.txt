@@ -1,0 +1,457 @@
+Part : /BASE_PART
+{
+	NameKey = "Parts/Star_Forge_Roof_Missile_Large_Heat"
+	IconNameKey = "Parts/Star_Forge_Roof_Missile_Large_HeatIcon"
+	ID = JarHead.Star_Forge_Roof_Missile_Large_Heat
+	OtherIDs = ["Star_Forge_Roof_Missile_Large_Heat"]
+	EditorGroup = "Star_Forge_Missiles"
+	DescriptionKey = "Parts/Star_Forge_Roof_Missile_Large_HeatDesc"
+	Cost = 25000
+	AIValue = 10
+	TypeCategories = [weapon, uses_heat,uses_launcher_parts, is_crewed]
+	Size = [4, 4]
+	SelectionPriority = 1
+	SelectionTypeByRotation = true
+	SelectionTypeID = "SF_Missile_Turret_Heat"
+	MaxHealth = 6000
+	InitialPenetrationResistance = 3
+	ProhibitAbove = 0
+	AllowedDoorLocations
+	[
+		[1, -1]
+		[2, -1]
+		[1, 4]
+		[2, 4]
+	]
+
+	EditorIcon
+	{
+		Texture
+		{
+			File = "icon.png"
+			SampleMode = Linear
+		}
+		Size = [64, 64]
+	}
+	Components
+	{
+
+		IsOperational
+		{
+			Type = MultiToggle
+			Toggles = [PowerToggle, PartCrew]
+			Mode = All
+		}
+		
+		PowerToggle
+		{
+			Type = UIToggle
+			ToggleID = "on_off"
+			Default = 1
+		}
+
+		FireModeToggle
+		{
+			Type = UIToggle
+			ToggleID = "fire_mode"
+			Default = 1
+			ToggledOnChoices = [0, 1, 2]
+		}
+		AutoTargetToggle
+		{
+			Type = ModeToggle
+			Mode = FireModeToggle
+			OnModes = [1, 2]
+		}
+		AutoFireToggle
+		{
+			Type = ModeToggle
+			Mode = FireModeToggle
+			OnMode = 2
+		}
+
+		CommonReloadTimerShort
+		{
+			Type = Timer
+			Duration = .5
+			AutoStart = true
+			StartTrigger = CommonReloadResetTriggerProxy
+		}
+		CommonReloadTimerMed
+		{
+			Type = Timer
+			Duration = .5
+			AutoStart = true
+			StartTrigger = CommonReloadResetTriggerProxy
+		}
+		CommonReloadTimerLong
+		{
+			Type = Timer
+			Duration = .5
+			AutoStart = true
+			StartTrigger = CommonReloadResetTriggerProxy
+		}
+		CommonReloadResetTriggerProxy
+		{
+			Type = TriggerProxy
+			ComponentID = CommonReloadResetTrigger
+		}
+
+		MissileType
+		{
+			Type = UIToggle
+			ToggleID = "Star_Forge_Roof_Missiles_Heat"
+			Default = 0
+			AlwaysAllowInBuildMode = true
+		}
+
+		HeatMissilesToggle
+		{
+			Type = ModeToggle
+			Mode = MissileType
+			OnMode = 0
+		}
+		
+		HeatMissilesComponents
+		{
+			Type = ToggledComponents
+			Toggle = HeatMissilesToggle
+			IncludeInBlueprints = true
+			Components = &<heat/missile_launcher_heat.txt>/Components
+		}
+
+		MissilesPrereqProxy
+		{
+			Type = ToggleProxy
+			ComponentID = MissilesPrereq
+		}
+
+		LoadedAmmo
+		{
+			Type = AmmoStorage
+			AmmoType = SF_Heat_Missile_Part
+			MaxAmmo = 0
+			DelayBeforeReadyToUse = .25
+			AnticipateMoreAmmoFrom = ["AmmoStorage"]
+		}
+
+		AmmoStorage
+		{
+			Type = AmmoStorage
+			AmmoType = SF_Heat_Missile_Part
+			MaxAmmo = 0
+		}
+		AmmoConsumer
+		{
+			Type = AmmoConsumer
+			AmmoType = SF_Heat_Missile_Part
+			Storage = AmmoStorage
+			DefaultPriority = &/PRIORITIES/Weapon_Supply
+			AdditionalStorageForJobPriority = [LoadedAmmo]
+			OperationalToggle = PowerToggle
+			ReceiveAmmoMediaEffects = &/COMMON_EFFECTS/AmmoDeliver
+		}
+		
+		Graphics
+		{
+			Type = Graphics
+			OperationalToggle = IsOperational,
+			Location = [2, 2]
+			Floor
+			{
+				Layer = "floors"
+				DamageLevels
+				[
+					{
+						File = "floor.png"
+						Size = [4, 4]
+					}
+					{
+						File = "floor_33.png"
+						Size = [4, 4]
+					}
+					{
+						File = "floor_66.png"
+						Size = [4, 4]
+					}
+				]
+			}
+			OperationalLighting
+			{
+				Layer = "lights_add"
+				DamageLevels
+				[
+					{
+						File = "lights.png"
+						Size = [4, 4]
+					}
+				]
+			}
+			Walls
+			{
+				Layer = "walls"
+				DamageLevels
+				[
+					{
+						File = "walls.png"
+						Size = [4, 4]
+					}
+				]
+			}
+			Roof
+			{
+				Layer = "roofs"
+				DamageLevels
+				[
+					{
+						File = "roof.png"
+						Size = [4, 4]
+					}
+					{
+						File = "roof_33.png"
+						Size = [4, 4]
+					}
+					{
+						File = "roof_66.png"
+						Size = [4, 4]
+					}
+				]
+			}
+			OperationalDoodad
+			{
+				Layer = "doodads_low"
+				DamageLevels
+				[
+					{
+						AnimationFiles
+						[
+							"doodads_on1.png"
+							"doodads_on2.png"
+							"doodads_on3.png"
+							"doodads_on4.png"
+							"doodads_on5.png"
+							"doodads_on6.png"
+							"doodads_on7.png"
+							"doodads_on8.png"
+						]
+						Size = [4, 4]
+						Offset = [0, 0]
+						AnimationInterval = 0.1
+					}
+				]
+			}
+			NonOperationalDoodad
+			{
+				Layer = "doodads_low"
+				DamageLevels
+				[
+					{
+						File = "doodads_off.png"
+						Size = [4, 4]
+						Offset = [0, 0]
+					}
+				]
+			}
+		}
+
+		Turret
+		{
+			Type = TurretWeapon
+			OperationalToggle = IsOperational
+			Location
+			[
+				2
+				2
+			]
+			Rotation = -90d
+			FireInterval = 1
+			FiringArc = 280d
+			RotateSpeed = 60d
+			FireThresholdAngle = 280d
+			TargetChecksPerSearch = 1
+			AIFirepowerRating = 1000
+			AllowFireWithBlockedLOS = true
+			OldEmitter
+			{
+				Type = Bullet
+				Bullet = &<heat/heat_missile.txt>
+				Spread
+				[
+					-2.5d
+					2.5d
+				]
+			}
+			BlueprintArcSprite
+			{
+				Texture = &/INDICATORS/WeaponArc
+				Size
+				[
+					0
+					1.5
+				]
+				Color
+				[
+					255
+					0
+					0
+					63
+				]
+			}
+			BlueprintArcRadius = 10
+			BlueprintArcSpriteSegments = 64
+			CoverageSectorArc
+			{
+				Texture = &/INDICATORS/VerticalGradient
+				VertexColor
+				[
+					255
+					255
+					255
+					51
+				]
+				QuadCount = 64
+			}
+			Emitter = TurretEmitter
+			AutoTargets
+			[
+				{
+					TargetType = ShipParts
+					Toggle = FireModeToggle
+				}
+			]
+		}
+
+		TurretEmitter: Turret/OldEmitter
+		{
+			Type = BulletEmitter
+			Location
+			[
+				0.3
+				-.5
+			]
+			ChainedTo = Turret
+			FireTrigger = Turret
+			GetTargetFrom = Turret
+			OperationalToggle = IsOperational
+			AmmoStorage = LoadedAmmo
+			AmmoUsed = 1
+		}
+		
+		AmmoLoader
+		{
+			Type = AmmoConverter
+			OnlyWhenOperational = false
+			FromStorage = AmmoStorage
+			ToStorage = LoadedAmmo
+			FromQuantity = 0
+			ToQuantity = 0
+			DelayTrigger = TurretEmitter
+			DelayAfterTrigger = .5
+
+			}
+		
+		AmmoLoader_ConvertEffects
+		{
+			Type = TriggeredEffects
+			Trigger = AmmoLoader
+			MediaEffects = &/COMMON_EFFECTS/AmmoLoad
+		}
+
+		TurretCollider
+		{
+			Type = CircleCollider
+			ChainedTo = Turret
+			Radius = 0.72
+			Density = 1.5
+		}
+
+		BarrelSprite
+		{
+			Type = Sprite
+			ChainedTo = Turret
+			Location = [0, 0]
+			Rotation = 90d
+			Layer = "roof_doodads"
+			ResetAnimationTrigger = TurretEmitter
+			AtlasSprite
+			{
+				AnimationFiles
+				[
+					"Turret.png"
+				]
+				Size = [4, 4]
+				AnimationInterval = 0.0625
+				AnimationStartTime = MinValue
+				ClampAnimation = true
+			}
+		}
+		
+		CrewLocation1
+		{
+			Type = CrewLocation
+			Location = [0.7, 1.5] //[X, Y]
+			Rotation = 90d
+		}
+		CrewLocation2
+		{
+			Type = CrewLocation
+			Location = [0.7, 2.5]
+			Rotation = 90d
+		}
+		CrewLocation3
+		{
+			Type = CrewLocation
+			Location = [3.3, 1.5]
+			Rotation = -90d
+		}
+		CrewLocation4
+		{
+			Type = CrewLocation
+			Location = [3.3, 2.5]
+			Rotation = -90d
+		}
+		PartCrew
+		{
+			Type = PartCrew
+			Crew = 4
+			DefaultPriority = &/PRIORITIES/Weapon_Crew
+			HighPriorityPrerequisites = [MissilesPrereqProxy]
+			CrewDestinations
+			[
+				[0.7, 1.5]
+				[0.7, 2.5]
+				[3.3, 1.5]
+				[3.3, 2.5]
+			]
+			CrewLocations
+			[
+				CrewLocation1
+				CrewLocation2
+				CrewLocation3
+				CrewLocation4
+			]
+		}
+		
+		OperationEffects
+		{
+			Type = ToggleEffects
+			Location = [1, 2]
+			Toggle = IsOperational
+			ToggledOnMediaEffects = &/COMMON_EFFECTS/MachinesOn
+			ToggledOffMediaEffects = &/COMMON_EFFECTS/MachinesOff
+		}
+		
+		Blueprints
+		{
+			Type = BlueprintSprite
+			File = "blueprints.png"
+			Size = [4, 4]
+		}
+	}
+	
+	Stats
+	{
+		CrewRequired = &~/Part/Components/PartCrew/Crew
+		HeatMissileCapacity = 6
+	}
+}

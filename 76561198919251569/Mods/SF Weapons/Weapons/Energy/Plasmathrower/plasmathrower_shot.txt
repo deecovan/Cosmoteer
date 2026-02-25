@@ -1,0 +1,288 @@
+ID = Jarhead.Star_Forge_Plasmathrower_Shot
+OtherIDs = ["Star_Forge_Plasmathrower_shot"]
+Range = 100
+IdealRange = [45, 100]
+IdealRadius = [5, 50]
+Speed = 20
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = 0.01
+		Density = 0.1
+	}
+
+	Death
+	{
+		Type = DeathByLifetime
+		// Lifetime will be auto-calculated based on range and speed.
+	}
+
+	Targetable
+	{
+		Type = Targetable
+		Health = 300
+		TargetCategory = "laser"
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture ="fire.png"
+				Size = [0, 0]
+			}
+			FrameCount = 8
+			FrameSize = [128, 128]
+			FramesPerRow = 4
+			FramesPerSecond = 60
+		}
+	}
+
+	MediaEffects
+	{
+		Type = MediaEffects
+		InheritVelocityFrom = Physics
+		MediaEffects
+		[
+			&/PARTICLES_Star_Forge_Plasmathrower/FlamethrowerBig
+			&/PARTICLES_Star_Forge_Plasmathrower/FlamethrowerSmall
+		]
+	}
+
+	Hit
+	{
+		Type = PenetratingHit
+		PhysicsComponent = Physics
+		PenetratesShields = false
+		Penetration = 0
+		PenetrationSpeed = 0
+
+		HitShield
+		{
+			ReduceEffectsByPenetration = true
+			
+			HitEffects
+			[
+				: ../../HitOperational/HitEffects/0
+				{
+					Amount = 10
+				}
+			]
+
+			MediaEffects = &../HitOperational/MediaEffects
+		}
+		HitOperational
+		{
+			HitEffects
+			[
+//				{
+//					Type = PartDamage
+//					Damage = 50
+//				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = true
+					DamagesStructuralHealth = false
+					DamagesShields = false
+					DamagesBullets = false
+				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = false
+					DamagesStructuralHealth = true
+					DamagesShields = false
+					DamagesBullets = false
+				}{
+					Type = Impulse;
+					Impulse = 0.4;
+				}
+				{
+					Type = AreaFires
+					FireChancePerTile = .005
+					Radius = 2
+					Falloff = 0
+					Delay = .05
+					AllowFriendlyFires = false
+				}
+			]
+
+			MediaEffects
+			[
+				&/PARTICLES_Star_Forge_Plasmathrower/FlamethrowerBig
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "thruster_burst.wav"
+					Volume = .4
+					SpeedVariation = .4
+				}
+
+				: /BASE_SHAKE
+				{
+					ShakeAmount = .02
+					Duration = .1
+				}
+			]
+		}
+		HitStructural
+		{
+			HitEffects
+			[
+//				{
+//					Type = PartDamage
+//					Damage = 50
+//				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = true
+					DamagesStructuralHealth = false
+					DamagesShields = false
+					DamagesBullets = false
+				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = false
+					DamagesStructuralHealth = true
+					DamagesShields = false
+					DamagesBullets = false
+				}{
+					Type = Impulse;
+					Impulse = 0.4;
+				}
+				{
+					Type = AreaFires
+					FireChancePerTile = .005
+					Radius = 2
+					Falloff = 0
+					Delay = .05
+					AllowFriendlyFires = false
+				}
+			]
+
+			MediaEffects
+			[
+				&/PARTICLES_Star_Forge_Plasmathrower/FlamethrowerBig
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "thruster_burst.wav"
+					Volume = .3
+					SpeedVariation = .4
+				}
+			]
+		}
+		PenetratingOperational
+		{
+			HitEffects
+			[
+//				{
+//					Type = PartDamage
+//					Damage = 10
+//				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = true
+					DamagesStructuralHealth = false
+					DamagesShields = false
+					DamagesBullets = false
+				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = false
+					DamagesStructuralHealth = true
+					DamagesShields = false
+					DamagesBullets = false
+				}{
+					Type = Impulse;
+					Impulse = 0.4;
+				}
+				{
+					Type = AreaFires
+					FireChancePerTile = .005
+					Radius = 2
+					Falloff = 0
+					Delay = .05
+					AllowFriendlyFires = false
+				}
+			]
+
+			MediaEffects
+			[
+				&/PARTICLES_Star_Forge_Plasmathrower/FlamethrowerBig
+			]
+		}
+		PenetratingStructural
+		{
+			HitEffects
+			[
+//				{
+//					Type = PartDamage
+//					Damage = 20
+//				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = true
+					DamagesStructuralHealth = false
+					DamagesShields = false
+					DamagesBullets = false
+				}
+				{
+					Type = AreaDamage
+					Damage = 3
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = false
+					DamagesStructuralHealth = true
+					DamagesShields = false
+					DamagesBullets = false
+				}{
+					Type = Impulse;
+					Impulse = 0.4;
+				}
+				{
+					Type = AreaFires
+					FireChancePerTile = .005
+					Radius = 2
+					Falloff = 0
+					Delay = .05
+					AllowFriendlyFires = false
+				}
+			]
+
+			MediaEffects
+			[
+				&/PARTICLES_Star_Forge_Plasmathrower/FlamethrowerBig
+			]
+		}
+		FinishedPenetratingShield = &PenetratingShield
+		FinishedPenetratingOperational = &PenetratingOperational
+		FinishedPenetratingStructural = &PenetratingStructural
+	}
+}

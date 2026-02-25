@@ -1,0 +1,220 @@
+ID = JarHead.TTEflak_bullet
+OtherIDs = ["TTEflak_bullet"]
+Range = 150
+IdealRange = [60, 150]
+IdealRadius = [5, 50]
+Speed = 100
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = 0.01
+		Density = 0.1
+	}
+
+	Death
+    {
+        Type = DeathByLifetime
+        PhysicsComponent = Physics
+        Lifetime = 1.5
+        
+        OnDeath
+        {
+			HitEffects
+            [
+                {
+					Type = SpawnBullets
+					Bullet = &<flak_cannon_bullet_split.txt>
+					Count
+					[
+						20
+					]
+					Distance
+					[
+						0
+						2
+					]
+					Arc
+					[360d, -360d]
+					Spread
+					[-1d, 1d]
+					InheritVelocity = true
+					ScaleCount = true
+				}
+            ]
+        }
+    }
+	
+	Targetable
+	{
+		Type = Targetable
+		Health = 2000
+		TargetCategory = "bullet"
+
+		OnDeath
+		{
+			MediaEffects = &~/Components/Hit/HitOperational/MediaEffects
+		}
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture
+				{
+					File = "flak_cannon_bullet.png"
+					SampleMode = Linear
+					MipLevels = max
+				}
+				Size = [1.5, 1.5]
+			}
+			FrameCount = 16
+			FrameSize = [128, 128]
+			FramesPerRow = 4
+			FramesPerSecond = 60
+		}
+	}
+	
+	MediaEffects
+	{
+		Type = MediaEffects
+		InheritShooterVelocityFrom = Physics
+		MediaEffects
+		[
+			&<./Data/shots/bullet_med/particles/bullet_trail_med.txt>
+		]
+	}
+
+	Hit
+	{
+		Type = PenetratingHit
+		PhysicsComponent = Physics
+		Penetration = 1
+		PenetrationSpeed = 20
+
+		HitShield
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 0
+					DamagesShips = false
+					DamagesShields = true
+					DamagesBullets = false
+				}
+				{
+					Type = Impulse;
+					Impulse = 80;
+				}
+			]
+
+			MediaEffects = &../HitOperational/MediaEffects
+		}
+		HitOperational
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 50
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse;
+					Impulse = 80;
+				}
+			]
+
+			MediaEffects
+			[
+				&<./Data/shots/bullet_med/particles/bullet_hit_med.txt>
+				&<./Data/shots/bullet_med/particles/bullet_smoke_med.txt>
+				&<./Data/shots/bullet_med/particles/bullet_flash_med.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "med_bullet_hit.wav"
+					Volume = .75
+					SpeedVariation = .4
+				}
+
+				: /BASE_SHAKE
+				{
+					ShakeAmount = .1
+					Duration = .75
+				}
+			]
+		}
+		HitStructural
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 50
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse;
+					Impulse = 40;
+				}
+			]
+
+			MediaEffects
+			[
+				&<./Data/shots/bullet_med/particles/bullet_hit_struct_med.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "med_bullet_hit_structure.wav"
+					Volume = .5
+					SpeedVariation = .4
+				}
+			]
+		}
+		PenetratingOperational
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 50
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Fire
+					FireChance = .2
+					TreatShieldAsPart = true
+				}
+			]
+
+			MediaEffects
+			[
+				&<./Data/shots/bullet_med/particles/bullet_hit_med.txt>
+				&<./Data/shots/bullet_med/particles/bullet_flash_med.txt>
+			]
+		}
+		PenetratingStructural
+		{
+			// No effect.
+		}
+		FinishedPenetratingOperational = &PenetratingOperational
+		FinishedPenetratingStructural = &PenetratingStructural
+	}
+}

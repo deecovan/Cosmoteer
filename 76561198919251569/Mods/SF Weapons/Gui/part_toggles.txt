@@ -1,0 +1,196 @@
+PartToggles
+[
+	// Star Forge Missiles Fighter
+	{
+		ToggleID = "Star_Forge_Missiles"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_High_Explosive.
+			{
+				ChoiceID = "Star_Forge_Fighter_HE_Missile"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Fighter_HE_Missile"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Fighter_HE_Missile.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+			
+			// Star_Forge_Micro_Missile
+			{
+				ChoiceID = "Star_Forge_Micro_Missile_Icon"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Micro_Missile_Icon"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Micro_Missile_Icon.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+			
+			// Star_Forge_Heat_Missile
+			{
+				ChoiceID = "Star_Forge_Heat_Missile_Icon"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Heat_Missile_Icon"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Heat_Missile_Icon.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+	
+	//GO this part is gonna be fucked
+	// Star Forge Roof Missiles HE
+	{
+		ToggleID = "Star_Forge_Roof_Missiles_HE"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_Roof_HE_Missile.
+			{
+				ChoiceID = "Star_Forge_Roof_HE_Missile"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Roof_HE_Missile"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Roof_HE_Missile.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+	// Star Forge Roof Missiles EMP
+	{
+		ToggleID = "Star_Forge_Roof_Missiles_EMP"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_Roof_EMP_Missile.
+			{
+				ChoiceID = "Star_Forge_Roof_EMP_Missile"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Roof_EMP_Missile"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Roof_EMP_Missile.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+	// Star Forge Roof Missiles Nuke
+	{
+		ToggleID = "Star_Forge_Roof_Missiles_Nuke"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_Roof_Missiles_Nuke.
+			{
+				ChoiceID = "Star_Forge_Roof_Missiles_Nuke"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Roof_Missiles_Nuke"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Roof_Missiles_Nuke.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+	// Star Forge Roof Missiles Mine
+	{
+		ToggleID = "Star_Forge_Roof_Missiles_Mine"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_Roof_Missiles_Mine.
+			{
+				ChoiceID = "Star_Forge_Roof_Missiles_Mine"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Roof_Missiles_Mine"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Roof_Missiles_Mine.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+	// Star Forge Roof Missiles Mirco
+	{
+		ToggleID = "Star_Forge_Roof_Missiles_Mirco"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_Roof_Missiles_Mirco.
+			{
+				ChoiceID = "Star_Forge_Roof_Missiles_Mirco"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Roof_Missiles_Mirco"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Micro_Missile_Icon.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+	// Star Forge Roof Missiles Heat
+	{
+		ToggleID = "Star_Forge_Roof_Missiles_Heat"
+		Style = Popout
+		ShowInEditor = true
+		Choices
+		[
+			// Star_Forge_Heat_Missile
+			{
+				ChoiceID = "Star_Forge_Roof_Missiles_Heat"
+				ButtonToolTipKey = "PartToggles/Star_Forge_Roof_Missiles_Heat"
+				ButtonSprite
+				{
+					Texture
+					{
+						File = "Star_Forge_Heat_Missile_Icon.png"
+						MipLevels = 2
+						SampleMode = Linear
+					}
+				}
+			}
+		]
+	}
+]

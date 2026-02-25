@@ -1,0 +1,193 @@
+ID = "JarHead.Star Forge Weapons"
+Name = "Star Forge Weapons"
+Version = 0.0.7
+CompatibleGameVersions = ["0.15.15 0.15.16 0.15.17b"]
+Author = "Jared"
+Description = "This is the Weapons pack for the large mod of Star Forge"
+
+StringsFolder = "Strings"
+
+
+	//************** ADDING SHIP PARTS ******************
+Actions
+[
+	{
+		Action = AddMany
+		AddTo = "<ships/terran/terran.txt>/Terran/Parts"
+		ManyToAdd
+		[
+			//Energy
+			&<Weapons/Energy/Fighter Lazer/Fighter Lazer.txt>/Part
+			&<Weapons/Energy/Ion Turret Large/ion_turret_large.txt>/Part
+			&<Weapons/Energy/Ion Turret Small/ion_turret_small.txt>/Part
+			&<Weapons/Energy/Particle Disrupter Turret Large/disrupter_turret_large.txt>/Part
+			&<Weapons/Energy/Particle Disrupter Turret Small/disrupter_turret_small.txt>/Part
+			&<Weapons/Energy/Plasma Cannon/plasma_cannon.txt>/Part
+			&<Weapons/Energy/Plasma Lancer/Plasma_Lancer.txt>/Part
+			&<Weapons/Energy/Plasmathrower/plasmathrower.txt>/Part
+			&<Weapons/Energy/Small Lazer Gatteling Gun/small_laser_gatteling.txt>/Part
+			&<Weapons/Energy/Roof Ion Beam/Roof_Ion_Beam.txt>/Part
+			
+			//Kinetic
+			&<Weapons/Kinetic/Artillery Railgun/Artillery_Railgun.txt>/Part
+			&<Weapons/Kinetic/Broadside Cannon/Broadside Cannon.txt>/Part
+			&<Weapons/Kinetic/Flak Cannon/flak_cannon.txt>/Part
+			&<Weapons/Kinetic/Golden Cannon/My_Cannon.txt>/Part
+			&<Weapons/Kinetic/Large Hellfire Cannon/large_hellfire_cannon.txt>/Part
+			&<Weapons/Kinetic/Small Hellfire Cannon/Small Hellfire Cannon.txt>/Part
+			&<Weapons/Kinetic/Fighter Roof Cannon/Fighter_Roof_Cannon.txt>/Part
+			
+			// Missiles
+			&<Weapons/Missiles/Fighter Missile Launcher/fighter_missile_launcher.txt>/Part
+			&<Weapons/Missiles/Vanilla Surface Launcher/surface_missile_launcher.txt>/Part
+			
+			//Roof missile
+			//HE
+			&<Weapons/Missiles/Roof Small/Roof Missels/roof_missile.txt>/Part
+			//EMP
+			&<Weapons/Missiles/Roof Small/Roof Missile EMP/roof_missile.txt>/Part
+			//NUKE
+			&<Weapons/Missiles/Roof Small/Roof Missile Nuke/roof_missile.txt>/Part
+			//MINE
+			&<Weapons/Missiles/Roof Small/Roof Missile Mine/roof_missile.txt>/Part
+			//Micro
+			&<Weapons/Missiles/Roof Small/Roof Missile Micro/roof_missile.txt>/Part
+			//Heat
+			&<Weapons/Missiles/Roof Small/Roof Missile Heat/roof_missile.txt>/Part
+			
+			//Roof missile Large
+			//HE
+			&<Weapons/Missiles/Roof Large/Roof Missile Large/roof_missile_large.txt>/Part
+			//EMP
+			&<Weapons/Missiles/Roof Large/Roof Missile Large EMP/roof_missile_large.txt>/Part
+			//NUKE
+			&<Weapons/Missiles/Roof Large/Roof Missile Large Nuke/roof_missile_large.txt>/Part
+			//MINE
+			&<Weapons/Missiles/Roof Large/Roof Missile Large Mine/roof_missile_large.txt>/Part
+			//Micro
+			&<Weapons/Missiles/Roof Large/Roof Missile Large Micro/roof_missile_large.txt>/Part
+			//Heat
+			&<Weapons/Missiles/Roof Large/Roof Missile Large Heat/roof_missile_large.txt>/Part
+			
+			//Support
+			&<Weapons/Support/Repair Beam/repair_beam.txt>/Part
+			&<Weapons/Support/Coil Gun/Coil_Gun.txt>/Part
+			
+			//Factory
+			&<Factory/Micro_Missile_Factory/micro_missile_factory.txt>/Part
+			&<Factory/Heat_Missile_Factory/heat_missile_factory.txt>/Part
+			&<Factory/HE_Missile_Factory/he_missile_factory.txt>/Part
+			
+			//Factory Storage
+			&<Factory/Micro_Missile_Storage/Micro_Missile_Storage.txt>/Part	
+		]
+	}
+	
+	//************ Energy **************
+	{
+		Action = Add
+		AddTo = "<gui/game/designer/editor_groups.txt>"
+		Name = "Star_Forge_Energy"
+		ToAdd
+		{
+			NameKey = "Star_Forge_Energy/Star_Forge_EnergyIcon"
+			Icon
+			{
+				Texture = "Gui/Star_Forge_Energy.png"
+			}
+		}
+	}
+	
+	//************ Kinetic **************
+	{
+		Action = Add
+		AddTo = "<gui/game/designer/editor_groups.txt>"
+		Name = "Star_Forge_Ammo"
+		ToAdd
+		{
+			NameKey = "Star_Forge_Ammo/Star_Forge_AmmoIcon"
+			Icon
+			{
+				Texture = "Gui/Star_Forge_Ammo.png"
+			}
+		}
+	}
+	
+	//************ Missiles **************
+	{
+		Action = Add
+		AddTo = "<gui/game/designer/editor_groups.txt>"
+		Name = "Star_Forge_Missiles"
+		ToAdd
+		{
+			NameKey = "Star_Forge_Missiles/Star_Forge_MissilesIcon"
+			Icon
+			{
+				Texture = "Gui/Star_Forge_Missiles.png"
+			}
+		}
+
+	}
+	
+	//************ Support **************
+	{
+		Action = Add
+		AddTo = "<gui/game/designer/editor_groups.txt>"
+		Name = "Star_Forge_Support"
+		ToAdd
+		{
+			NameKey = "Star_Forge_Support/Star_Forge_SupportIcon"
+			Icon
+			{
+				Texture = "Gui/Star_Forge_Support.png"
+			}
+		}
+
+	}
+	
+	//************ Factory **************
+	{
+		Action = Add
+		AddTo = "<gui/game/designer/editor_groups.txt>"
+		Name = "Star_Forge_Factory"
+		ToAdd
+		{
+			NameKey = "Star_Forge_Factory/Star_Forge_FactoryIcon"
+			Icon
+			{
+
+				Texture = "Gui/Star_Forge_Factory.png"
+
+			}
+		}
+	}
+
+	//******************** Ammo ******************
+	{
+		Action = AddMany
+  		AddTo = "<Ammo/ammo.txt>/Ammo"
+		ManyToAdd = &<Ammo/ammo.txt>/Ammo
+	}
+
+	// ************ Effects ***************
+	{
+		Action = Add
+		AddTo = <rules.txt>
+		Name = PARTICLES_Star_Forge_Plasmathrower
+		ToAdd
+		{
+			FlamethrowerBig = &<Effects/Particles/Flamethrower/flamethrower_big.txt>
+			FlamethrowerSmall = &<Effects/Particles/Flamethrower/flamethrower_small.txt>
+			FlamethrowerBigHT = &<Effects/Particles/Flamethrower/flamethrower_big_ht.txt>
+			FlamethrowerSmallHT = &<Effects/Particles/Flamethrower/flamethrower_small_ht.txt>
+		}
+	}
+
+	//******************** Toggles ******************
+	{
+		Action = AddMany
+		AddTo = "<gui/game/parts/part_toggles.txt>/PartToggles"
+		ManyToAdd = &<Gui/part_toggles.txt>/PartToggles
+	}
+	
+]

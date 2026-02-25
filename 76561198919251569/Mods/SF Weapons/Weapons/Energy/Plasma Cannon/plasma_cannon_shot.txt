@@ -1,0 +1,147 @@
+ID = JarHead.plasma_cannon_shot
+OtherIDs = ["plasma_cannon_shot"]
+Range = 300
+IdealRange = [60, 250]
+IdealRadius = [5, 50]
+Speed = 60
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = 0.01
+		Density = 0.1
+	}
+
+	Death
+	{
+		Type = DeathByLifetime
+		// Lifetime will be auto-calculated based on range and speed.
+	}
+
+	Targetable
+	{
+		Type = Targetable
+		Health = 300
+		TargetCategory = "laser"
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		RenderBucket = Upper
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture
+				{
+					File = "plasma.png"
+					SampleMode = Linear
+					MipLevels = max
+				}
+				Size = [1.75, 1.75]
+			}
+			FrameCount = 8
+			FrameSize = [128, 128]
+			FramesPerRow = 2
+			FramesPerSecond = 60
+		}
+	}
+
+	MediaEffects
+	{
+		Type = MediaEffects
+		InheritVelocityFrom = Physics
+		MediaEffects
+		[
+			&<particles/plasma_bolt_small_glow.txt>
+		]
+	}
+	
+	Hit
+	{
+		Type = PenetratingHit
+		FactorEffectsWith = Targetable
+		SourceShipCollisionDelay = 10.01
+
+		HitShield = &HitOperational
+		HitOperational
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 200
+				}
+				{
+					Type = AmmoDrain
+					AmmoType = battery
+					Amount = 1000
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse;
+					Impulse = 4;
+				}
+			]
+			
+			MediaEffects
+			[
+				&<particles/plasma_bolt_small_hit.txt>
+				&<particles/plasma_bolt_small_sparks.txt>
+				&<particles/plasma_bolt_small_flash.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "plasma_hit.wav"
+					Volume = .4
+					SpeedVariation = .4
+				}
+			]
+		}
+		HitStructural
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 100
+				}
+				{
+					Type = Impulse;
+					Impulse = 1.5;
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/plasma_bolt_small_hit_struct.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "plasma_hit.wav"
+					Volume = .3
+					SpeedVariation = .4
+				}
+			]
+		}
+		PenetratingOperational
+		{
+			// No effect.
+		}
+		PenetratingStructural
+		{
+			// No effect.
+		}
+		FinishedPenetratingOperational
+		{
+			// No effect.
+		}
+		FinishedPenetratingStructural
+		{
+			// No effect.
+		}
+	}
+}

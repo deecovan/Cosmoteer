@@ -1,0 +1,62 @@
+ID = "JarHead.TTEflak_cannon_bullet_final"
+OtherIDs = ["TTEflak_cannon_bullet_final"]
+Range = 10
+IdealRange = 9
+Speed = 10
+ClipRangeToTarget = true
+RandomOffsetRadius = [1, 1] // Increases as range increases.
+
+HitNothing
+{
+	HitEffects
+	[
+		{
+			Type = ExplosiveDamage
+			TotalDamage = 1800
+			Radius = 4
+            Slices = 1
+			Filter
+			{
+				Ships = false
+				Shields = false
+				Bullets = true
+				OnlyBulletCategories = [missile, laser, bullet, mine]
+			}
+		}
+		{
+			Type = ExplosiveDamage
+			TotalDamage = 1800
+			Radius = 4
+			Filter
+			{
+				Ships = true
+				Shields = true
+				Bullets = false
+			}
+		}
+	]
+
+	MediaEffects
+	[
+		&<particles/flak_large_shrapnel.txt>
+		&<particles/flak_large_flash.txt>
+		&<particles/flak_large_smoke.txt>
+
+		: /BASE_SOUNDS/AudioExterior
+		{
+			Sound = "flak_large_hit.wav"
+			Volume = .5
+			SpeedVariation = .2
+		}
+
+		: /BASE_SHAKE
+		{
+			ShakeAmount = .05
+			Duration = .25
+		}
+	]
+}
+
+HitShield = &HitNothing
+HitOperational = &HitNothing
+HitStructural = &HitNothing

@@ -1,0 +1,4 @@
+FlamethrowerBig = &<Particles/Flamethrower/flamethrower_big.txt>
+FlamethrowerSmall = &<Particles/Flamethrower/flamethrower_small.txt>
+FlamethrowerBigHT = &<Particles/Flamethrower/flamethrower_big_ht.txt>
+FlamethrowerSmallHT = &<Particles/Flamethrower/flamethrower_small_ht.txt>

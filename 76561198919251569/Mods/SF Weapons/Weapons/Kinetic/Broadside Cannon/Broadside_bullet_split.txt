@@ -1,0 +1,193 @@
+ID = JarHead.Broadside_bullet_split
+OtherIDs = ["Broadside_bullet_split"]
+Range = 400
+IdealRange = [10, 400]
+IdealRadius = [5, 50]
+Speed = 100
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = 0.0166
+		Density = 0.1
+	}
+
+	Death
+	{
+		Type = DeathByLifetime
+		// Lifetime will be auto-calculated based on range and speed.
+	}
+	
+	Targetable
+	{
+		Type = Targetable
+		Health = 2000
+		TargetCategory = "bullet"
+
+		OnDeath
+		{
+			MediaEffects = &~/Components/Hit/HitOperational/MediaEffects
+		}
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture
+				{
+					File = "Broadside Shells.png"
+					SampleMode = Linear
+					MipLevels = max
+				}
+				Size = [3, 3]
+			}
+			FrameCount = 16
+			FrameSize = [128, 128]
+			FramesPerRow = 4
+			FramesPerSecond = 60
+		}
+	}
+
+	MediaEffects
+	{
+		Type = MediaEffects
+		InheritShooterVelocityFrom = Physics
+		MediaEffects
+		[
+			&<./Data/shots/bullet_large/particles/bullet_trail_large.txt>
+		]
+	}
+
+	Hit
+	{
+		Type = PenetratingHit
+		PhysicsComponent = Physics
+		Penetration = 4
+		PenetrationSpeed = 20
+
+		HitShield
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = false
+					DamagesShields = true
+					DamagesBullets = false
+				}
+				{
+					Type = Impulse;
+					Impulse = 80;
+				}
+			]
+
+			MediaEffects = &../HitOperational/MediaEffects
+		}
+		HitOperational
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse;
+					Impulse = 80;
+				}
+			]
+
+			MediaEffects
+			[
+				&<./Data/shots/bullet_large/particles/bullet_hit_large.txt>
+				&<./Data/shots/bullet_large/particles/bullet_smoke_large.txt>
+				&<./Data/shots/bullet_large/particles/bullet_flash_large.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "big_bullet_hit.wav"
+					Volume = .75
+					SpeedVariation = .4
+				}
+
+				: /BASE_SHAKE
+				{
+					ShakeAmount = .1
+					Duration = .75
+				}
+			]
+		}
+		HitStructural
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse;
+					Impulse = 40;
+				}
+			]
+
+			MediaEffects
+			[
+				&<./Data/shots/bullet_large/particles/bullet_hit_struct_large.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "big_bullet_hit_structure.wav"
+					Volume = .5
+					SpeedVariation = .4
+				}
+			]
+		}
+		PenetratingOperational
+		{
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Fire
+					FireChance = .2
+					TreatShieldAsPart = true
+				}
+			]
+
+			MediaEffects
+			[
+				&<./Data/shots/bullet_large/particles/bullet_hit_large.txt>
+				&<./Data/shots/bullet_large/particles/bullet_flash_large.txt>
+			]
+		}
+		PenetratingStructural
+		{
+			// No effect.
+		}
+		FinishedPenetratingOperational = &PenetratingOperational
+		FinishedPenetratingStructural = &PenetratingStructural
+	}
+}

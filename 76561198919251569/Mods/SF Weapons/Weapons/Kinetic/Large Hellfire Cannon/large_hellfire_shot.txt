@@ -1,0 +1,250 @@
+ID = "Jarhead.large_hellfire_shot"
+OtherIDs = ["large_hellfire_shot"]
+Range = 150
+IdealRange = [60, 150]
+IdealRadius = [5, 50]
+Speed = 100
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = 0.01
+		Density = 0.1
+	}
+
+	Death
+    {
+        Type = DeathByLifetime
+        PhysicsComponent = Physics
+        Lifetime = 2.5
+        
+        OnDeath
+        {
+			HitEffects
+            [
+                {
+					Type = SpawnBullets
+					Bullet = &<large_hellfire_cannon_shot_split.txt>
+					Count
+					[
+						15
+					]
+					Distance
+					[
+						0
+						2
+					]
+					Arc
+					[
+						-10d
+						10d
+					]
+					Spread
+					[
+						-1d
+						1d
+					]
+					InheritVelocity = true
+					ScaleCount = true
+				}
+            ]
+        }
+    }
+
+	Targetable
+	{
+		Type = Targetable
+		Health = 2000
+		TargetCategory = "bullet"
+
+		OnDeath
+		{
+			MediaEffects = &~/Components/Hit/HitOperational/MediaEffects
+		}
+	}
+
+	Hit
+	{
+		Type = PenetratingHit
+		PhysicsComponent = Physics
+		Penetration = 4
+		PenetrationSpeed = 20
+
+		HitShield
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = false
+					DamagesShields = true
+					DamagesBullets = false
+				}
+				{
+					Type = Impulse
+					Impulse = 60
+				}
+			]
+
+			MediaEffects = &../HitOperational/MediaEffects
+		}
+		HitOperational
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse
+					Impulse = 60
+				}
+				{
+					Type = Fire
+					FireChance = 0.3
+					TreatShieldAsPart = true
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/bullet_hit_large.txt>
+				&<particles/bullet_smoke_large.txt>
+				&<particles/bullet_flash_large.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "hit.wav"
+					Volume = .75
+					SpeedVariation = .4
+				}
+
+				: /BASE_SHAKE
+				{
+					ShakeAmount = .1
+					Duration = .75
+				}
+			]
+		}
+		HitStructural
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 500
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse;
+					Impulse = 30
+				}
+				{
+					Type = Fire
+					FireChance = 0.3
+					TreatShieldAsPart = true
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/bullet_hit_struct_large.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "hit_structure.wav"
+					Volume = .5
+					SpeedVariation = .4
+				}
+			]
+		}
+		PenetratingOperational
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 2400
+					DamagesShips = true
+					DamagesShields = false
+					DamagesBullets = false
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Fire
+					FireChance = 0.3
+					TreatShieldAsPart = true
+				}
+				{
+					Type = Impulse
+					Impulse = 60
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/bullet_hit_large.txt>
+				&<particles/bullet_flash_large.txt>
+			]
+		}
+		PenetratingStructural
+		{
+			// No effect.
+		}
+		FinishedPenetratingOperational = &PenetratingOperational
+		FinishedPenetratingStructural = &PenetratingStructural
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		ReduceScaleWith = Hit
+		ReduceScaleExponent = 0.5
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture
+				{
+					File = "large_Hellfire_Bullet.png" // Just re-use the medium cannon's bullet.
+					SampleMode = Linear
+					MipLevels = max
+				}
+				Size = [3, 3]
+			}
+			FrameCount = 16
+			FrameSize = [128, 128]
+			FramesPerRow = 4
+			FramesPerSecond = 60
+		}
+	}
+
+	MediaEffects
+	{
+		Type = MediaEffects
+		InheritShooterVelocityFrom = Physics
+		MediaEffects
+		[
+			&<particles/bullet_trail_large.txt>
+		]
+	}
+}

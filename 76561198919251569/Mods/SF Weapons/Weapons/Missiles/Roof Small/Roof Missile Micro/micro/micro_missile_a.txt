@@ -1,0 +1,214 @@
+ID = "JarHead.Star_Forge_Roof_Micor_Missile_A"
+OtherIDs = ["Star_Forge_Roof_Micor_Missile_A"]
+Range = 500
+IdealRange = 500
+Speed = 15
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = .6
+		Density = 0.1
+	}
+
+	Homing
+	{
+		Type = TargetHoming
+		TurnVelocity = 240d
+		Delay = .1
+		AvoidanceRaycastDistance = 100
+	}
+
+	Retarget
+	{
+		Type = SameShipRetarget
+	}
+
+	Acceleration
+	{
+		Type = Acceleration
+		Acceleration = 0
+	}
+
+	NegativeAcceleration
+	{
+		Type = Acceleration
+		Acceleration = [-10, 0]
+		Direction = FrameOfReferenceVelocity
+	}
+
+	Death
+    {
+        Type = DeathByLifetime
+        Lifetime = 2
+        
+        OnDeath
+        {
+        HitEffects
+            [
+                {
+					Type = SpawnBullets
+					Bullet = &<micro_missile_b.txt>
+					Count = [8]
+					Distance = [0, 4]
+					Arc = [-10d, 10d]
+					Spread = [0d, 5d]
+					InheritVelocity = false
+					ScaleCount = true
+				}
+            ]
+        }
+    }
+
+	DeathByDistanceTraveled
+	{
+		Type = DeathByDistanceTraveled
+		// Distance auto-computed from range.
+		HasTarget = false
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		RenderBucket = Upper
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture
+				{
+					File = "missile_micro_a.png"
+					MipLevels = max
+				}
+				Size = [4, 2]
+			}
+			FrameCount = 8
+			FrameSize = [256, 128]
+			FramesPerRow = 2
+			FramesPerSecond = 30
+		}
+	}
+
+	MediaEffects
+	{
+		Type = MediaEffects
+		MediaEffects
+		[
+			&<particles/missile_he_thruster_glow.txt>
+			&<particles/missile_he_thruster_trail.txt>
+		]
+	}
+
+	Targetable
+	{
+		Type = Targetable
+		Health = 800
+		TargetCategory = "missile"
+
+		// No AOE damage when shot down.
+		OnDeath = &../Hit/HitFriendly
+	}
+
+	Hit
+	{
+		Type = SimpleHit
+		SourceShipCollisionDelay = 10.01
+
+		HitShield
+		{
+			HitEffects : ../HitOperational/HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 10
+					DamagesShips = false
+					DamagesShields = true
+					DamagesBullets = false
+				}
+			]
+
+			MediaEffects = &../HitOperational/MediaEffects
+		}
+		HitOperational
+		{
+			HitEffects
+			[
+				{
+					Type = AreaDamage
+					Damage = 500
+					Radius = 2
+					DamagesShips = true
+					DamagesOperationalHealth = true
+					DamagesStructuralHealth = false
+					DamagesShields = false
+					DamagesBullets = false
+				}
+				{
+					Type = Impulse;
+					Impulse = 100;
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/missile_he_hit.txt>
+				&<particles/missile_he_flash.txt>
+				&<particles/missile_he_shockwave.txt>
+				&<particles/missile_he_smoke.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "missile_he_hit.wav"
+					Volume = .75
+					SpeedVariation = .4
+				}
+
+				: /BASE_SHAKE
+				{
+					ShakeAmount = .15
+					Duration = .75
+				}
+			]
+		}
+		HitStructural = &HitOperational
+
+		HitFriendly
+		{
+			MediaEffects
+			[
+				&<particles/missile_he_hit.txt>
+				&<particles/missile_he_smoke.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "missile_he_hit.wav"
+					Volume = .75
+					SpeedVariation = .4
+				}
+			]
+		}
+	}
+
+}
+
+MissileStats
+{
+	NameKey = "StatCategories/MissileHE"
+	Stats
+	{
+		DamagePerShot = &~/EmitterBase/Bullet/Components/Hit/HitOperational/HitEffects/0/TotalDamage
+		DamagePerSecond = (&DamagePerShot) * (&ROF)
+		Damage = [&../DamagePerShot, &../DamagePerSecond]
+		DamageArea = &~/EmitterBase/Bullet/Components/Hit/HitOperational/HitEffects/0/Radius
+		ROF = 1 / (&<../missile_launcher.txt>/Part/Components/CommonReloadTimerShort/Duration)
+		Range = &~/EmitterBase/Bullet/Range
+		Arc = deg(&~/WeaponBase/ValidArc)
+		ShotLaunchSpeed = &~/EmitterBase/Bullet/Speed
+		Acceleration = &~/EmitterBase/Bullet/Components/Acceleration/Acceleration
+		ShotGuidance = deg(&~/EmitterBase/Bullet/Components/Homing/TurnVelocity)
+		ShotHP = &~/EmitterBase/Bullet/Components/Targetable/Health
+		MissileParts = &~/EmitterBase/AmmoUsed
+	}
+}

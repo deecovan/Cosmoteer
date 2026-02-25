@@ -1,0 +1,175 @@
+ID = JarHead.star_forge_artillery_railgun_bullet
+OtherIDs = ["star_forge_artillery_railgun_bullet"]
+Range = 350
+IdealRange = [60, 300]
+IdealRadius = [5, 50]
+Speed = 150
+
+Components
+{
+	Physics
+	{
+		Type = CirclePhysics
+		Radius = 0.3
+		Density = 0.0001
+	}
+
+	Death
+	{
+		Type = DeathByLifetime
+		// Lifetime will be auto-calculated based on range and speed.
+	}
+
+	Targetable
+	{
+		Type = Targetable
+		Health = 2000
+		TargetCategory = "bullet"
+
+		OnDeath
+		{
+			MediaEffects = &~/Components/Hit/HitOperational/MediaEffects
+		}
+	}
+
+	Hit
+	{
+		Type = PenetratingHit
+		Penetration = 10.0
+		PenetrationSpeed = 20
+		SourceShipCollisionDelay = 10.01
+
+		HitShield = &HitOperational
+		HitOperational
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 1000
+				}
+				{
+					Type = Impulse
+					Impulse = 80
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/bullet_hit_railgun.txt>
+				&<particles/bullet_smoke_large.txt>
+				&<particles/bullet_flash_railgun.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "bullet_railgun_hit.wav"
+					Volume = .75
+					SpeedVariation = .4
+				}
+
+				: /BASE_SHAKE
+				{
+					ShakeAmount = .1
+					Duration = .75
+				}
+			]
+		}
+		HitStructural
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 2000
+				}
+				{
+					Type = Impulse;
+					Impulse = 40
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/bullet_hit_struct_railgun.txt>
+
+				: /BASE_SOUNDS/AudioExterior
+				{
+					Sound = "bullet_railgun_hit_structure.wav"
+					Volume = .5
+					SpeedVariation = .4
+				}
+			]
+		}
+		PenetratingOperational
+		{
+			ReduceEffectsByPenetration = true
+
+			HitEffects
+			[
+				{
+					Type = Damage
+					Damage = 1000
+				}
+				{
+					Type = Fire
+					FireChance = .05
+				}
+				{
+					Type = Impulse
+					Impulse = 60
+				}
+			]
+
+			MediaEffects
+			[
+				&<particles/bullet_penetrate_railgun.txt>
+				&<particles/bullet_flash_railgun.txt>
+			]
+		}
+		PenetratingStructural
+		{
+			// No effect.
+		}
+		FinishedPenetratingOperational = &PenetratingOperational
+		FinishedPenetratingStructural = &PenetratingStructural
+	}
+
+	Sprite
+	{
+		Type = AnimatedSprite
+		ReduceScaleWith = Hit
+		ReduceScaleExponent = 0.5
+		RenderBucket = Upper
+		Animation
+		{
+			AtlasSprite
+			{
+				Texture
+				{
+					File = "Artillery Bullet.png"
+					SampleMode = Linear
+					MipLevels = max
+				}
+				Size = [3, 3]
+			}
+			FrameCount = 16
+			FrameSize = [128, 128]
+			FramesPerRow = 4
+			FramesPerSecond = 60
+		}
+	}
+
+	MediaEffects
+	{
+		Type = MediaEffects
+		InheritShooterVelocityFrom = Physics
+		MediaEffects
+		[
+			&<particles/bullet_trail_railgun.txt>
+		]
+	}
+}
