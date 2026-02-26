@@ -1,0 +1,308 @@
+02/25/2026 15:09:28  |  Logging successful initialized.
+02/25/2026 15:09:28  |  .NET Runtime Version: 9.0.12
+02/25/2026 15:09:28  |  Running as a 64-bit process.
+02/25/2026 15:09:28  |  Locale: en-US
+02/25/2026 15:09:28  |  Language: en-US
+02/25/2026 15:09:28  |  Executable path: C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Bin\Cosmoteer.exe
+02/25/2026 15:09:28  |  Cosmoteer version 0.30.3c-demo build 0.30.3c-demo_steam
+02/25/2026 15:09:28  |  Build Date: 2/5/2026 12:19:08 AM
+02/25/2026 15:09:28  |  Build Commit: 9028d116e2503884b5f455f59147fb97cd420fb9
+02/25/2026 15:09:28  |  Steam API successfully initialized.
+02/25/2026 15:09:28  |  Microsoft Windows 11 Home 64-bit 10.0.26200
+02/25/2026 15:09:28  |  AMD Ryzen 7 7735HS with Radeon Graphics         (16 logical / 8 physical cores)
+02/25/2026 15:09:28  |  14020.5 MB RAM
+02/25/2026 15:09:28  |  AMD Radeon(TM) Graphics (32.0.21041.1000) (1/8/2026)
+02/25/2026 15:09:28  |  2048.0 MB VRAM
+02/25/2026 15:09:28  |  
+02/25/2026 15:09:28  |  Loaded app settings.
+02/25/2026 15:09:28  |  Setup default cursor.
+02/25/2026 15:09:28  |  Using display adapter 0
+02/25/2026 15:09:28  |  Created DXGI factory.
+02/25/2026 15:09:28  |  Adapter #0: AMD Radeon(TM) Graphics
+02/25/2026 15:09:28  |  	Output #0: Generic PnP Monitor  (1280x800)
+02/25/2026 15:09:28  |  Adapter #1: Microsoft Basic Render Driver
+02/25/2026 15:09:28  |  Updated Windows form configuration for borderless window.
+02/25/2026 15:09:29  |  Created Windows form.
+02/25/2026 15:09:29  |  Direct3D Feature Level: Level_11_0
+02/25/2026 15:09:29  |  Created Direct3D 11 Device.
+02/25/2026 15:09:29  |  Created swap chain: 1280x800.
+02/25/2026 15:09:29  |  Created window.
+02/25/2026 15:09:29  |  Created clock.
+02/25/2026 15:09:29  |  Created graphics manager.
+02/25/2026 15:09:29  |  Max Texture Size: {X=16384 ,Y=16384}
+02/25/2026 15:09:29  |  Created XAudio2 device.
+02/25/2026 15:09:29  |  Created audio manager.
+02/25/2026 15:09:29  |  Created input manager.
+02/25/2026 15:09:29  |  Created default font.
+02/25/2026 15:09:29  |  Initial app state is 'MainMenu'
+02/25/2026 15:09:29  |  Initial application settings:
+02/25/2026 15:09:29  |  	LastGameVersion: 
+02/25/2026 15:09:29  |  	IsFirstBoot: True
+02/25/2026 15:09:29  |  	InitState: MainMenu
+02/25/2026 15:09:29  |  	Language: 
+02/25/2026 15:09:29  |  	LockCursor: False
+02/25/2026 15:09:29  |  	EdgePanMode: Analog
+02/25/2026 15:09:29  |  	EdgePanSpeed: 15
+02/25/2026 15:09:29  |  	KeyboardPanSpeed: 15
+02/25/2026 15:09:29  |  	KeyboardZoomSpeed: 10
+02/25/2026 15:09:29  |  	KeyboardRotSpeed: 90°
+02/25/2026 15:09:29  |  	EnableMouseWheelZoom: True
+02/25/2026 15:09:29  |  	InvertMouseWheelZoom: False
+02/25/2026 15:09:29  |  	MouseWheelZoomSpeed: 1.12
+02/25/2026 15:09:29  |  	MouseWheelZoomAtCursor: True
+02/25/2026 15:09:29  |  	AutoTrackOnScreenShips: True
+02/25/2026 15:09:29  |  	StickyFocus: True
+02/25/2026 15:09:29  |  	DpiScaleMode: Dpi100
+02/25/2026 15:09:29  |  	DpiScaleModePerResolution: 
+02/25/2026 15:09:29  |  	AnimateBackgrounds: True
+02/25/2026 15:09:29  |  	BackgroundGridStyle: Crosses
+02/25/2026 15:09:29  |  	FancyLighting: True
+02/25/2026 15:09:29  |  	FancyParticles: True
+02/25/2026 15:09:29  |  	FancyUIEffects: True
+02/25/2026 15:09:29  |  	FancyNebulas: True
+02/25/2026 15:09:29  |  	UncompressedTextures: False
+02/25/2026 15:09:29  |  	ResolutionScale: 1.25
+02/25/2026 15:09:29  |  	PlanetResolutionScale: 1
+02/25/2026 15:09:29  |  	TargetFps: FpsTarget30
+02/25/2026 15:09:29  |  	PostShaderIndex: 0
+02/25/2026 15:09:29  |  	AllowShipDeselection: False
+02/25/2026 15:09:29  |  	CtrlSelectsParts: True
+02/25/2026 15:09:29  |  	EnableCollisionAvoidance: True
+02/25/2026 15:09:29  |  	EnableHazardAvoidance: True
+02/25/2026 15:09:29  |  	EnableArrivalMatching: True
+02/25/2026 15:09:29  |  	AutoRecallCrew: True
+02/25/2026 15:09:29  |  	PreferBlueprintMode: False
+02/25/2026 15:09:29  |  	BlueprintAutoPause: True
+02/25/2026 15:09:29  |  	ShowInvalidBlueprints: True
+02/25/2026 15:09:29  |  	ShowMissingPartsWarning: True
+02/25/2026 15:09:29  |  	ShowAutoRemovedParts: True
+02/25/2026 15:09:29  |  	ShowAutoRemovedDecals: True
+02/25/2026 15:09:29  |  	BuildAutoRotate: True
+02/25/2026 15:09:29  |  	BuildAutoInteriors: True
+02/25/2026 15:09:29  |  	PaintAutoRotate: True
+02/25/2026 15:09:29  |  	PaintAllowOverwrite: True
+02/25/2026 15:09:29  |  	BuildAllowOverwrite: True
+02/25/2026 15:09:29  |  	BuildAutoDoors: True
+02/25/2026 15:09:29  |  	RequirePartialRefundConfirmation: True
+02/25/2026 15:09:29  |  	BuildShowNearestPaths: True
+02/25/2026 15:09:29  |  	BuildAllowInsufficientCommand: False
+02/25/2026 15:09:29  |  	ConstructExitsBuild: False
+02/25/2026 15:09:29  |  	CrewAutoRotate: True
+02/25/2026 15:09:29  |  	ShowCrewPaths: True
+02/25/2026 15:09:29  |  	ShowCrewHomes: True
+02/25/2026 15:09:29  |  	ShowUnselectedCrewAssignment: True
+02/25/2026 15:09:29  |  	DefaultRoles: 
+02/25/2026 15:09:29  |  	ResourcesAutoRotate: True
+02/25/2026 15:09:29  |  	ShowResourceCounts: True
+02/25/2026 15:09:29  |  	ShowResourceTransfers: True
+02/25/2026 15:09:29  |  	ShowConstructionResourceDeliveries: True
+02/25/2026 15:09:29  |  	ShowAllResourceTypes: False
+02/25/2026 15:09:29  |  	ShowUnselectedResourceAssignment: True
+02/25/2026 15:09:29  |  	RowsOfParts: 1
+02/25/2026 15:09:29  |  	GrabLeavesCorridors: True
+02/25/2026 15:09:29  |  	RepairAutoDoors: True
+02/25/2026 15:09:29  |  	DiscardBlueprintsWhenCanceling: True
+02/25/2026 15:09:29  |  	PartToolTips: True
+02/25/2026 15:09:29  |  	PartToolTipsDefaultToStats: False
+02/25/2026 15:09:29  |  	SecondaryToolTips: False
+02/25/2026 15:09:29  |  	ShowFavoriteCrewNamesOnHover: True
+02/25/2026 15:09:29  |  	LogFavoriteCrewDeaths: True
+02/25/2026 15:09:29  |  	AutoSave: True
+02/25/2026 15:09:29  |  	AutoSavesToKeep: 25
+02/25/2026 15:09:29  |  	QuickSavesToKeep: 25
+02/25/2026 15:09:29  |  	AutoSaveInterval: 600
+02/25/2026 15:09:29  |  	SaveLostShips: True
+02/25/2026 15:09:29  |  	LostShipsToKeep: 25
+02/25/2026 15:09:29  |  	FtlAutoSave: True
+02/25/2026 15:09:29  |  	ResourceDisplayMode: Context
+02/25/2026 15:09:29  |  	ShowOnShipIndicators: True
+02/25/2026 15:09:29  |  	ShowZoomedOutBlips: True
+02/25/2026 15:09:29  |  	ShowOffScreenBlips: True
+02/25/2026 15:09:29  |  	ShowBreadcrumbTrails: True
+02/25/2026 15:09:29  |  	AutoPauseOnLostFocus: True
+02/25/2026 15:09:29  |  	AutoSlowWhenEnemySpotted: 1
+02/25/2026 15:09:29  |  	ScreenShake: True
+02/25/2026 15:09:29  |  	NuggetsDots: True
+02/25/2026 15:09:29  |  	UIAnimations: True
+02/25/2026 15:09:29  |  	ShowMidpointFocusWidget: True
+02/25/2026 15:09:29  |  	DefaultScreenshotFormat: Jpeg
+02/25/2026 15:09:29  |  	PreferBorderlessWindowToggle: False
+02/25/2026 15:09:29  |  	MasterVolume: 0.5
+02/25/2026 15:09:29  |  	EffectsVolume: 1
+02/25/2026 15:09:29  |  	MusicVolume: 0.72
+02/25/2026 15:09:29  |  	InterfaceVolume: 0.82
+02/25/2026 15:09:29  |  	MuteWhenUnfocused: False
+02/25/2026 15:09:29  |  	PlayFriendlyPings: True
+02/25/2026 15:09:29  |  	PlayEnemyPings: True
+02/25/2026 15:09:29  |  	ShowTutorials: True
+02/25/2026 15:09:29  |  	AutoCollectNuggets: True
+02/25/2026 15:09:29  |  	DefaultPaintScheme: 
+02/25/2026 15:09:29  |  	PaintSchemes: System.Collections.Generic.List`1[Cosmoteer.Ships.Paint.PaintScheme]
+02/25/2026 15:09:29  |  	DefaultBuildTool: Grab
+02/25/2026 15:09:29  |  	DefaultDecalTool: Grab
+02/25/2026 15:09:29  |  	CodexPageStates: System.Collections.Generic.Dictionary`2[System.String,Cosmoteer.Codex.CodexPageState]
+02/25/2026 15:09:29  |  	DontDimDialogBackgrounds: False
+02/25/2026 15:09:29  |  	DontFlickerBlueprints: False
+02/25/2026 15:09:29  |  	DontFlashRedprints: False
+02/25/2026 15:09:29  |  	PlayerColor: 
+02/25/2026 15:09:29  |  	EnemyColor: 
+02/25/2026 15:09:29  |  	AllyColor: 
+02/25/2026 15:09:29  |  	NeutralColor: 
+02/25/2026 15:09:29  |  	RotateMinimap: True
+02/25/2026 15:09:29  |  	MiniviewInCombatMode: Auto
+02/25/2026 15:09:29  |  	MiniviewNotInCombatMode: Auto
+02/25/2026 15:09:29  |  	MiniviewLockRotation: False
+02/25/2026 15:09:29  |  	MiniviewSize: 
+02/25/2026 15:09:29  |  	ShowInteriors: False
+02/25/2026 15:09:29  |  	ShowAllCommands: False
+02/25/2026 15:09:29  |  	AlwaysShowCommandWidgets: False
+02/25/2026 15:09:29  |  	ShowSelectedPartStatusBars: True
+02/25/2026 15:09:29  |  	VelocityIndicatorDisplayMode: DirectControl
+02/25/2026 15:09:29  |  	ShowSpaceCrewLines: True
+02/25/2026 15:09:29  |  	ShowResourcePickupLines: True
+02/25/2026 15:09:29  |  	PauseOnOpenDialogueWithEnemy: True
+02/25/2026 15:09:29  |  	PauseWhenHailedByEnemy: False
+02/25/2026 15:09:29  |  	PreferWorldRelativeAttackAngle: False
+02/25/2026 15:09:29  |  	PreferWorldRelativeFollowAngle: False
+02/25/2026 15:09:29  |  	DirectControlEnableWeapons: True
+02/25/2026 15:09:29  |  	DirectControlAimAssist: True
+02/25/2026 15:09:29  |  	DirectControlAutoBrake: True
+02/25/2026 15:09:29  |  	DirectControlAutoFaceCursor: False
+02/25/2026 15:09:29  |  	DirectControlViewFollowsCursor: False
+02/25/2026 15:09:29  |  	DirectControlAutoRotateView: False
+02/25/2026 15:09:29  |  	DirectControlLockCameraToShip: False
+02/25/2026 15:09:29  |  	DirectControlAutoZoomView: False
+02/25/2026 15:09:29  |  	DirectControlShowWeaponCoverage: False
+02/25/2026 15:09:29  |  	ShipLibraryLargeIcons: False
+02/25/2026 15:09:29  |  	BreakFormationToAttack: True
+02/25/2026 15:09:29  |  	DisplayAllShips: False
+02/25/2026 15:09:29  |  	ShowAdvancedCommands: False
+02/25/2026 15:09:29  |  	EnabledMods: System.Collections.Generic.HashSet`1[Halfling.IO.AbsolutePath]
+02/25/2026 15:09:29  |  	AutoDisableMods: True
+02/25/2026 15:09:29  |  	DeleteFileOnStartup: 
+02/25/2026 15:09:29  |  	DefaultCreativeModeMapSize: 0
+02/25/2026 15:09:29  |  	DefaultCreativeModeSimGenFlags: None
+02/25/2026 15:09:29  |  	DefaultCareerModeCombatDifficulty: -1
+02/25/2026 15:09:29  |  	DefaultCareerModeEconDifficulty: -1
+02/25/2026 15:09:29  |  	DefaultCareerModeMapSize: 0
+02/25/2026 15:09:29  |  	DefaultCareerModeCrewScarcity: -1
+02/25/2026 15:09:29  |  	DefaultCareerModeDisableCrewConstruction: False
+02/25/2026 15:09:29  |  	DefaultCareerModeDisableExploration: False
+02/25/2026 15:09:29  |  	DefaultCareerModeDisableSalvaging: False
+02/25/2026 15:09:29  |  	DefaultCareerModeDisableNebulas: False
+02/25/2026 15:09:29  |  	DefaultCareerModeStarterShip: 0
+02/25/2026 15:09:29  |  	MPBlipColorMode: FriendAndFoe
+02/25/2026 15:09:29  |  	MPShowDamagePoints: True
+02/25/2026 15:09:29  |  	ShowNewsOnStartup: True
+02/25/2026 15:09:29  |  	ShowTipsOnStartup: True
+02/25/2026 15:09:29  |  	ReadNewsArticles: System.Collections.Generic.HashSet`1[System.String]
+02/25/2026 15:09:29  |  	ShowNewsAlerts: True
+02/25/2026 15:09:29  |  	HiddenNewsAlerts: System.Collections.Generic.HashSet`1[System.String]
+02/25/2026 15:09:29  |  	MainMenuBackgroundIndex: 0
+02/25/2026 15:09:29  |  	CycleMainMenuBackground: True
+02/25/2026 15:09:29  |  	DefaultAuthorName: 
+02/25/2026 15:09:29  |  	EnableGifRecorder: False
+02/25/2026 15:09:29  |  	GifRecorderSeconds: 10
+02/25/2026 15:09:29  |  	GifRecorderFramerate: 20
+02/25/2026 15:09:29  |  	GifRecorderResolution: 480
+02/25/2026 15:09:29  |  	ShowNearbyMissionsCount: 3
+02/25/2026 15:09:29  |  	DevModeUseStaticCareerSeed: False
+02/25/2026 15:09:29  |  	DevModeStaticCareerSeed: 0
+02/25/2026 15:09:29  |  	KeepLogFiles: 10
+02/25/2026 15:09:29  |  	KeepRecFiles: 10
+02/25/2026 15:09:29  |  	RestoreZoomOnToolboxExit: True
+02/25/2026 15:09:29  |  	ZoomOutOnFtl: True
+02/25/2026 15:09:29  |  	LoadBlueprintPaint: False
+02/25/2026 15:09:29  |  	LoadBlueprintRoles: False
+02/25/2026 15:09:29  |  	LoadBlueprintReplaceInsteadOfAdd: False
+02/25/2026 15:09:29  |  	LoadBlueprintCrew: False
+02/25/2026 15:09:29  |  	LoadBlueprintResources: False
+02/25/2026 15:09:29  |  	LoadBlueprintsFlightInfo: False
+02/25/2026 15:09:29  |  	LoadBlueprintTextInfo: False
+02/25/2026 15:09:29  |  Multicore helper thread count: 7
+02/25/2026 15:09:30  |  Starting main game loop...
+02/25/2026 15:09:31  |  Loaded language 'ru'.
+02/25/2026 15:09:35  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\scorched\particles\scorched.shader' (vert):
+02/25/2026 15:09:35  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:35  |  
+02/25/2026 15:09:35  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\scorched\particles\scorched.shader' (geom):
+02/25/2026 15:09:35  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:35  |  
+02/25/2026 15:09:35  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\scorched\particles\scorched.shader' (pix):
+02/25/2026 15:09:35  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:35  |  
+02/25/2026 15:09:35  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\scorched\particles\scorched_simple.shader' (vert):
+02/25/2026 15:09:35  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:35  |  
+02/25/2026 15:09:35  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\scorched\particles\scorched_simple.shader' (geom):
+02/25/2026 15:09:35  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:35  |  
+02/25/2026 15:09:35  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\scorched\particles\scorched_simple.shader' (pix):
+02/25/2026 15:09:35  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:35  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\heat\heat.shader' (vert):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\heat\heat.shader' (geom):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\heat\heat.shader' (pix):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\heat\heat_simple.shader' (vert):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\heat\heat_simple.shader' (geom):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\heat\heat_simple.shader' (pix):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\fire_foam\particles\fire_foam.shader' (vert):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\fire_foam\particles\fire_foam.shader' (geom):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:09:36  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\statuses\fire_foam\particles\fire_foam.shader' (pix):
+02/25/2026 15:09:36  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:09:36  |  
+02/25/2026 15:10:05  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\common\particles\salvage.shader' (vert):
+02/25/2026 15:10:05  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:10:05  |  
+02/25/2026 15:10:05  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\common\particles\salvage.shader' (geom):
+02/25/2026 15:10:05  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:10:05  |  
+02/25/2026 15:10:05  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\common\particles\salvage.shader' (pix):
+02/25/2026 15:10:05  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:10:05  |  
+02/25/2026 15:10:05  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\common\particles\scaffolding_quad.shader' (vert):
+02/25/2026 15:10:05  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:10:05  |  
+02/25/2026 15:10:05  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\common\particles\scaffolding_quad.shader' (geom):
+02/25/2026 15:10:05  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:10:05  |  
+02/25/2026 15:10:05  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\common\particles\scaffolding_quad.shader' (pix):
+02/25/2026 15:10:05  |  ./Data/base_shipquad.shader(103,5-40): warning X3206: implicit truncation of vector type
+02/25/2026 15:10:05  |  
+02/25/2026 15:10:28  |  Output compiling shader 'C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\terran\radiator\particles\radiator_heat_distortion.shader' (vert):
+02/25/2026 15:10:28  |  C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Data\ships\terran\radiator\particles\radiator_heat_distortion.shader(20,17-47): warning X3578: Output value 'vert' is not completely initialized
+02/25/2026 15:10:28  |  
+02/25/2026 15:13:01  |  Loaded game data in 210.1 seconds.
+02/25/2026 15:15:34  |  Director received exit call.
+02/25/2026 15:15:34  |  Main game loop ended. Exiting app...
+02/25/2026 15:15:34  |  Saved app settings.
+02/25/2026 15:15:34  |  Disposed default font.
+02/25/2026 15:15:34  |  Disposed XA2AudioManager device.
+02/25/2026 15:15:34  |  Disposed audio manager.
+02/25/2026 15:15:34  |  Disposed clock.
+02/25/2026 15:15:34  |  Disposed input manager.
+02/25/2026 15:15:34  |  Disposed graphics manager.
+02/25/2026 15:15:34  |  Disposed swap chain.
+02/25/2026 15:15:34  |  Disposed Direct3D device.
+02/25/2026 15:15:34  |  Disposed DXGI factory.
+02/25/2026 15:15:34  |  Closed Windows form.
+02/25/2026 15:15:34  |  Director received exit call.
+02/25/2026 15:15:34  |  Disposed window.
+02/25/2026 15:15:34  |  Disposed platform interface.
+02/25/2026 15:15:34  |  Closing log output file...

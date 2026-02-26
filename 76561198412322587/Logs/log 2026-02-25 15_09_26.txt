@@ -1,0 +1,18 @@
+02/25/2026 15:09:26  |  Logging successful initialized.
+02/25/2026 15:09:26  |  .NET Runtime Version: 9.0.12
+02/25/2026 15:09:26  |  Running as a 64-bit process.
+02/25/2026 15:09:26  |  Locale: en-US
+02/25/2026 15:09:26  |  Language: en-US
+02/25/2026 15:09:26  |  Executable path: C:\Program Files (x86)\Steam\steamapps\common\Cosmoteer Demo\Bin\Cosmoteer.exe
+02/25/2026 15:09:26  |  Cosmoteer version 0.30.3c-demo build 0.30.3c-demo_steam
+02/25/2026 15:09:26  |  Build Date: 2/5/2026 12:19:08 AM
+02/25/2026 15:09:26  |  Build Commit: 9028d116e2503884b5f455f59147fb97cd420fb9
+02/25/2026 15:09:26  |  Steam API successfully initialized.
+02/25/2026 15:09:27  |  Microsoft Windows 11 Home 64-bit 10.0.26200
+02/25/2026 15:09:27  |  AMD Ryzen 7 7735HS with Radeon Graphics         (16 logical / 8 physical cores)
+02/25/2026 15:09:27  |  14020.5 MB RAM
+02/25/2026 15:09:27  |  AMD Radeon(TM) Graphics (32.0.21041.1000) (1/8/2026)
+02/25/2026 15:09:27  |  2048.0 MB VRAM
+02/25/2026 15:09:27  |  
+02/25/2026 15:09:27  |  Loaded app settings.
+02/25/2026 15:09:27  |  Setup default cursor.
