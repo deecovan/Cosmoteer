@@ -126,10 +126,10 @@ GameSettings
 	ShowMidpointFocusWidget = true
 	DefaultScreenshotFormat = Jpeg
 	PreferBorderlessWindowToggle = false
-	MasterVolume = 0.44454545
-	EffectsVolume = 0.45181817
-	MusicVolume = 0.26545453
-	InterfaceVolume = 0.45909092
+	MasterVolume = 0.83
+	EffectsVolume = 0.6736364
+	MusicVolume = 0.5090909
+	InterfaceVolume = 0.6809091
 	MuteWhenUnfocused = false
 	PlayFriendlyPings = true
 	PlayEnemyPings = true
@@ -587,7 +587,7 @@ GameSettings
 	EnabledMods
 	[
 		"../../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
-		Mods/8_player_career
+		"../../../../../Games/Cosmoteer/Standard Mods/8_player_career"
 		"../../../../../Games/Cosmoteer/Standard Mods/example_mod"
 		"../../../../../Games/Cosmoteer/Standard Mods/example_translation"
 		"../../../../../Games/Cosmoteer/Standard Mods/huge_crews"
@@ -625,7 +625,7 @@ GameSettings
 	]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 3
+	MainMenuBackgroundIndex = 0
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
