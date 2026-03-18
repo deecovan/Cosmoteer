@@ -1,0 +1,416 @@
+03/13/2026 11:26:49  |  Logging successful initialized.
+03/13/2026 11:26:49  |  .NET Runtime Version: 9.0.7
+03/13/2026 11:26:49  |  Running as a 64-bit process.
+03/13/2026 11:26:49  |  Locale: en-US
+03/13/2026 11:26:49  |  Language: en-US
+03/13/2026 11:26:49  |  Executable path: C:\Games\Cosmoteer\Bin\Cosmoteer.exe
+03/13/2026 11:26:49  |  Cosmoteer version 0.30.0e build 0.30.0e_steam
+03/13/2026 11:26:50  |  Build Date: 9/1/2025 11:00:32 PM
+03/13/2026 11:26:50  |  Build Commit: e41c43d082ce72572a0e33958086c78ae53b9509
+03/13/2026 11:26:50  |  Steam API successfully initialized.
+03/13/2026 11:26:50  |  Microsoft Windows 11 Home 64-bit 10.0.26200
+03/13/2026 11:26:50  |  AMD Ryzen 7 7735HS with Radeon Graphics         (16 logical / 8 physical cores)
+03/13/2026 11:26:50  |  14020.5 MB RAM
+03/13/2026 11:26:50  |  AMD Radeon(TM) Graphics (32.0.21043.1005) (2/18/2026)
+03/13/2026 11:26:50  |  2048.0 MB VRAM
+03/13/2026 11:26:50  |  
+03/13/2026 11:26:50  |  Loaded app settings.
+03/13/2026 11:26:50  |  Setup default cursor.
+03/13/2026 11:26:50  |  Using display adapter 0
+03/13/2026 11:26:50  |  Created DXGI factory.
+03/13/2026 11:26:50  |  Adapter #0: AMD Radeon(TM) Graphics
+03/13/2026 11:26:50  |  	Output #0: Generic PnP Monitor  (1440x900)
+03/13/2026 11:26:50  |  Adapter #1: Microsoft Basic Render Driver
+03/13/2026 11:26:50  |  Updated Windows form configuration for full-screen.
+03/13/2026 11:26:50  |  Created Windows form.
+03/13/2026 11:26:50  |  Direct3D Feature Level: Level_11_0
+03/13/2026 11:26:50  |  Created Direct3D 11 Device.
+03/13/2026 11:26:50  |  Created swap chain: 1280x800.
+03/13/2026 11:26:51  |  Created window.
+03/13/2026 11:26:51  |  Created clock.
+03/13/2026 11:26:51  |  Created graphics manager.
+03/13/2026 11:26:51  |  Max Texture Size: {X=16384 ,Y=16384}
+03/13/2026 11:26:51  |  Created XAudio2 device.
+03/13/2026 11:26:51  |  Created audio manager.
+03/13/2026 11:26:51  |  Created input manager.
+03/13/2026 11:26:51  |  Created default font.
+03/13/2026 11:26:51  |  Initial app state is 'MainMenu'
+03/13/2026 11:26:51  |  Initial application settings:
+03/13/2026 11:26:51  |  	LastGameVersion: 0.30.0e
+03/13/2026 11:26:51  |  	IsFirstBoot: False
+03/13/2026 11:26:51  |  	InitState: MainMenu
+03/13/2026 11:26:51  |  	Language: ru
+03/13/2026 11:26:51  |  	LockCursor: False
+03/13/2026 11:26:51  |  	EdgePanMode: Analog
+03/13/2026 11:26:51  |  	EdgePanSpeed: 10
+03/13/2026 11:26:51  |  	KeyboardPanSpeed: 31.408833
+03/13/2026 11:26:51  |  	KeyboardZoomSpeed: 26.880442
+03/13/2026 11:26:51  |  	KeyboardRotSpeed: 90°
+03/13/2026 11:26:51  |  	EnableMouseWheelZoom: True
+03/13/2026 11:26:51  |  	InvertMouseWheelZoom: False
+03/13/2026 11:26:51  |  	MouseWheelZoomSpeed: 1.1418232
+03/13/2026 11:26:51  |  	MouseWheelZoomAtCursor: True
+03/13/2026 11:26:51  |  	AutoTrackOnScreenShips: True
+03/13/2026 11:26:51  |  	StickyFocus: True
+03/13/2026 11:26:51  |  	DpiScaleMode: Dpi100
+03/13/2026 11:26:51  |  	DpiScaleModePerResolution: System.Collections.Generic.Dictionary`2[Halfling.Geometry.IntVector2,Cosmoteer.DpiScaleMode]
+03/13/2026 11:26:51  |  	AnimateBackgrounds: False
+03/13/2026 11:26:51  |  	BackgroundGridStyle: Crosses
+03/13/2026 11:26:51  |  	FancyLighting: False
+03/13/2026 11:26:51  |  	FancyParticles: False
+03/13/2026 11:26:51  |  	FancyUIEffects: False
+03/13/2026 11:26:51  |  	FancyNebulas: False
+03/13/2026 11:26:51  |  	UncompressedTextures: False
+03/13/2026 11:26:51  |  	ResolutionScale: 0.75
+03/13/2026 11:26:51  |  	PlanetResolutionScale: 0.5
+03/13/2026 11:26:51  |  	TargetFps: FpsTarget30
+03/13/2026 11:26:51  |  	PostShaderIndex: 0
+03/13/2026 11:26:51  |  	AllowShipDeselection: False
+03/13/2026 11:26:51  |  	CtrlSelectsParts: False
+03/13/2026 11:26:51  |  	EnableCollisionAvoidance: True
+03/13/2026 11:26:51  |  	EnableHazardAvoidance: True
+03/13/2026 11:26:51  |  	EnableArrivalMatching: True
+03/13/2026 11:26:51  |  	AutoRecallCrew: True
+03/13/2026 11:26:51  |  	PreferBlueprintMode: False
+03/13/2026 11:26:51  |  	BlueprintAutoPause: True
+03/13/2026 11:26:51  |  	ShowInvalidBlueprints: True
+03/13/2026 11:26:51  |  	ShowMissingPartsWarning: True
+03/13/2026 11:26:51  |  	ShowAutoRemovedParts: True
+03/13/2026 11:26:51  |  	ShowAutoRemovedDecals: True
+03/13/2026 11:26:51  |  	BuildAutoRotate: True
+03/13/2026 11:26:51  |  	BuildAutoInteriors: True
+03/13/2026 11:26:51  |  	PaintAutoRotate: True
+03/13/2026 11:26:51  |  	PaintAllowOverwrite: True
+03/13/2026 11:26:51  |  	BuildAllowOverwrite: True
+03/13/2026 11:26:51  |  	BuildAutoDoors: True
+03/13/2026 11:26:51  |  	RequirePartialRefundConfirmation: True
+03/13/2026 11:26:51  |  	BuildShowNearestPaths: True
+03/13/2026 11:26:51  |  	BuildAllowInsufficientCommand: False
+03/13/2026 11:26:51  |  	ShowStatBars: True
+03/13/2026 11:26:51  |  	ConstructExitsBuild: False
+03/13/2026 11:26:51  |  	CrewAutoRotate: True
+03/13/2026 11:26:51  |  	ShowCrewPaths: True
+03/13/2026 11:26:51  |  	ShowCrewHomes: True
+03/13/2026 11:26:51  |  	ShowUnselectedCrewAssignment: True
+03/13/2026 11:26:51  |  	DefaultRoles: 
+03/13/2026 11:26:51  |  	ResourcesAutoRotate: True
+03/13/2026 11:26:51  |  	ShowResourceCounts: True
+03/13/2026 11:26:51  |  	ShowResourceTransfers: True
+03/13/2026 11:26:51  |  	ShowConstructionResourceDeliveries: True
+03/13/2026 11:26:51  |  	ShowAllResourceTypes: False
+03/13/2026 11:26:51  |  	ShowUnselectedResourceAssignment: True
+03/13/2026 11:26:51  |  	RowsOfParts: 1
+03/13/2026 11:26:51  |  	GrabLeavesCorridors: True
+03/13/2026 11:26:51  |  	RepairAutoDoors: True
+03/13/2026 11:26:51  |  	DiscardBlueprintsWhenCanceling: True
+03/13/2026 11:26:51  |  	PartToolTips: True
+03/13/2026 11:26:51  |  	PartToolTipsDefaultToStats: False
+03/13/2026 11:26:51  |  	SecondaryToolTips: False
+03/13/2026 11:26:51  |  	ShowFavoriteCrewNamesOnHover: True
+03/13/2026 11:26:51  |  	LogFavoriteCrewDeaths: True
+03/13/2026 11:26:51  |  	AutoSave: True
+03/13/2026 11:26:51  |  	AutoSavesToKeep: 25
+03/13/2026 11:26:51  |  	QuickSavesToKeep: 25
+03/13/2026 11:26:51  |  	AutoSaveInterval: 300
+03/13/2026 11:26:51  |  	SaveLostShips: True
+03/13/2026 11:26:51  |  	LostShipsToKeep: 25
+03/13/2026 11:26:51  |  	FtlAutoSave: True
+03/13/2026 11:26:51  |  	ResourceDisplayMode: Context
+03/13/2026 11:26:51  |  	ShowOnShipIndicators: True
+03/13/2026 11:26:51  |  	ShowZoomedOutBlips: True
+03/13/2026 11:26:51  |  	ShowOffScreenBlips: True
+03/13/2026 11:26:51  |  	ShowBreadcrumbTrails: True
+03/13/2026 11:26:51  |  	AutoPauseOnLostFocus: False
+03/13/2026 11:26:51  |  	AutoSlowWhenEnemySpotted: 0
+03/13/2026 11:26:51  |  	ScreenShake: False
+03/13/2026 11:26:51  |  	NuggetsDots: True
+03/13/2026 11:26:51  |  	UIAnimations: False
+03/13/2026 11:26:51  |  	ShowMidpointFocusWidget: True
+03/13/2026 11:26:51  |  	DefaultScreenshotFormat: Jpeg
+03/13/2026 11:26:51  |  	PreferBorderlessWindowToggle: False
+03/13/2026 11:26:51  |  	MasterVolume: 0.83
+03/13/2026 11:26:51  |  	EffectsVolume: 0.6736364
+03/13/2026 11:26:51  |  	MusicVolume: 0.5090909
+03/13/2026 11:26:51  |  	InterfaceVolume: 0.6809091
+03/13/2026 11:26:51  |  	MuteWhenUnfocused: False
+03/13/2026 11:26:51  |  	PlayFriendlyPings: True
+03/13/2026 11:26:51  |  	PlayEnemyPings: True
+03/13/2026 11:26:51  |  	ShowTutorials: True
+03/13/2026 11:26:51  |  	AutoCollectNuggets: True
+03/13/2026 11:26:51  |  	DefaultPaintScheme: 
+03/13/2026 11:26:51  |  	PaintSchemes: System.Collections.Generic.List`1[Cosmoteer.Ships.Paint.PaintScheme]
+03/13/2026 11:26:51  |  	DefaultBuildTool: Grab
+03/13/2026 11:26:51  |  	DefaultDecalTool: Grab
+03/13/2026 11:26:51  |  	CodexPageStates: System.Collections.Generic.Dictionary`2[System.String,Cosmoteer.Codex.CodexPageState]
+03/13/2026 11:26:51  |  	DontDimDialogBackgrounds: False
+03/13/2026 11:26:51  |  	DontFlickerBlueprints: False
+03/13/2026 11:26:51  |  	DontFlashRedprints: False
+03/13/2026 11:26:51  |  	PlayerColor: 
+03/13/2026 11:26:51  |  	EnemyColor: 
+03/13/2026 11:26:51  |  	AllyColor: 
+03/13/2026 11:26:51  |  	NeutralColor: 
+03/13/2026 11:26:51  |  	RotateMinimap: True
+03/13/2026 11:26:51  |  	MiniviewInCombatMode: ShowPlayer
+03/13/2026 11:26:51  |  	MiniviewNotInCombatMode: ShowPlayer
+03/13/2026 11:26:51  |  	MiniviewLockRotation: True
+03/13/2026 11:26:51  |  	MiniviewSize: 342
+03/13/2026 11:26:51  |  	ShowInteriors: True
+03/13/2026 11:26:51  |  	ShowAllCommands: True
+03/13/2026 11:26:51  |  	AlwaysShowCommandWidgets: True
+03/13/2026 11:26:51  |  	ShowSelectedPartStatusBars: True
+03/13/2026 11:26:51  |  	VelocityIndicatorDisplayMode: DirectControl
+03/13/2026 11:26:51  |  	ShowSpaceCrewLines: True
+03/13/2026 11:26:51  |  	ShowResourcePickupLines: True
+03/13/2026 11:26:51  |  	PauseOnOpenDialogueWithEnemy: True
+03/13/2026 11:26:51  |  	PauseWhenHailedByEnemy: True
+03/13/2026 11:26:51  |  	PreferWorldRelativeAttackAngle: True
+03/13/2026 11:26:51  |  	PreferWorldRelativeFollowAngle: True
+03/13/2026 11:26:51  |  	DirectControlEnableWeapons: True
+03/13/2026 11:26:51  |  	DirectControlAimAssist: True
+03/13/2026 11:26:51  |  	DirectControlAutoBrake: True
+03/13/2026 11:26:51  |  	DirectControlAutoFaceCursor: False
+03/13/2026 11:26:51  |  	DirectControlViewFollowsCursor: False
+03/13/2026 11:26:51  |  	DirectControlAutoRotateView: False
+03/13/2026 11:26:51  |  	DirectControlLockCameraToShip: False
+03/13/2026 11:26:51  |  	DirectControlAutoZoomView: False
+03/13/2026 11:26:51  |  	DirectControlShowWeaponCoverage: False
+03/13/2026 11:26:51  |  	ShipLibraryLargeIcons: True
+03/13/2026 11:26:51  |  	BreakFormationToAttack: True
+03/13/2026 11:26:51  |  	DisplayAllShips: False
+03/13/2026 11:26:51  |  	ShowAdvancedCommands: True
+03/13/2026 11:26:51  |  	EnabledMods: System.Collections.Generic.HashSet`1[Halfling.IO.AbsolutePath]
+03/13/2026 11:26:51  |  	AutoDisableMods: False
+03/13/2026 11:26:51  |  	DeleteFileOnStartup: 
+03/13/2026 11:26:51  |  	DefaultCreativeModeMapSize: 1
+03/13/2026 11:26:51  |  	DefaultCreativeModeSimGenFlags: None
+03/13/2026 11:26:51  |  	DefaultCareerModeCombatDifficulty: 2
+03/13/2026 11:26:51  |  	DefaultCareerModeEconDifficulty: 2
+03/13/2026 11:26:51  |  	DefaultCareerModeMapSize: 0
+03/13/2026 11:26:51  |  	DefaultCareerModeCrewScarcity: 1
+03/13/2026 11:26:51  |  	DefaultCareerModeDisableCrewConstruction: False
+03/13/2026 11:26:51  |  	DefaultCareerModeDisableExploration: False
+03/13/2026 11:26:51  |  	DefaultCareerModeDisableSalvaging: False
+03/13/2026 11:26:51  |  	DefaultCareerModeDisableNebulas: False
+03/13/2026 11:26:51  |  	DefaultCareerModeStarterShip: 2
+03/13/2026 11:26:51  |  	MPBlipColorMode: FriendAndFoe
+03/13/2026 11:26:51  |  	MPShowDamagePoints: True
+03/13/2026 11:26:51  |  	EnableDesyncDebugging: False
+03/13/2026 11:26:51  |  	MaxSendRate: 1000
+03/13/2026 11:26:51  |  	CustomRulesets: System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[Cosmoteer.CustomRuleset]]
+03/13/2026 11:26:51  |  	PreferLAN: False
+03/13/2026 11:26:51  |  	PreferredLobbyType: CoOp
+03/13/2026 11:26:51  |  	ShowNewsOnStartup: False
+03/13/2026 11:26:51  |  	ShowTipsOnStartup: True
+03/13/2026 11:26:51  |  	ReadNewsArticles: System.Collections.Generic.HashSet`1[System.String]
+03/13/2026 11:26:51  |  	ShowNewsAlerts: False
+03/13/2026 11:26:51  |  	HiddenNewsAlerts: System.Collections.Generic.HashSet`1[System.String]
+03/13/2026 11:26:51  |  	MainMenuBackgroundIndex: 2
+03/13/2026 11:26:51  |  	CycleMainMenuBackground: True
+03/13/2026 11:26:51  |  	DefaultAuthorName: 
+03/13/2026 11:26:51  |  	EnableGifRecorder: False
+03/13/2026 11:26:51  |  	GifRecorderSeconds: 10
+03/13/2026 11:26:51  |  	GifRecorderFramerate: 20
+03/13/2026 11:26:51  |  	GifRecorderResolution: 480
+03/13/2026 11:26:51  |  	ShowNearbyMissionsCount: 1
+03/13/2026 11:26:51  |  	DevModeSPRecording: False
+03/13/2026 11:26:51  |  	DevModeSPRecordingAutoLoad: False
+03/13/2026 11:26:51  |  	DevModeUseStaticCareerSeed: False
+03/13/2026 11:26:51  |  	DevModeStaticCareerSeed: 0
+03/13/2026 11:26:51  |  	KeepLogFiles: 10
+03/13/2026 11:26:51  |  	KeepRecFiles: 10
+03/13/2026 11:26:51  |  	RestoreZoomOnToolboxExit: True
+03/13/2026 11:26:51  |  	ZoomOutOnFtl: True
+03/13/2026 11:26:51  |  	LoadBlueprintPaint: True
+03/13/2026 11:26:51  |  	LoadBlueprintRoles: True
+03/13/2026 11:26:51  |  	LoadBlueprintReplaceInsteadOfAdd: True
+03/13/2026 11:26:51  |  	LoadBlueprintCrew: True
+03/13/2026 11:26:51  |  	LoadBlueprintResources: True
+03/13/2026 11:26:51  |  	LoadBlueprintsFlightInfo: True
+03/13/2026 11:26:51  |  	LoadBlueprintTextInfo: True
+03/13/2026 11:26:51  |  Multicore helper thread count: 7
+03/13/2026 11:26:51  |  Starting main game loop...
+03/13/2026 11:26:51  |  Enabled mods:
+03/13/2026 11:26:52  |  	[Built-in] - Rednax910.MSA Career Addition Mod (1.0)
+03/13/2026 11:26:52  |  	[Built-in] - cosmoteer.8_player_career (1.0.0)
+03/13/2026 11:26:52  |  	[Built-in] - cosmoteer.example_mod (1.0.0)
+03/13/2026 11:26:52  |  	[Built-in] - cosmoteer.example_translation (1.0.0)
+03/13/2026 11:26:52  |  	[Built-in] - cosmoteer.huge_crews (1.0.0)
+03/13/2026 11:26:52  |  	[Built-in] - cosmoteer.huge_ships (1.0.0)
+03/13/2026 11:26:52  |  Loaded language 'ru'.
+03/13/2026 11:27:05  |  Loaded game data in 13.5 seconds.
+03/13/2026 11:27:06  |  System.Net.Http.HttpRequestException: No such host is known. (cosmoteer.net:443)
+03/13/2026 11:27:06  |   ---> System.Net.Sockets.SocketException (11001): No such host is known.
+03/13/2026 11:27:06  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+03/13/2026 11:27:06  |     at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     --- End of inner exception stack trace ---
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+03/13/2026 11:27:06  |     at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+03/13/2026 11:27:06  |     at Halfling.Util.DownloadFileAsync(Uri uri, CancellationToken cancellationToken) in C:\Users\walt\Documents\Code\Cosmoteer\Halfling\HalflingCore\Source\Util.cs:line 207
+03/13/2026 11:27:06  |     at Cosmoteer.DynamicConfig.DownloadDynamicConfig(String configUrl) in C:\Users\walt\Documents\Code\Cosmoteer\Source\DynamicConfig.cs:line 53
+03/13/2026 11:27:06  |  System.Net.Http.HttpRequestException: No such host is known. (cosmoteer.net:443)
+03/13/2026 11:27:06  |   ---> System.Net.Sockets.SocketException (11001): No such host is known.
+03/13/2026 11:27:06  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+03/13/2026 11:27:06  |     at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     --- End of inner exception stack trace ---
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+03/13/2026 11:27:06  |     at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/13/2026 11:27:06  |     at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+03/13/2026 11:27:06  |     at Halfling.Util.DownloadFileAsync(Uri uri, CancellationToken cancellationToken) in C:\Users\walt\Documents\Code\Cosmoteer\Halfling\HalflingCore\Source\Util.cs:line 207
+03/13/2026 11:27:06  |     at Cosmoteer.News.NewsChecker.CheckForNews(String newsFileUrl) in C:\Users\walt\Documents\Code\Cosmoteer\Source\News\NewsChecker.cs:line 47
+03/13/2026 11:27:23  |  Loaded game named 'S try'.
+03/13/2026 11:27:23  |  Game pushed onto stack.
+03/13/2026 11:27:23  |  Game mode is: CareerGameModeManager
+03/13/2026 11:31:04  |  Saved game as "Quick-Save 2026-03-13_11-31-03".
+03/13/2026 11:36:03  |  Saved game as "Quick-Save 2026-03-13_11-36-02".
+03/13/2026 11:37:35  |  Game popped off stack.
+03/13/2026 11:37:39  |  Loaded game named 'Quick-Save 2026-03-13_11-36-02'.
+03/13/2026 11:37:39  |  Game pushed onto stack.
+03/13/2026 11:37:39  |  Game mode is: CareerGameModeManager
+03/13/2026 11:39:23  |  Saved game as "Quick-Save 2026-03-13_11-39-22".
+03/13/2026 11:41:30  |  Saved game as "Quick-Save 2026-03-13_11-41-29".
+03/13/2026 11:46:09  |  Saved game as "Quick-Save 2026-03-13_11-46-08".
+03/13/2026 11:46:19  |  Saved game as "Quick-Save 2026-03-13_11-46-18".
+03/13/2026 11:47:57  |  Game popped off stack.
+03/13/2026 11:48:02  |  Loaded game named 'Quick-Save 2026-03-13_11-46-18'.
+03/13/2026 11:48:02  |  Game pushed onto stack.
+03/13/2026 11:48:02  |  Game mode is: CareerGameModeManager
+03/13/2026 11:52:20  |  Saved game as "Quick-Save 2026-03-13_11-52-19".
+03/13/2026 11:53:56  |  Saved game as "Quick-Save 2026-03-13_11-53-54".
+03/13/2026 11:54:57  |  Saved game as "Quick-Save 2026-03-13_11-54-56".
+03/13/2026 11:56:41  |  Saved game as "Quick-Save 2026-03-13_11-56-39".
+03/13/2026 11:59:15  |  Saved game as "Quick-Save 2026-03-13_11-59-14".
+03/13/2026 11:59:45  |  Saved game as "Quick-Save 2026-03-13_11-59-44".
+03/13/2026 12:04:46  |  Saved game as "Auto-Save 2026-03-13_12-04-46".
+03/13/2026 12:09:48  |  Saved game as "Auto-Save 2026-03-13_12-09-48".
+03/13/2026 12:14:49  |  Saved game as "Auto-Save 2026-03-13_12-14-49".
+03/13/2026 12:19:51  |  Saved game as "Auto-Save 2026-03-13_12-19-50".
+03/13/2026 12:24:52  |  Saved game as "Auto-Save 2026-03-13_12-24-51".
+03/13/2026 12:27:00  |  Saved game as "Quick-Save 2026-03-13_12-27-00".
+03/13/2026 12:27:06  |  Saved game as "S try 2".
+03/13/2026 12:32:08  |  Saved game as "Auto-Save 2026-03-13_12-32-07".
+03/13/2026 12:36:46  |  Saved game as "Quick-Save 2026-03-13_12-36-45".
+03/13/2026 12:36:51  |  Saved game as "S try 2".
+03/13/2026 12:39:27  |  Saved game as "S try 2".
+03/13/2026 12:39:29  |  Saved game as "Quick-Save 2026-03-13_12-39-28".
+03/13/2026 12:41:48  |  Saved game as "Quick-Save 2026-03-13_12-41-47".
+03/13/2026 12:41:56  |  Getting ready to adjust the display mode...
+03/13/2026 12:41:56  |  Updated Windows form configuration for full-screen.
+03/13/2026 12:41:57  |  Adjusted the display mode:
+03/13/2026 12:41:57  |  	Size: 1280x800
+03/13/2026 12:41:57  |  	Window Mode: ExclusiveFullScreen
+03/13/2026 12:41:57  |  Resized swap chain: 1280x800
+03/13/2026 12:43:22  |  Saved game as "Quick-Save 2026-03-13_12-43-21".
+03/13/2026 12:48:23  |  Saved game as "Auto-Save 2026-03-13_12-48-22".
+03/13/2026 12:49:43  |  Saved game as "S try 2".
+03/13/2026 12:49:47  |  Saved game as "Quick-Save 2026-03-13_12-49-45".
+03/13/2026 12:54:18  |  Getting ready to adjust the display mode...
+03/13/2026 12:54:18  |  Updated Windows form configuration for full-screen.
+03/13/2026 12:54:18  |  Adjusted the display mode:
+03/13/2026 12:54:18  |  	Size: 1280x800
+03/13/2026 12:54:18  |  	Window Mode: ExclusiveFullScreen
+03/13/2026 12:54:18  |  Resized swap chain: 1280x800
+03/13/2026 12:59:08  |  Saved game as "Auto-Save 2026-03-13_12-59-07".
+03/13/2026 13:01:01  |  Saved game as "Quick-Save 2026-03-13_13-01-00".
+03/13/2026 13:01:56  |  Saved game as "Quick-Save 2026-03-13_13-01-55".
+03/13/2026 13:03:53  |  Saved game as "Quick-Save 2026-03-13_13-03-51".
+03/13/2026 13:05:19  |  Saved game as "Quick-Save 2026-03-13_13-05-18".
+03/13/2026 13:09:31  |  Saved game as "Quick-Save 2026-03-13_13-09-29".
+03/13/2026 13:10:30  |  Saved game as "Quick-Save 2026-03-13_13-10-29".
+03/13/2026 13:15:39  |  Saved game as "Auto-Save 2026-03-13_13-15-38".
+03/13/2026 13:17:36  |  Saved game as "Quick-Save 2026-03-13_13-17-36".
+03/13/2026 13:17:46  |  Saved game as "S try 3".
+03/13/2026 13:20:10  |  Saved game as "Quick-Save 2026-03-13_13-20-09".
+03/13/2026 13:25:11  |  Saved game as "Auto-Save 2026-03-13_13-25-10".
+03/13/2026 13:25:50  |  Saved game as "Quick-Save 2026-03-13_13-25-49".
+03/13/2026 13:25:56  |  Saved game as "S try 3".
+03/13/2026 13:31:13  |  Saved game as "Auto-Save 2026-03-13_13-31-12".
+03/13/2026 13:31:53  |  Saved game as "Quick-Save 2026-03-13_13-31-52".
+03/13/2026 13:32:24  |  Saved game as "Quick-Save 2026-03-13_13-32-23".
+03/13/2026 13:33:08  |  Saved game as "Quick-Save 2026-03-13_13-33-07".
+03/13/2026 13:34:43  |  Saved game as "Quick-Save 2026-03-13_13-34-42".
+03/13/2026 13:34:57  |  Saved game as "Quick-Save 2026-03-13_13-34-56".
+03/13/2026 13:35:27  |  Saved game as "Quick-Save 2026-03-13_13-35-26".
+03/13/2026 13:37:26  |  Getting ready to adjust the display mode...
+03/13/2026 13:37:26  |  Updated Windows form configuration for full-screen.
+03/13/2026 13:37:26  |  Adjusted the display mode:
+03/13/2026 13:37:26  |  	Size: 1280x800
+03/13/2026 13:37:26  |  	Window Mode: ExclusiveFullScreen
+03/13/2026 13:37:26  |  Resized swap chain: 1280x800
+03/13/2026 13:38:11  |  Saved game as "Quick-Save 2026-03-13_13-38-10".
+03/13/2026 13:41:36  |  Saved game as "Quick-Save 2026-03-13_13-41-35".
+03/13/2026 13:43:28  |  Saved game as "Quick-Save 2026-03-13_13-43-27".
+03/13/2026 13:43:33  |  Getting ready to adjust the display mode...
+03/13/2026 13:43:33  |  Updated Windows form configuration for full-screen.
+03/13/2026 13:43:33  |  Adjusted the display mode:
+03/13/2026 13:43:33  |  	Size: 1280x800
+03/13/2026 13:43:33  |  	Window Mode: ExclusiveFullScreen
+03/13/2026 13:43:33  |  Resized swap chain: 1280x800
+03/13/2026 13:44:27  |  Saved game as "Quick-Save 2026-03-13_13-44-25".
+03/13/2026 13:46:15  |  Saved game as "Quick-Save 2026-03-13_13-46-14".
+03/13/2026 13:46:52  |  Saved game as "Quick-Save 2026-03-13_13-46-51".
+03/13/2026 13:47:15  |  Saved game as "Quick-Save 2026-03-13_13-47-14".
+03/13/2026 13:48:26  |  Saved game as "Quick-Save 2026-03-13_13-48-25".
+03/13/2026 13:49:08  |  Saved game as "Quick-Save 2026-03-13_13-49-07".
+03/13/2026 13:50:23  |  Saved game as "Quick-Save 2026-03-13_13-50-22".
+03/13/2026 13:52:27  |  Saved game as "Quick-Save 2026-03-13_13-52-26".
+03/13/2026 13:53:22  |  Saved game as "Quick-Save 2026-03-13_13-53-22".
+03/13/2026 13:53:44  |  Saved game as "Quick-Save 2026-03-13_13-53-43".
+03/13/2026 13:56:54  |  Saved game as "Quick-Save 2026-03-13_13-56-54".
+03/13/2026 13:57:40  |  Making FTL jump...
+03/13/2026 13:57:41  |  Finished FTL jump.
+03/13/2026 13:58:06  |  Saved game as "Quick-Save 2026-03-13_13-58-05".
+03/13/2026 13:58:20  |  Saved game as "S finished 1".
+03/13/2026 13:58:45  |  Getting ready to adjust the display mode...
+03/13/2026 13:58:45  |  Updated Windows form configuration for full-screen.
+03/13/2026 13:58:46  |  Adjusted the display mode:
+03/13/2026 13:58:46  |  	Size: 1280x800
+03/13/2026 13:58:46  |  	Window Mode: ExclusiveFullScreen
+03/13/2026 13:58:46  |  Resized swap chain: 1280x800
+03/13/2026 13:58:50  |  Getting ready to adjust the display mode...
+03/13/2026 13:58:50  |  Updated Windows form configuration for full-screen.
+03/13/2026 13:58:50  |  Adjusted the display mode:
+03/13/2026 13:58:50  |  	Size: 1280x800
+03/13/2026 13:58:50  |  	Window Mode: ExclusiveFullScreen
+03/13/2026 13:58:50  |  Resized swap chain: 1280x800
+03/13/2026 13:59:04  |  Starting human players FTL jump...
+03/13/2026 13:59:05  |  Saved game as "Auto-Save 2026-03-13_13-59-04".
+03/13/2026 13:59:05  |  Making FTL jump...
+03/13/2026 13:59:09  |  Finished FTL jump.
+03/13/2026 13:59:21  |  Saved game as "Quick-Save 2026-03-13_13-59-21".
+03/13/2026 14:00:33  |  Saved game as "Quick-Save 2026-03-13_14-00-32".
+03/13/2026 14:02:25  |  Saved game as "Quick-Save 2026-03-13_14-02-23".
+03/13/2026 14:02:26  |  Received user or OS request to close form.
+03/13/2026 14:02:26  |  Request to close form cancelled.
+03/13/2026 14:02:28  |  Director received exit call.
+03/13/2026 14:02:28  |  Game popped off stack.
+03/13/2026 14:02:28  |  Main game loop ended. Exiting app...
+03/13/2026 14:02:28  |  Saved app settings.
+03/13/2026 14:02:28  |  Disposed default font.
+03/13/2026 14:02:28  |  Disposed XA2AudioManager device.
+03/13/2026 14:02:28  |  Disposed audio manager.
+03/13/2026 14:02:28  |  Disposed clock.
+03/13/2026 14:02:28  |  Disposed input manager.
+03/13/2026 14:02:28  |  Disposed graphics manager.
+03/13/2026 14:02:28  |  Disposed swap chain.
+03/13/2026 14:02:28  |  Disposed Direct3D device.
+03/13/2026 14:02:28  |  Disposed DXGI factory.
+03/13/2026 14:02:28  |  Closed Windows form.
+03/13/2026 14:02:28  |  Director received exit call.
+03/13/2026 14:02:28  |  Disposed window.
+03/13/2026 14:02:28  |  Disposed platform interface.
+03/13/2026 14:02:28  |  Closing log output file...

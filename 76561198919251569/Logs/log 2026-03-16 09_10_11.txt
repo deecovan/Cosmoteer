@@ -1,0 +1,299 @@
+03/16/2026 09:10:11  |  Logging successful initialized.
+03/16/2026 09:10:11  |  .NET Runtime Version: 9.0.7
+03/16/2026 09:10:11  |  Running as a 64-bit process.
+03/16/2026 09:10:11  |  Locale: en-US
+03/16/2026 09:10:11  |  Language: en-US
+03/16/2026 09:10:11  |  Executable path: C:\Games\Cosmoteer\Bin\Cosmoteer.exe
+03/16/2026 09:10:11  |  Cosmoteer version 0.30.0e build 0.30.0e_steam
+03/16/2026 09:10:11  |  Build Date: 9/1/2025 11:00:32 PM
+03/16/2026 09:10:11  |  Build Commit: e41c43d082ce72572a0e33958086c78ae53b9509
+03/16/2026 09:10:11  |  Steam API successfully initialized.
+03/16/2026 09:10:11  |  Microsoft Windows 11 Home 64-bit 10.0.26200
+03/16/2026 09:10:11  |  AMD Ryzen 7 7735HS with Radeon Graphics         (16 logical / 8 physical cores)
+03/16/2026 09:10:11  |  14020.5 MB RAM
+03/16/2026 09:10:11  |  AMD Radeon(TM) Graphics (32.0.21043.1005) (2/18/2026)
+03/16/2026 09:10:11  |  2048.0 MB VRAM
+03/16/2026 09:10:11  |  
+03/16/2026 09:10:11  |  Loaded app settings.
+03/16/2026 09:10:11  |  Setup default cursor.
+03/16/2026 09:10:11  |  Using display adapter 0
+03/16/2026 09:10:11  |  Created DXGI factory.
+03/16/2026 09:10:11  |  Adapter #0: AMD Radeon(TM) Graphics
+03/16/2026 09:10:11  |  	Output #0: Generic PnP Monitor  (1280x800)
+03/16/2026 09:10:11  |  Adapter #1: Microsoft Basic Render Driver
+03/16/2026 09:10:11  |  Updated Windows form configuration for full-screen.
+03/16/2026 09:10:12  |  Created Windows form.
+03/16/2026 09:10:12  |  Direct3D Feature Level: Level_11_0
+03/16/2026 09:10:12  |  Created Direct3D 11 Device.
+03/16/2026 09:10:12  |  Created swap chain: 1280x800.
+03/16/2026 09:10:12  |  Created window.
+03/16/2026 09:10:12  |  Created clock.
+03/16/2026 09:10:12  |  Created graphics manager.
+03/16/2026 09:10:12  |  Max Texture Size: {X=16384 ,Y=16384}
+03/16/2026 09:10:12  |  Created XAudio2 device.
+03/16/2026 09:10:12  |  Created audio manager.
+03/16/2026 09:10:12  |  Created input manager.
+03/16/2026 09:10:12  |  Created default font.
+03/16/2026 09:10:12  |  Initial app state is 'MainMenu'
+03/16/2026 09:10:13  |  Initial application settings:
+03/16/2026 09:10:13  |  	LastGameVersion: 0.30.0e
+03/16/2026 09:10:13  |  	IsFirstBoot: False
+03/16/2026 09:10:13  |  	InitState: MainMenu
+03/16/2026 09:10:13  |  	Language: ru
+03/16/2026 09:10:13  |  	LockCursor: False
+03/16/2026 09:10:13  |  	EdgePanMode: Analog
+03/16/2026 09:10:13  |  	EdgePanSpeed: 10
+03/16/2026 09:10:13  |  	KeyboardPanSpeed: 31.408833
+03/16/2026 09:10:13  |  	KeyboardZoomSpeed: 26.880442
+03/16/2026 09:10:13  |  	KeyboardRotSpeed: 90°
+03/16/2026 09:10:13  |  	EnableMouseWheelZoom: True
+03/16/2026 09:10:13  |  	InvertMouseWheelZoom: False
+03/16/2026 09:10:13  |  	MouseWheelZoomSpeed: 1.1418232
+03/16/2026 09:10:13  |  	MouseWheelZoomAtCursor: True
+03/16/2026 09:10:13  |  	AutoTrackOnScreenShips: True
+03/16/2026 09:10:13  |  	StickyFocus: True
+03/16/2026 09:10:13  |  	DpiScaleMode: Dpi100
+03/16/2026 09:10:13  |  	DpiScaleModePerResolution: System.Collections.Generic.Dictionary`2[Halfling.Geometry.IntVector2,Cosmoteer.DpiScaleMode]
+03/16/2026 09:10:13  |  	AnimateBackgrounds: False
+03/16/2026 09:10:13  |  	BackgroundGridStyle: Crosses
+03/16/2026 09:10:13  |  	FancyLighting: False
+03/16/2026 09:10:13  |  	FancyParticles: False
+03/16/2026 09:10:13  |  	FancyUIEffects: False
+03/16/2026 09:10:13  |  	FancyNebulas: False
+03/16/2026 09:10:13  |  	UncompressedTextures: False
+03/16/2026 09:10:13  |  	ResolutionScale: 0.75
+03/16/2026 09:10:13  |  	PlanetResolutionScale: 0.5
+03/16/2026 09:10:13  |  	TargetFps: FpsTarget30
+03/16/2026 09:10:13  |  	PostShaderIndex: 0
+03/16/2026 09:10:13  |  	AllowShipDeselection: False
+03/16/2026 09:10:13  |  	CtrlSelectsParts: False
+03/16/2026 09:10:13  |  	EnableCollisionAvoidance: True
+03/16/2026 09:10:13  |  	EnableHazardAvoidance: True
+03/16/2026 09:10:13  |  	EnableArrivalMatching: True
+03/16/2026 09:10:13  |  	AutoRecallCrew: True
+03/16/2026 09:10:13  |  	PreferBlueprintMode: False
+03/16/2026 09:10:13  |  	BlueprintAutoPause: True
+03/16/2026 09:10:13  |  	ShowInvalidBlueprints: True
+03/16/2026 09:10:13  |  	ShowMissingPartsWarning: True
+03/16/2026 09:10:13  |  	ShowAutoRemovedParts: True
+03/16/2026 09:10:13  |  	ShowAutoRemovedDecals: True
+03/16/2026 09:10:13  |  	BuildAutoRotate: True
+03/16/2026 09:10:13  |  	BuildAutoInteriors: True
+03/16/2026 09:10:13  |  	PaintAutoRotate: True
+03/16/2026 09:10:13  |  	PaintAllowOverwrite: True
+03/16/2026 09:10:13  |  	BuildAllowOverwrite: True
+03/16/2026 09:10:13  |  	BuildAutoDoors: True
+03/16/2026 09:10:13  |  	RequirePartialRefundConfirmation: True
+03/16/2026 09:10:13  |  	BuildShowNearestPaths: True
+03/16/2026 09:10:13  |  	BuildAllowInsufficientCommand: False
+03/16/2026 09:10:13  |  	ShowStatBars: True
+03/16/2026 09:10:13  |  	ConstructExitsBuild: False
+03/16/2026 09:10:13  |  	CrewAutoRotate: True
+03/16/2026 09:10:13  |  	ShowCrewPaths: True
+03/16/2026 09:10:13  |  	ShowCrewHomes: True
+03/16/2026 09:10:13  |  	ShowUnselectedCrewAssignment: True
+03/16/2026 09:10:13  |  	DefaultRoles: 
+03/16/2026 09:10:13  |  	ResourcesAutoRotate: True
+03/16/2026 09:10:13  |  	ShowResourceCounts: True
+03/16/2026 09:10:13  |  	ShowResourceTransfers: True
+03/16/2026 09:10:13  |  	ShowConstructionResourceDeliveries: True
+03/16/2026 09:10:13  |  	ShowAllResourceTypes: False
+03/16/2026 09:10:13  |  	ShowUnselectedResourceAssignment: True
+03/16/2026 09:10:13  |  	RowsOfParts: 1
+03/16/2026 09:10:13  |  	GrabLeavesCorridors: True
+03/16/2026 09:10:13  |  	RepairAutoDoors: True
+03/16/2026 09:10:13  |  	DiscardBlueprintsWhenCanceling: True
+03/16/2026 09:10:13  |  	PartToolTips: True
+03/16/2026 09:10:13  |  	PartToolTipsDefaultToStats: False
+03/16/2026 09:10:13  |  	SecondaryToolTips: False
+03/16/2026 09:10:13  |  	ShowFavoriteCrewNamesOnHover: True
+03/16/2026 09:10:13  |  	LogFavoriteCrewDeaths: True
+03/16/2026 09:10:13  |  	AutoSave: True
+03/16/2026 09:10:13  |  	AutoSavesToKeep: 25
+03/16/2026 09:10:13  |  	QuickSavesToKeep: 25
+03/16/2026 09:10:13  |  	AutoSaveInterval: 300
+03/16/2026 09:10:13  |  	SaveLostShips: True
+03/16/2026 09:10:13  |  	LostShipsToKeep: 25
+03/16/2026 09:10:13  |  	FtlAutoSave: True
+03/16/2026 09:10:13  |  	ResourceDisplayMode: Context
+03/16/2026 09:10:13  |  	ShowOnShipIndicators: True
+03/16/2026 09:10:13  |  	ShowZoomedOutBlips: True
+03/16/2026 09:10:13  |  	ShowOffScreenBlips: True
+03/16/2026 09:10:13  |  	ShowBreadcrumbTrails: True
+03/16/2026 09:10:13  |  	AutoPauseOnLostFocus: False
+03/16/2026 09:10:13  |  	AutoSlowWhenEnemySpotted: 0
+03/16/2026 09:10:13  |  	ScreenShake: False
+03/16/2026 09:10:13  |  	NuggetsDots: True
+03/16/2026 09:10:13  |  	UIAnimations: False
+03/16/2026 09:10:13  |  	ShowMidpointFocusWidget: True
+03/16/2026 09:10:13  |  	DefaultScreenshotFormat: Jpeg
+03/16/2026 09:10:13  |  	PreferBorderlessWindowToggle: False
+03/16/2026 09:10:13  |  	MasterVolume: 0.83
+03/16/2026 09:10:13  |  	EffectsVolume: 0.6736364
+03/16/2026 09:10:13  |  	MusicVolume: 0.5090909
+03/16/2026 09:10:13  |  	InterfaceVolume: 0.6809091
+03/16/2026 09:10:13  |  	MuteWhenUnfocused: False
+03/16/2026 09:10:13  |  	PlayFriendlyPings: True
+03/16/2026 09:10:13  |  	PlayEnemyPings: True
+03/16/2026 09:10:13  |  	ShowTutorials: True
+03/16/2026 09:10:13  |  	AutoCollectNuggets: True
+03/16/2026 09:10:13  |  	DefaultPaintScheme: 
+03/16/2026 09:10:13  |  	PaintSchemes: System.Collections.Generic.List`1[Cosmoteer.Ships.Paint.PaintScheme]
+03/16/2026 09:10:13  |  	DefaultBuildTool: Grab
+03/16/2026 09:10:13  |  	DefaultDecalTool: Grab
+03/16/2026 09:10:13  |  	CodexPageStates: System.Collections.Generic.Dictionary`2[System.String,Cosmoteer.Codex.CodexPageState]
+03/16/2026 09:10:13  |  	DontDimDialogBackgrounds: False
+03/16/2026 09:10:13  |  	DontFlickerBlueprints: False
+03/16/2026 09:10:13  |  	DontFlashRedprints: False
+03/16/2026 09:10:13  |  	PlayerColor: 
+03/16/2026 09:10:13  |  	EnemyColor: 
+03/16/2026 09:10:13  |  	AllyColor: 
+03/16/2026 09:10:13  |  	NeutralColor: 
+03/16/2026 09:10:13  |  	RotateMinimap: True
+03/16/2026 09:10:13  |  	MiniviewInCombatMode: ShowPlayer
+03/16/2026 09:10:13  |  	MiniviewNotInCombatMode: ShowPlayer
+03/16/2026 09:10:13  |  	MiniviewLockRotation: True
+03/16/2026 09:10:13  |  	MiniviewSize: 342
+03/16/2026 09:10:13  |  	ShowInteriors: True
+03/16/2026 09:10:13  |  	ShowAllCommands: True
+03/16/2026 09:10:13  |  	AlwaysShowCommandWidgets: True
+03/16/2026 09:10:13  |  	ShowSelectedPartStatusBars: True
+03/16/2026 09:10:13  |  	VelocityIndicatorDisplayMode: DirectControl
+03/16/2026 09:10:13  |  	ShowSpaceCrewLines: True
+03/16/2026 09:10:13  |  	ShowResourcePickupLines: True
+03/16/2026 09:10:13  |  	PauseOnOpenDialogueWithEnemy: True
+03/16/2026 09:10:13  |  	PauseWhenHailedByEnemy: True
+03/16/2026 09:10:13  |  	PreferWorldRelativeAttackAngle: True
+03/16/2026 09:10:13  |  	PreferWorldRelativeFollowAngle: True
+03/16/2026 09:10:13  |  	DirectControlEnableWeapons: True
+03/16/2026 09:10:13  |  	DirectControlAimAssist: True
+03/16/2026 09:10:13  |  	DirectControlAutoBrake: True
+03/16/2026 09:10:13  |  	DirectControlAutoFaceCursor: False
+03/16/2026 09:10:13  |  	DirectControlViewFollowsCursor: False
+03/16/2026 09:10:13  |  	DirectControlAutoRotateView: False
+03/16/2026 09:10:13  |  	DirectControlLockCameraToShip: False
+03/16/2026 09:10:13  |  	DirectControlAutoZoomView: False
+03/16/2026 09:10:13  |  	DirectControlShowWeaponCoverage: False
+03/16/2026 09:10:13  |  	ShipLibraryLargeIcons: True
+03/16/2026 09:10:13  |  	BreakFormationToAttack: True
+03/16/2026 09:10:13  |  	DisplayAllShips: False
+03/16/2026 09:10:13  |  	ShowAdvancedCommands: True
+03/16/2026 09:10:13  |  	EnabledMods: System.Collections.Generic.HashSet`1[Halfling.IO.AbsolutePath]
+03/16/2026 09:10:13  |  	AutoDisableMods: False
+03/16/2026 09:10:13  |  	DeleteFileOnStartup: 
+03/16/2026 09:10:13  |  	DefaultCreativeModeMapSize: 1
+03/16/2026 09:10:13  |  	DefaultCreativeModeSimGenFlags: None
+03/16/2026 09:10:13  |  	DefaultCareerModeCombatDifficulty: 2
+03/16/2026 09:10:13  |  	DefaultCareerModeEconDifficulty: 2
+03/16/2026 09:10:13  |  	DefaultCareerModeMapSize: 0
+03/16/2026 09:10:13  |  	DefaultCareerModeCrewScarcity: 1
+03/16/2026 09:10:13  |  	DefaultCareerModeDisableCrewConstruction: False
+03/16/2026 09:10:13  |  	DefaultCareerModeDisableExploration: False
+03/16/2026 09:10:13  |  	DefaultCareerModeDisableSalvaging: False
+03/16/2026 09:10:13  |  	DefaultCareerModeDisableNebulas: False
+03/16/2026 09:10:13  |  	DefaultCareerModeStarterShip: 2
+03/16/2026 09:10:13  |  	MPBlipColorMode: FriendAndFoe
+03/16/2026 09:10:13  |  	MPShowDamagePoints: True
+03/16/2026 09:10:13  |  	EnableDesyncDebugging: False
+03/16/2026 09:10:13  |  	MaxSendRate: 1000
+03/16/2026 09:10:13  |  	CustomRulesets: System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[Cosmoteer.CustomRuleset]]
+03/16/2026 09:10:13  |  	PreferLAN: False
+03/16/2026 09:10:13  |  	PreferredLobbyType: CoOp
+03/16/2026 09:10:13  |  	ShowNewsOnStartup: False
+03/16/2026 09:10:13  |  	ShowTipsOnStartup: True
+03/16/2026 09:10:13  |  	ReadNewsArticles: System.Collections.Generic.HashSet`1[System.String]
+03/16/2026 09:10:13  |  	ShowNewsAlerts: False
+03/16/2026 09:10:13  |  	HiddenNewsAlerts: System.Collections.Generic.HashSet`1[System.String]
+03/16/2026 09:10:13  |  	MainMenuBackgroundIndex: 3
+03/16/2026 09:10:13  |  	CycleMainMenuBackground: True
+03/16/2026 09:10:13  |  	DefaultAuthorName: 
+03/16/2026 09:10:13  |  	EnableGifRecorder: False
+03/16/2026 09:10:13  |  	GifRecorderSeconds: 10
+03/16/2026 09:10:13  |  	GifRecorderFramerate: 20
+03/16/2026 09:10:13  |  	GifRecorderResolution: 480
+03/16/2026 09:10:13  |  	ShowNearbyMissionsCount: 1
+03/16/2026 09:10:13  |  	DevModeSPRecording: False
+03/16/2026 09:10:13  |  	DevModeSPRecordingAutoLoad: False
+03/16/2026 09:10:13  |  	DevModeUseStaticCareerSeed: False
+03/16/2026 09:10:13  |  	DevModeStaticCareerSeed: 0
+03/16/2026 09:10:13  |  	KeepLogFiles: 10
+03/16/2026 09:10:13  |  	KeepRecFiles: 10
+03/16/2026 09:10:13  |  	RestoreZoomOnToolboxExit: True
+03/16/2026 09:10:13  |  	ZoomOutOnFtl: True
+03/16/2026 09:10:13  |  	LoadBlueprintPaint: True
+03/16/2026 09:10:13  |  	LoadBlueprintRoles: True
+03/16/2026 09:10:13  |  	LoadBlueprintReplaceInsteadOfAdd: True
+03/16/2026 09:10:13  |  	LoadBlueprintCrew: True
+03/16/2026 09:10:13  |  	LoadBlueprintResources: True
+03/16/2026 09:10:13  |  	LoadBlueprintsFlightInfo: True
+03/16/2026 09:10:13  |  	LoadBlueprintTextInfo: True
+03/16/2026 09:10:13  |  Multicore helper thread count: 7
+03/16/2026 09:10:13  |  Starting main game loop...
+03/16/2026 09:10:13  |  Enabled mods:
+03/16/2026 09:10:13  |  	[Built-in] - Rednax910.MSA Career Addition Mod (1.0)
+03/16/2026 09:10:13  |  	[Built-in] - cosmoteer.8_player_career (1.0.0)
+03/16/2026 09:10:13  |  	[Built-in] - cosmoteer.example_mod (1.0.0)
+03/16/2026 09:10:13  |  	[Built-in] - cosmoteer.example_translation (1.0.0)
+03/16/2026 09:10:13  |  	[Built-in] - cosmoteer.huge_crews (1.0.0)
+03/16/2026 09:10:13  |  	[Built-in] - cosmoteer.huge_ships (1.0.0)
+03/16/2026 09:10:13  |  Loaded language 'ru'.
+03/16/2026 09:10:35  |  Loaded game data in 21.8 seconds.
+03/16/2026 09:10:36  |  System.Net.Http.HttpRequestException: No such host is known. (cosmoteer.net:443)
+03/16/2026 09:10:36  |   ---> System.Net.Sockets.SocketException (11001): No such host is known.
+03/16/2026 09:10:36  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+03/16/2026 09:10:36  |     at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     --- End of inner exception stack trace ---
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+03/16/2026 09:10:36  |     at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+03/16/2026 09:10:36  |     at Halfling.Util.DownloadFileAsync(Uri uri, CancellationToken cancellationToken) in C:\Users\walt\Documents\Code\Cosmoteer\Halfling\HalflingCore\Source\Util.cs:line 207
+03/16/2026 09:10:36  |     at Cosmoteer.DynamicConfig.DownloadDynamicConfig(String configUrl) in C:\Users\walt\Documents\Code\Cosmoteer\Source\DynamicConfig.cs:line 53
+03/16/2026 09:10:36  |  System.Net.Http.HttpRequestException: No such host is known. (cosmoteer.net:443)
+03/16/2026 09:10:36  |   ---> System.Net.Sockets.SocketException (11001): No such host is known.
+03/16/2026 09:10:36  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+03/16/2026 09:10:36  |     at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     --- End of inner exception stack trace ---
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+03/16/2026 09:10:36  |     at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+03/16/2026 09:10:36  |     at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+03/16/2026 09:10:36  |     at Halfling.Util.DownloadFileAsync(Uri uri, CancellationToken cancellationToken) in C:\Users\walt\Documents\Code\Cosmoteer\Halfling\HalflingCore\Source\Util.cs:line 207
+03/16/2026 09:10:36  |     at Cosmoteer.News.NewsChecker.CheckForNews(String newsFileUrl) in C:\Users\walt\Documents\Code\Cosmoteer\Source\News\NewsChecker.cs:line 47
+03/16/2026 09:10:53  |  Getting ready to adjust the display mode...
+03/16/2026 09:10:53  |  Updated Windows form configuration for full-screen.
+03/16/2026 09:10:53  |  Adjusted the display mode:
+03/16/2026 09:10:53  |  	Size: 1280x800
+03/16/2026 09:10:53  |  	Window Mode: ExclusiveFullScreen
+03/16/2026 09:10:53  |  Resized swap chain: 1280x800
+03/16/2026 09:10:58  |  Received user or OS request to close form.
+03/16/2026 09:10:58  |  Request to close form cancelled.
+03/16/2026 09:11:02  |  Director received exit call.
+03/16/2026 09:11:02  |  Main game loop ended. Exiting app...
+03/16/2026 09:11:02  |  Saved app settings.
+03/16/2026 09:11:02  |  Disposed default font.
+03/16/2026 09:11:02  |  Disposed XA2AudioManager device.
+03/16/2026 09:11:02  |  Disposed audio manager.
+03/16/2026 09:11:02  |  Disposed clock.
+03/16/2026 09:11:02  |  Disposed input manager.
+03/16/2026 09:11:02  |  Disposed graphics manager.
+03/16/2026 09:11:02  |  Disposed swap chain.
+03/16/2026 09:11:02  |  Disposed Direct3D device.
+03/16/2026 09:11:02  |  Disposed DXGI factory.
+03/16/2026 09:11:02  |  Closed Windows form.
+03/16/2026 09:11:02  |  Director received exit call.
+03/16/2026 09:11:02  |  Disposed window.
+03/16/2026 09:11:02  |  Disposed platform interface.
+03/16/2026 09:11:02  |  Closing log output file...

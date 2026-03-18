@@ -59,8 +59,8 @@ GameSettings
 	FancyUIEffects = false
 	FancyNebulas = false
 	UncompressedTextures = false
-	ResolutionScale = 1
-	PlanetResolutionScale = 1
+	ResolutionScale = 0.75
+	PlanetResolutionScale = 0.5
 	TargetFps = FpsTarget30
 	PostShaderIndex = 0
 	AllowShipDeselection = false
@@ -580,7 +580,7 @@ GameSettings
 	DirectControlLockCameraToShip = false
 	DirectControlAutoZoomView = false
 	DirectControlShowWeaponCoverage = false
-	ShipLibraryLargeIcons = false
+	ShipLibraryLargeIcons = true
 	BreakFormationToAttack = true
 	DisplayAllShips = false
 	ShowAdvancedCommands = true
@@ -625,7 +625,7 @@ GameSettings
 	]
 	ShowNewsAlerts = false
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 0
+	MainMenuBackgroundIndex = 4
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
